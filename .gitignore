@@ -1,4 +1,5 @@
 .venv/
+lib/
 PROJECT_STRUCTURE.html
 reflection.md
 RetailGraph_Canonical_Product_Intelligence_Guide.md
