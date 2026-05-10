@@ -1,130 +1,130 @@
 {
   "ambiguous_examples": [
     {
-      "candidate_pair_id": "cand_000434",
-      "equivalence_score": 0.7938,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_000181",
+      "equivalence_score": 0.9013,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: evidence is plausible but incomplete.",
       "match_type": "ambiguous_review",
-      "product_id_a": "kr_0030",
-      "product_id_b": "wm_0029",
-      "raw_name_a": "Coca-Cola Classic 12pk, 12 oz cans",
-      "raw_name_b": "Diet Coke Soda 12-Pack 12 fl oz",
+      "product_id_a": "kr_0014",
+      "product_id_b": "wf_0022",
+      "raw_name_a": "Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",
+      "raw_name_b": "LaCroix Sparkling Water, Lime, 8 x 12 fl oz cans",
       "route": "review",
-      "substitute_score": 0.7192
+      "substitute_score": 0.9842
     },
     {
-      "candidate_pair_id": "cand_004767",
-      "equivalence_score": 0.7906,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_002938",
+      "equivalence_score": 0.8979,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: evidence is plausible but incomplete.",
       "match_type": "ambiguous_review",
-      "product_id_a": "wf_0020",
-      "product_id_b": "wm_0029",
-      "raw_name_a": "Coca-Cola Zero Sugar, 12 x 12 fl oz cans",
-      "raw_name_b": "Diet Coke Soda 12-Pack 12 fl oz",
+      "product_id_a": "tg_0013",
+      "product_id_b": "wm_0032",
+      "raw_name_a": "Good & Gather Lime Sparkling Water 8 Pack 12 fl oz Cans",
+      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
       "route": "review",
-      "substitute_score": 0.7171
+      "substitute_score": 0.9819
     },
     {
-      "candidate_pair_id": "cand_004774",
-      "equivalence_score": 0.7892,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_000259",
+      "equivalence_score": 0.8961,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: semantic attribute compatibility is incomplete; soft schema conflicts exist: organic_schema_conflict; base conflicts exist: organic_conflict.",
       "match_type": "ambiguous_review",
-      "product_id_a": "wf_0021",
-      "product_id_b": "wm_0029",
-      "raw_name_a": "Coca-Cola CIassic, 12 x 12 fI oz cans",
-      "raw_name_b": "Diet Coke Soda 12-Pack 12 fl oz",
+      "product_id_a": "kr_0019",
+      "product_id_b": "wf_0016",
+      "raw_name_a": "Kroger Black Beans 15 oz Can",
+      "raw_name_b": "365 Organic Black Beans 15 oz Can",
       "route": "review",
-      "substitute_score": 0.7161
+      "substitute_score": 0.8657
     },
     {
-      "candidate_pair_id": "cand_003079",
-      "equivalence_score": 0.7852,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_000915",
+      "equivalence_score": 0.895,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: product type is missing or not an exact known match.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0027",
-      "product_id_b": "wm_0029",
-      "raw_name_a": "Coca-Cola Zero Sugar 12 Pack 12oz Cans",
-      "raw_name_b": "Diet Coke Soda 12-Pack 12 fl oz",
+      "product_id_a": "kr_0065",
+      "product_id_b": "wf_0035",
+      "raw_name_a": "Rao's Homemade Marinara Sauce 24 oz Jar",
+      "raw_name_b": "Rao's Homemade Marinara Sauce 24 oz",
       "route": "review",
-      "substitute_score": 0.7135
+      "substitute_score": 0.845
     },
     {
-      "candidate_pair_id": "cand_003099",
-      "equivalence_score": 0.7821,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_004785",
+      "equivalence_score": 0.894,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: semantic attribute compatibility is incomplete; soft schema conflicts exist: flavor_schema_conflict; base conflicts exist: flavor_conflict.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0029",
-      "product_id_b": "wm_0029",
-      "raw_name_a": "Coca-Cola 12 Pack 12oz Cans",
-      "raw_name_b": "Diet Coke Soda 12-Pack 12 fl oz",
+      "product_id_a": "wf_0023",
+      "product_id_b": "wm_0032",
+      "raw_name_a": "LaCroix Sparkling Water, Pamplemousse (Grapefruit), 8 x 12 fl oz cans",
+      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
       "route": "review",
-      "substitute_score": 0.7114
+      "substitute_score": 0.8493
     },
     {
-      "candidate_pair_id": "cand_004050",
-      "equivalence_score": 0.782,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_004732",
+      "equivalence_score": 0.8931,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: evidence is plausible but incomplete.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0142",
-      "product_id_b": "wf_0052",
-      "raw_name_a": "Good & Gather Tomato Paste - 6 oz can",
-      "raw_name_b": "365 Organic Tomato Paste 6 oz Can",
+      "product_id_a": "wf_0012",
+      "product_id_b": "wm_0032",
+      "raw_name_a": "365 Sparkling Water Lime 8 pack 12 fl oz cans",
+      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
       "route": "review",
-      "substitute_score": 0.698
+      "substitute_score": 0.9787
     },
     {
-      "candidate_pair_id": "cand_003088",
-      "equivalence_score": 0.7771,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_003477",
+      "equivalence_score": 0.8901,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: product type is missing or not an exact known match.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0028",
-      "product_id_b": "wm_0028",
-      "raw_name_a": "BOGO 50% off Coca-Cola Zero Sugar 6 Pack 12oz Cans",
-      "raw_name_b": "Coca-Cola Classic, 2 L",
+      "product_id_a": "tg_0070",
+      "product_id_b": "wf_0039",
+      "raw_name_a": "KIND Dark Chocolate Nuts & Sea Salt Bars - 6ct",
+      "raw_name_b": "KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct",
       "route": "review",
-      "substitute_score": 0.7056
+      "substitute_score": 0.8417
     },
     {
-      "candidate_pair_id": "cand_003114",
-      "equivalence_score": 0.7765,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_001071",
+      "equivalence_score": 0.8898,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: product type is missing or not an exact known match.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0031",
-      "product_id_b": "wm_0025",
-      "raw_name_a": "Diet Coke 12 Pack 12oz Cans",
-      "raw_name_b": "Coca-Cola Zero Sugar Soda 12-Pack 12 fl oz",
+      "product_id_a": "kr_0074",
+      "product_id_b": "wf_0039",
+      "raw_name_a": "KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct, 1.4 oz",
+      "raw_name_b": "KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct",
       "route": "review",
-      "substitute_score": 0.7077
+      "substitute_score": 0.8415
     },
     {
-      "candidate_pair_id": "cand_004129",
-      "equivalence_score": 0.77,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_000185",
+      "equivalence_score": 0.8895,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: evidence is plausible but incomplete.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0150",
-      "product_id_b": "wf_0064",
-      "raw_name_a": "Market Pantry Vegetable Broth - 32 fl oz carton",
-      "raw_name_b": "365 Organic Vegetable Broth 32 fl oz",
+      "product_id_a": "kr_0014",
+      "product_id_b": "wm_0032",
+      "raw_name_a": "Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",
+      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
       "route": "review",
-      "substitute_score": 0.68
+      "substitute_score": 0.9763
     },
     {
-      "candidate_pair_id": "cand_003625",
-      "equivalence_score": 0.7697,
-      "match_explanation": "Routed to review because product type and category are plausible, but quantity/package evidence is incomplete or conflicting.",
+      "candidate_pair_id": "cand_000533",
+      "equivalence_score": 0.8886,
+      "match_explanation": "Routed to review because the pair may be comparable, but has uncertainty, missing fields, soft conflicts, or insufficient confidence: semantic attribute compatibility is incomplete; soft schema conflicts exist: flavor_schema_conflict; base conflicts exist: flavor_conflict.",
       "match_type": "ambiguous_review",
-      "product_id_a": "tg_0088",
-      "product_id_b": "wm_0003",
-      "raw_name_a": "Good & Gather Organic Whole Milk 1/2 Gal",
-      "raw_name_b": "Great Value 2% Reduced Fat Milk 0.5 gal",
+      "product_id_a": "kr_0037",
+      "product_id_b": "tg_0036",
+      "raw_name_a": "LaCroix Pamplemousse Grapefruit Sparkling Water 8pk 12 oz",
+      "raw_name_b": "LaCroix Pamplemousse Sparkling Water 8 Pack 12oz",
       "route": "review",
-      "substitute_score": 0.7181
+      "substitute_score": 0.8357
     }
   ],
-  "auto_accept_equivalent_count": 871,
-  "auto_accept_substitute_count": 2279,
+  "auto_accept_equivalent_count": 879,
+  "auto_accept_substitute_count": 15,
   "average_equivalence_score": 0.7102,
-  "average_substitute_score": 0.7392,
+  "average_substitute_score": 0.7391,
   "high_confidence_examples": [
     {
       "candidate_pair_id": "cand_000432",
@@ -151,7 +151,7 @@
       "substitute_score": 0.9833
     },
     {
-      "candidate_pair_id": "cand_003144",
+      "candidate_pair_id": "cand_003146",
       "equivalence_score": 0.9734,
       "match_explanation": "Matched as exact_equivalent because both products share brand LaCroix, product type sparkling_water, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -163,7 +163,7 @@
       "substitute_score": 0.9822
     },
     {
-      "candidate_pair_id": "cand_004779",
+      "candidate_pair_id": "cand_004781",
       "equivalence_score": 0.9706,
       "match_explanation": "Matched as exact_equivalent because both products share brand LaCroix, product type sparkling_water, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -187,7 +187,7 @@
       "substitute_score": 0.97
     },
     {
-      "candidate_pair_id": "cand_000840",
+      "candidate_pair_id": "cand_000842",
       "equivalence_score": 0.97,
       "match_explanation": "Matched as exact_equivalent because both products share brand Jif, product type peanut_butter, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -199,7 +199,7 @@
       "substitute_score": 0.97
     },
     {
-      "candidate_pair_id": "cand_000935",
+      "candidate_pair_id": "cand_000937",
       "equivalence_score": 0.97,
       "match_explanation": "Matched as exact_equivalent because both products share brand DiGiorno, product type frozen_pizza, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -211,7 +211,7 @@
       "substitute_score": 0.97
     },
     {
-      "candidate_pair_id": "cand_000979",
+      "candidate_pair_id": "cand_000981",
       "equivalence_score": 0.97,
       "match_explanation": "Matched as exact_equivalent because both products share brand H\u00e4agen Dazs, product type ice_cream, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -223,7 +223,7 @@
       "substitute_score": 0.97
     },
     {
-      "candidate_pair_id": "cand_001049",
+      "candidate_pair_id": "cand_001051",
       "equivalence_score": 0.97,
       "match_explanation": "Matched as exact_equivalent because both products share brand Starbucks, product type coffee, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -235,7 +235,7 @@
       "substitute_score": 0.97
     },
     {
-      "candidate_pair_id": "cand_003173",
+      "candidate_pair_id": "cand_003175",
       "equivalence_score": 0.97,
       "match_explanation": "Matched as exact_equivalent because both products share brand Silk, product type soy_milk, compatible quantity, and no critical attribute conflicts.",
       "match_type": "exact_equivalent",
@@ -248,24 +248,24 @@
     }
   ],
   "match_type_counts": {
-    "ambiguous_review": 2015,
-    "exact_equivalent": 164,
-    "non_match": 379,
-    "private_label_equivalent": 707,
-    "substitute": 2279
+    "ambiguous_review": 4274,
+    "exact_equivalent": 169,
+    "non_match": 378,
+    "private_label_equivalent": 710,
+    "substitute": 15
   },
   "pairs_by_retailer_pair": {
-    "kroger | target": 981,
-    "kroger | walmart": 1005,
+    "kroger | target": 982,
+    "kroger | walmart": 1006,
     "kroger | whole_foods": 848,
     "target | walmart": 997,
     "target | whole_foods": 845,
     "walmart | whole_foods": 868
   },
-  "reject_count": 379,
+  "reject_count": 378,
   "rejected_examples": [
     {
-      "candidate_pair_id": "cand_002487",
+      "candidate_pair_id": "cand_002489",
       "equivalence_score": 0.3167,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -277,7 +277,7 @@
       "substitute_score": 0.2445
     },
     {
-      "candidate_pair_id": "cand_002489",
+      "candidate_pair_id": "cand_002491",
       "equivalence_score": 0.3172,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -289,7 +289,7 @@
       "substitute_score": 0.2448
     },
     {
-      "candidate_pair_id": "cand_003258",
+      "candidate_pair_id": "cand_003260",
       "equivalence_score": 0.3177,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -301,7 +301,7 @@
       "substitute_score": 0.2452
     },
     {
-      "candidate_pair_id": "cand_003234",
+      "candidate_pair_id": "cand_003236",
       "equivalence_score": 0.3183,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -313,7 +313,7 @@
       "substitute_score": 0.2456
     },
     {
-      "candidate_pair_id": "cand_003271",
+      "candidate_pair_id": "cand_003273",
       "equivalence_score": 0.3212,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -325,7 +325,7 @@
       "substitute_score": 0.2475
     },
     {
-      "candidate_pair_id": "cand_003247",
+      "candidate_pair_id": "cand_003249",
       "equivalence_score": 0.3228,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -337,7 +337,7 @@
       "substitute_score": 0.2486
     },
     {
-      "candidate_pair_id": "cand_002500",
+      "candidate_pair_id": "cand_002502",
       "equivalence_score": 0.3236,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -349,7 +349,7 @@
       "substitute_score": 0.2491
     },
     {
-      "candidate_pair_id": "cand_003253",
+      "candidate_pair_id": "cand_003255",
       "equivalence_score": 0.3237,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -361,7 +361,7 @@
       "substitute_score": 0.2491
     },
     {
-      "candidate_pair_id": "cand_001492",
+      "candidate_pair_id": "cand_001494",
       "equivalence_score": 0.3239,
       "match_explanation": "Rejected because product types or critical attributes conflict.",
       "match_type": "non_match",
@@ -385,79 +385,19 @@
       "substitute_score": 0.2496
     }
   ],
-  "review_count": 2015,
+  "review_count": 4274,
   "route_counts": {
-    "auto_accept_equivalent": 871,
-    "auto_accept_substitute": 2279,
-    "reject": 379,
-    "review": 2015
+    "auto_accept_equivalent": 879,
+    "auto_accept_substitute": 15,
+    "reject": 378,
+    "review": 4274
   },
-  "scored_pairs": 5544,
+  "scored_pairs": 5546,
   "substitute_examples": [
     {
-      "candidate_pair_id": "cand_000181",
-      "equivalence_score": 0.9013,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "kr_0014",
-      "product_id_b": "wf_0022",
-      "raw_name_a": "Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",
-      "raw_name_b": "LaCroix Sparkling Water, Lime, 8 x 12 fl oz cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9842
-    },
-    {
-      "candidate_pair_id": "cand_002936",
-      "equivalence_score": 0.8979,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "tg_0013",
-      "product_id_b": "wm_0032",
-      "raw_name_a": "Good & Gather Lime Sparkling Water 8 Pack 12 fl oz Cans",
-      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9819
-    },
-    {
-      "candidate_pair_id": "cand_004730",
-      "equivalence_score": 0.8931,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "wf_0012",
-      "product_id_b": "wm_0032",
-      "raw_name_a": "365 Sparkling Water Lime 8 pack 12 fl oz cans",
-      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9787
-    },
-    {
-      "candidate_pair_id": "cand_000185",
-      "equivalence_score": 0.8895,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "kr_0014",
-      "product_id_b": "wm_0032",
-      "raw_name_a": "Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",
-      "raw_name_b": "LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9763
-    },
-    {
-      "candidate_pair_id": "cand_003139",
-      "equivalence_score": 0.8828,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "tg_0034",
-      "product_id_b": "wf_0012",
-      "raw_name_a": "BOGO 50% off LaCroix Lime Sparkling Water 8 Pack 12oz Cans",
-      "raw_name_b": "365 Sparkling Water Lime 8 pack 12 fl oz cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9718
-    },
-    {
-      "candidate_pair_id": "cand_004871",
+      "candidate_pair_id": "cand_004873",
       "equivalence_score": 0.8925,
-      "match_explanation": "Classified as substitute because products share product type salmon and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type salmon, the same category family meat_seafood, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
       "match_type": "substitute",
       "product_id_a": "wf_0043",
       "product_id_b": "wm_0073",
@@ -467,33 +407,33 @@
       "substitute_score": 0.9683
     },
     {
-      "candidate_pair_id": "cand_002932",
-      "equivalence_score": 0.8769,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "tg_0013",
-      "product_id_b": "wf_0022",
-      "raw_name_a": "Good & Gather Lime Sparkling Water 8 Pack 12 fl oz Cans",
-      "raw_name_b": "LaCroix Sparkling Water, Lime, 8 x 12 fl oz cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.968
-    },
-    {
-      "candidate_pair_id": "cand_000176",
-      "equivalence_score": 0.8721,
-      "match_explanation": "Classified as substitute because products share product type sparkling_water and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
-      "match_type": "substitute",
-      "product_id_a": "kr_0014",
-      "product_id_b": "tg_0034",
-      "raw_name_a": "Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",
-      "raw_name_b": "BOGO 50% off LaCroix Lime Sparkling Water 8 Pack 12oz Cans",
-      "route": "auto_accept_substitute",
-      "substitute_score": 0.9648
-    },
-    {
-      "candidate_pair_id": "cand_002896",
+      "candidate_pair_id": "cand_000562",
       "equivalence_score": 0.8843,
-      "match_explanation": "Classified as substitute because products share product type peanut_butter and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type oat_milk, the same category family plant_based_milk, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0040",
+      "product_id_b": "wf_0005",
+      "raw_name_a": "Oatly Original Oat Milk 64 fl oz",
+      "raw_name_b": "365 Original Oat Milk 64 fl oz",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9629
+    },
+    {
+      "candidate_pair_id": "cand_000122",
+      "equivalence_score": 0.8843,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type peanut_butter, the same category family pantry, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0010",
+      "product_id_b": "wf_0033",
+      "raw_name_a": "Kroger Creamy Peanut Butter 16 oz Jar",
+      "raw_name_b": "Jif Creamy Peanut Butter 16 oz",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9629
+    },
+    {
+      "candidate_pair_id": "cand_002898",
+      "equivalence_score": 0.8843,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type peanut_butter, the same category family pantry, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
       "match_type": "substitute",
       "product_id_a": "tg_0009",
       "product_id_b": "wf_0033",
@@ -503,9 +443,9 @@
       "substitute_score": 0.9629
     },
     {
-      "candidate_pair_id": "cand_003175",
+      "candidate_pair_id": "cand_003177",
       "equivalence_score": 0.8843,
-      "match_explanation": "Classified as substitute because products share product type oat_milk and similar quantity, but brands differ, so they are comparable but not exact equivalents.",
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type oat_milk, the same category family plant_based_milk, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
       "match_type": "substitute",
       "product_id_a": "tg_0039",
       "product_id_b": "wf_0005",
@@ -513,16 +453,98 @@
       "raw_name_b": "365 Original Oat Milk 64 fl oz",
       "route": "auto_accept_substitute",
       "substitute_score": 0.9629
+    },
+    {
+      "candidate_pair_id": "cand_000841",
+      "equivalence_score": 0.8843,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type peanut_butter, the same category family pantry, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0060",
+      "product_id_b": "wf_0009",
+      "raw_name_a": "Jif Creamy Peanut Butter 16 oz Jar",
+      "raw_name_b": "365 Creamy Peanut Butter 16 oz",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9629
+    },
+    {
+      "candidate_pair_id": "cand_001502",
+      "equivalence_score": 0.8825,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type yogurt, the same category family yogurt, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0106",
+      "product_id_b": "wf_0148",
+      "raw_name_a": "Club price Yoplait Original Strawberry Yogurt 6 oz",
+      "raw_name_b": "365 Strawberry Yogurt 6 oz",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9617
+    },
+    {
+      "candidate_pair_id": "cand_001137",
+      "equivalence_score": 0.8802,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type chicken_breast, the same category family meat_seafood, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0080",
+      "product_id_b": "tg_0075",
+      "raw_name_a": "Boneless Skinless Chicken Breast (per lb)",
+      "raw_name_b": "Boneless Skinless Chicken Breast - 1 lb",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9601
+    },
+    {
+      "candidate_pair_id": "cand_001147",
+      "equivalence_score": 0.8758,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type ground_beef, the same category family meat_seafood, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0081",
+      "product_id_b": "tg_0076",
+      "raw_name_a": "Ground Beef 80/20 1 lb",
+      "raw_name_b": "Save $1 80/20 Ground Beef - 1lb",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9572
+    },
+    {
+      "candidate_pair_id": "cand_000834",
+      "equivalence_score": 0.8752,
+      "match_explanation": "Auto-accepted as substitute because both products share the same known product type peanut_butter, the same category family pantry, compatible quantity, compatible semantic attributes, and no substitute hard schema conflicts.",
+      "match_type": "substitute",
+      "product_id_a": "kr_0059",
+      "product_id_b": "wf_0033",
+      "raw_name_a": "Skippy Creamy Peanut Butter 16.3 oz",
+      "raw_name_b": "Jif Creamy Peanut Butter 16 oz",
+      "route": "auto_accept_substitute",
+      "substitute_score": 0.9568
     }
   ],
+  "substitute_hard_schema_conflicts_by_type": {
+    "animal_schema_conflict": 9,
+    "base_schema_conflict": 25,
+    "diet_type_schema_conflict": 121,
+    "product_type_schema_conflict": 92,
+    "quantity_type_schema_conflict": 123,
+    "style_schema_conflict": 95,
+    "unit_basis_schema_conflict": 6
+  },
+  "substitute_soft_schema_conflicts_by_type": {
+    "barista_style_schema_conflict": 12,
+    "cage_claim_schema_conflict": 4,
+    "cut_schema_conflict": 5,
+    "fat_content_schema_conflict": 130,
+    "flavor_schema_conflict": 438,
+    "organic_schema_conflict": 452,
+    "package_type_schema_conflict": 37,
+    "produce_form_schema_conflict": 7,
+    "sweetness_schema_conflict": 19,
+    "total_quantity_schema_conflict": 2551,
+    "variety_schema_conflict": 8
+  },
   "top_hard_conflict_types": {
     "brand_conflict_for_exact": 347,
     "diet_type_conflict": 121,
-    "flavor_conflict": 445,
-    "organic_conflict": 453,
-    "pack_size_conflict": 2315,
+    "flavor_conflict": 452,
+    "organic_conflict": 455,
+    "pack_size_conflict": 2318,
     "product_type_conflict": 212,
     "quantity_type_conflict": 786
   },
-  "total_candidate_pairs": 5544
+  "total_candidate_pairs": 5546
 }
