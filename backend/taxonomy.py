@@ -148,7 +148,13 @@ RAW_CATEGORY_ALIASES = {
 }
 
 
+# Keep this map at the vocabulary layer: semantic synonyms and a minimal set of
+# legacy aliases that preserve current normalization behavior. OCR corruption
+# should eventually move to a separate text-cleaning layer instead of growing
+# here indefinitely.
 PRODUCT_TYPE_ALIASES = {
+    # TODO: Move OCR/noisy-text repairs such as "c0ca c0la" into a dedicated
+    # text_cleaning.py layer once the pipeline has that boundary.
     "c0ca c0la": "soda",
     "coke zero": "soda",
     "coca cola": "soda",
@@ -482,6 +488,135 @@ CATEGORY_SCHEMA = {
     },
 }
 
+# CATEGORY_SCHEMA is for extraction and validation:
+# "What fields should normalization try to extract for this family?"
+#
+# CATEGORY_SEMANTIC_SCHEMAS is for comparison and matching semantics:
+# "Once fields are extracted, which fields matter for equivalence or
+# substitution decisions?"
+CATEGORY_SEMANTIC_SCHEMAS = {
+    "beverages": {
+        "identity_critical": ["product_type", "flavor", "diet_type", "quantity_type", "total_quantity", "package_type", "pack_count"],
+        "substitute_critical": ["product_type", "flavor", "diet_type", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "flavor", "diet_type", "quantity_type", "package_type", "pack_count"],
+        "substitute_hard_conflicts": ["product_type", "diet_type"],
+        "substitute_soft_conflicts": ["flavor", "package_type", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "dairy_milk": {
+        "identity_critical": ["product_type", "fat_content", "lactose_free", "organic", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "fat_content", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "fat_content", "lactose_free", "organic", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type", "quantity_type"],
+        "substitute_soft_conflicts": ["fat_content", "organic", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "plant_based_milk": {
+        "identity_critical": ["product_type", "base", "sweetness", "barista_style", "quantity_type", "total_quantity"],
+        "substitute_critical": ["base", "sweetness", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "base", "sweetness", "barista_style", "quantity_type"],
+        "substitute_hard_conflicts": ["base", "quantity_type"],
+        "substitute_soft_conflicts": ["sweetness", "barista_style", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "yogurt": {
+        "identity_critical": ["product_type", "style", "flavor", "fat_content", "quantity_type", "total_quantity", "multi_pack"],
+        "substitute_critical": ["style", "flavor", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "style", "flavor", "quantity_type", "multi_pack"],
+        "substitute_hard_conflicts": ["style", "quantity_type"],
+        "substitute_soft_conflicts": ["flavor", "fat_content", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "produce": {
+        "identity_critical": ["product_type", "variety", "produce_form", "unit_basis", "organic"],
+        "substitute_critical": ["product_type", "produce_form", "unit_basis"],
+        "equivalence_hard_conflicts": ["product_type", "variety", "produce_form", "unit_basis"],
+        "substitute_hard_conflicts": ["product_type", "unit_basis"],
+        "substitute_soft_conflicts": ["variety", "produce_form", "organic"],
+        "allow_private_label_equivalence": False,
+    },
+    "meat_seafood": {
+        "identity_critical": ["product_type", "animal", "cut", "bone_status", "skin_status", "fresh_or_frozen", "quantity_type"],
+        "substitute_critical": ["animal", "cut", "fresh_or_frozen", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "animal", "cut", "quantity_type"],
+        "substitute_hard_conflicts": ["animal", "quantity_type"],
+        "substitute_soft_conflicts": ["cut", "bone_status", "skin_status", "fresh_or_frozen"],
+        "allow_private_label_equivalence": False,
+    },
+    "eggs": {
+        "identity_critical": ["product_type", "egg_size", "color", "cage_claim", "organic", "total_quantity"],
+        "substitute_critical": ["product_type", "egg_size", "total_quantity"],
+        "equivalence_hard_conflicts": ["product_type", "egg_size", "total_quantity"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["color", "cage_claim", "organic"],
+        "allow_private_label_equivalence": True,
+    },
+    "snacks": {
+        "identity_critical": ["product_type", "flavor", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "flavor", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "flavor", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["flavor", "package_type", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "pantry": {
+        "identity_critical": ["product_type", "flavor", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["flavor", "package_type", "total_quantity", "organic"],
+        "allow_private_label_equivalence": True,
+    },
+    "frozen": {
+        "identity_critical": ["product_type", "flavor", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "flavor", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "flavor", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["flavor", "package_type", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "bakery": {
+        "identity_critical": ["product_type", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type"],
+        "equivalence_hard_conflicts": ["product_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["package_type", "total_quantity", "organic"],
+        "allow_private_label_equivalence": True,
+    },
+    "cheese": {
+        "identity_critical": ["product_type", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["package_type", "total_quantity", "organic"],
+        "allow_private_label_equivalence": True,
+    },
+    "butter": {
+        "identity_critical": ["product_type", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["package_type", "total_quantity", "organic"],
+        "allow_private_label_equivalence": True,
+    },
+    "household": {
+        "identity_critical": ["product_type", "package_type", "quantity_type", "total_quantity"],
+        "substitute_critical": ["product_type", "quantity_type"],
+        "equivalence_hard_conflicts": ["product_type", "quantity_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": ["package_type", "total_quantity"],
+        "allow_private_label_equivalence": True,
+    },
+    "unknown": {
+        "identity_critical": ["product_type"],
+        "substitute_critical": ["product_type"],
+        "equivalence_hard_conflicts": ["product_type"],
+        "substitute_hard_conflicts": ["product_type"],
+        "substitute_soft_conflicts": [],
+        "allow_private_label_equivalence": False,
+    },
+}
+
 
 PACKAGING_MATTERS_FAMILIES = {
     "beverages",
@@ -621,6 +756,44 @@ def get_required_fields(category_family: str | None) -> list[str]:
 
 def get_optional_fields(category_family: str | None) -> list[str]:
     return list(CATEGORY_SCHEMA.get(category_family or "unknown", CATEGORY_SCHEMA["unknown"])["optional"])
+
+
+def get_semantic_schema(category_family: str | None) -> dict[str, Any]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return {
+        key: list(value) if isinstance(value, list) else value
+        for key, value in schema.items()
+    }
+
+
+def get_identity_critical_fields(category_family: str | None) -> list[str]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return list(schema["identity_critical"])
+
+
+def get_substitute_critical_fields(category_family: str | None) -> list[str]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return list(schema["substitute_critical"])
+
+
+def get_equivalence_hard_conflict_fields(category_family: str | None) -> list[str]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return list(schema["equivalence_hard_conflicts"])
+
+
+def get_substitute_hard_conflict_fields(category_family: str | None) -> list[str]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return list(schema["substitute_hard_conflicts"])
+
+
+def get_substitute_soft_conflict_fields(category_family: str | None) -> list[str]:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return list(schema["substitute_soft_conflicts"])
+
+
+def allows_private_label_equivalence(category_family: str | None) -> bool:
+    schema = CATEGORY_SEMANTIC_SCHEMAS.get(category_family or "unknown", CATEGORY_SEMANTIC_SCHEMAS["unknown"])
+    return bool(schema["allow_private_label_equivalence"])
 
 
 def validate_required_fields(category_family: str | None, extracted: dict[str, Any]) -> list[str]:
@@ -997,6 +1170,12 @@ def estimate_taxonomy_confidence(extracted: dict[str, Any]) -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 
 if __name__ == "__main__":
+    semantic_schema_example = get_semantic_schema("plant_based_milk")
+    print("semantic_schema_example:", semantic_schema_example)
+    assert "fat_content" in get_identity_critical_fields("dairy_milk")
+    assert allows_private_label_equivalence("produce") is False
+    assert "base" in get_substitute_hard_conflict_fields("plant_based_milk")
+
     test_cases = [
         {
             "retailer": "walmart",

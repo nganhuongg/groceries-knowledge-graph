@@ -20,6 +20,10 @@ from typing import Any
 
 import numpy as np
 import pandas as pd
+from taxonomy import (
+    get_substitute_hard_conflict_fields,
+    get_substitute_soft_conflict_fields,
+)
 
 try:
     from rapidfuzz import fuzz
@@ -120,6 +124,8 @@ SCORED_COLUMNS = [
     "equivalence_score",
     "substitute_score",
     "hard_conflicts_json",
+    "substitute_hard_conflicts_json",
+    "substitute_soft_conflicts_json",
     "match_type",
     "route",
     "match_explanation",
@@ -249,6 +255,28 @@ def score_category(row: dict[str, Any]) -> float:
     if is_unknown(family_a) or is_unknown(family_b):
         return 0.5
     return 0.0
+
+
+def same_known_product_type(row: dict[str, Any]) -> bool:
+    return (
+        not is_unknown(row["product_type_a"])
+        and not is_unknown(row["product_type_b"])
+        and row["product_type_a"] == row["product_type_b"]
+    )
+
+
+def same_known_category_family(row: dict[str, Any]) -> bool:
+    return (
+        not is_unknown(row["category_family_a"])
+        and not is_unknown(row["category_family_b"])
+        and row["category_family_a"] == row["category_family_b"]
+    )
+
+
+def shared_category_family(row: dict[str, Any]) -> str:
+    if same_known_category_family(row):
+        return str(row["category_family_a"])
+    return "unknown"
 
 
 def score_quantity(row: dict[str, Any], product_type_score: float) -> float:
@@ -414,6 +442,61 @@ def detect_hard_conflicts(row: dict[str, Any], attributes_a: dict[str, Any], att
     return sorted(set(conflicts))
 
 
+def values_conflict(value_a: Any, value_b: Any) -> bool:
+    if is_unknown(value_a) or is_unknown(value_b):
+        return False
+    return value_a != value_b
+
+
+def get_pair_field_values(
+    field: str,
+    row: dict[str, Any],
+    attributes_a: dict[str, Any],
+    attributes_b: dict[str, Any],
+) -> tuple[Any, Any]:
+    top_level_fields = {
+        "product_type": ("product_type_a", "product_type_b"),
+        "category_family": ("category_family_a", "category_family_b"),
+        "quantity_type": ("quantity_type_a", "quantity_type_b"),
+        "total_quantity": ("total_quantity_a", "total_quantity_b"),
+        "package_type": ("package_type_a", "package_type_b"),
+        "canonical_brand": ("canonical_brand_a", "canonical_brand_b"),
+    }
+    if field == "pack_count":
+        value_a = row.get("pack_count_a", attributes_a.get(field, "unknown"))
+        value_b = row.get("pack_count_b", attributes_b.get(field, "unknown"))
+        return value_a, value_b
+    if field in top_level_fields:
+        field_a, field_b = top_level_fields[field]
+        return row.get(field_a, "unknown"), row.get(field_b, "unknown")
+    return attributes_a.get(field, "unknown"), attributes_b.get(field, "unknown")
+
+
+def detect_schema_conflicts(
+    row: dict[str, Any],
+    attributes_a: dict[str, Any],
+    attributes_b: dict[str, Any],
+    conflict_fields: list[str],
+) -> list[str]:
+    conflicts: list[str] = []
+
+    for field in conflict_fields:
+        value_a, value_b = get_pair_field_values(field, row, attributes_a, attributes_b)
+        if field == "total_quantity":
+            ratio = quantity_ratio(value_a, value_b)
+            if ratio is not None and ratio < 0.80:
+                conflicts.append(f"{field}_schema_conflict")
+            continue
+        if values_conflict(value_a, value_b):
+            conflicts.append(f"{field}_schema_conflict")
+
+    return sorted(set(conflicts))
+
+
+def has_schema_conflict(conflicts: list[str]) -> bool:
+    return len(conflicts) > 0
+
+
 def contains_critical_conflict(conflicts: list[str]) -> bool:
     return any(conflict in CRITICAL_CONFLICTS_FOR_EQUIVALENCE for conflict in conflicts)
 
@@ -428,15 +511,45 @@ def classify_match(
     conflicts: list[str],
     attributes_a: dict[str, Any],
     attributes_b: dict[str, Any],
-) -> tuple[str, str]:
+) -> tuple[str, str, list[str], list[str]]:
     same_known_brand = (
         not is_unknown(row["canonical_brand_a"])
         and row["canonical_brand_a"] == row["canonical_brand_b"]
     )
     both_private_label = row["is_private_label_a"] and row["is_private_label_b"]
+    family = shared_category_family(row)
+    substitute_hard_fields = get_substitute_hard_conflict_fields(family)
+    substitute_soft_fields = get_substitute_soft_conflict_fields(family)
+    substitute_hard_conflicts = detect_schema_conflicts(
+        row, attributes_a, attributes_b, substitute_hard_fields
+    )
+    substitute_soft_conflicts = detect_schema_conflicts(
+        row, attributes_a, attributes_b, substitute_soft_fields
+    )
     critical_conflict = contains_critical_conflict(conflicts)
     severe_conflict = contains_severe_conflict(conflicts)
     key_attributes_compatible = scores["attribute_score"] >= 0.75
+    same_type = same_known_product_type(row)
+    same_family = same_known_category_family(row)
+    quantity_good = scores["quantity_score"] >= 0.80
+    attributes_good = scores["attribute_score"] >= 0.75
+    confidence_good = scores["confidence_score"] >= 0.70
+    substitute_score_good = scores["substitute_score"] >= 0.78
+    title_good = scores["title_similarity"] >= 0.85
+    soft_conflict_free = not has_schema_conflict(substitute_soft_conflicts)
+    safe_auto_substitute = (
+        substitute_score_good
+        and same_type
+        and same_family
+        and title_good
+        and quantity_good
+        and attributes_good
+        and confidence_good
+        and not has_schema_conflict(substitute_hard_conflicts)
+        and soft_conflict_free
+        and "product_type_conflict" not in conflicts
+        and "quantity_type_conflict" not in conflicts
+    )
     plausible_review = (
         scores["equivalence_score"] >= 0.62
         or scores["substitute_score"] >= 0.60
@@ -452,7 +565,12 @@ def classify_match(
         and not critical_conflict
         and not both_private_label
     ):
-        return "exact_equivalent", "auto_accept_equivalent"
+        return (
+            "exact_equivalent",
+            "auto_accept_equivalent",
+            substitute_hard_conflicts,
+            substitute_soft_conflicts,
+        )
 
     if (
         scores["equivalence_score"] >= 0.84
@@ -462,23 +580,35 @@ def classify_match(
         and not critical_conflict
         and key_attributes_compatible
     ):
-        return "private_label_equivalent", "auto_accept_equivalent"
+        return (
+            "private_label_equivalent",
+            "auto_accept_equivalent",
+            substitute_hard_conflicts,
+            substitute_soft_conflicts,
+        )
 
-    if (
-        scores["substitute_score"] >= 0.72
-        and scores["category_score"] >= 0.5
-        and scores["product_type_score"] >= 0.5
-        and "product_type_conflict" not in conflicts
-    ):
-        return "substitute", "auto_accept_substitute"
+    if safe_auto_substitute:
+        return (
+            "substitute",
+            "auto_accept_substitute",
+            substitute_hard_conflicts,
+            substitute_soft_conflicts,
+        )
 
     if severe_conflict and scores["equivalence_score"] < 0.62 and scores["substitute_score"] < 0.60:
-        return "non_match", "reject"
+        return "non_match", "reject", substitute_hard_conflicts, substitute_soft_conflicts
+
+    if (
+        scores["substitute_score"] >= 0.60
+        and same_family
+        and not contains_severe_conflict(conflicts)
+    ):
+        return "ambiguous_review", "review", substitute_hard_conflicts, substitute_soft_conflicts
 
     if plausible_review or conflicts:
-        return "ambiguous_review", "review"
+        return "ambiguous_review", "review", substitute_hard_conflicts, substitute_soft_conflicts
 
-    return "non_match", "reject"
+    return "non_match", "reject", substitute_hard_conflicts, substitute_soft_conflicts
 
 
 def apply_route_safety(
@@ -495,6 +625,8 @@ def explain_match(
     row: dict[str, Any],
     scores: dict[str, float],
     conflicts: list[str],
+    substitute_hard_conflicts: list[str],
+    substitute_soft_conflicts: list[str],
     match_type: str,
 ) -> str:
     if match_type == "exact_equivalent":
@@ -511,15 +643,31 @@ def explain_match(
         )
     if match_type == "substitute":
         return (
-            f"Classified as substitute because products share product type "
-            f"{row['product_type_a'] if row['product_type_a'] == row['product_type_b'] else 'or category evidence'} "
-            "and similar quantity, but brands differ, so they are comparable but "
-            "not exact equivalents."
+            "Auto-accepted as substitute because both products share the same known "
+            f"product type {row['product_type_a']}, the same category family "
+            f"{row['category_family_a']}, compatible quantity, compatible semantic "
+            "attributes, and no substitute hard schema conflicts."
         )
     if match_type == "ambiguous_review":
+        reasons: list[str] = []
+        if not same_known_product_type(row):
+            reasons.append("product type is missing or not an exact known match")
+        if not same_known_category_family(row):
+            reasons.append("category family is missing or not shared")
+        if scores["confidence_score"] < 0.70:
+            reasons.append("confidence is below auto-accept threshold")
+        if scores["attribute_score"] < 0.75:
+            reasons.append("semantic attribute compatibility is incomplete")
+        if substitute_soft_conflicts:
+            reasons.append(f"soft schema conflicts exist: {', '.join(substitute_soft_conflicts)}")
+        if substitute_hard_conflicts:
+            reasons.append(f"hard schema conflicts exist: {', '.join(substitute_hard_conflicts)}")
+        if conflicts:
+            reasons.append(f"base conflicts exist: {', '.join(conflicts)}")
+        reason_text = "; ".join(reasons) if reasons else "evidence is plausible but incomplete"
         return (
-            "Routed to review because product type and category are plausible, but "
-            "quantity/package evidence is incomplete or conflicting."
+            "Routed to review because the pair may be comparable, but has uncertainty, "
+            f"missing fields, soft conflicts, or insufficient confidence: {reason_text}."
         )
     return "Rejected because product types or critical attributes conflict."
 
@@ -603,11 +751,23 @@ def score_pairs(candidate_pairs: pd.DataFrame) -> pd.DataFrame:
             + 0.10 * scores["blocking_strength_score"]
         )
 
-        match_type, route = classify_match(row, scores, conflicts, attributes_a, attributes_b)
+        (
+            match_type,
+            route,
+            substitute_hard_conflicts,
+            substitute_soft_conflicts,
+        ) = classify_match(row, scores, conflicts, attributes_a, attributes_b)
         route = apply_route_safety(match_type, route, scores["confidence_score"])
         if route == "review" and match_type == "substitute":
             match_type = "ambiguous_review"
-        explanation = explain_match(row, scores, conflicts, match_type)
+        explanation = explain_match(
+            row,
+            scores,
+            conflicts,
+            substitute_hard_conflicts,
+            substitute_soft_conflicts,
+            match_type,
+        )
 
         scored_record = {column: row.get(column) for column in SCORED_COLUMNS if column in row}
         scored_record.update(
@@ -625,6 +785,8 @@ def score_pairs(candidate_pairs: pd.DataFrame) -> pd.DataFrame:
                 "equivalence_score": scores["equivalence_score"],
                 "substitute_score": scores["substitute_score"],
                 "hard_conflicts_json": json.dumps(conflicts),
+                "substitute_hard_conflicts_json": json.dumps(substitute_hard_conflicts),
+                "substitute_soft_conflicts_json": json.dumps(substitute_soft_conflicts),
                 "match_type": match_type,
                 "route": route,
                 "match_explanation": explanation,
@@ -664,10 +826,16 @@ def build_matching_report(scored_pairs: pd.DataFrame) -> dict[str, Any]:
     }
 
     conflict_counter: Counter[str] = Counter()
+    substitute_hard_conflict_counter: Counter[str] = Counter()
+    substitute_soft_conflict_counter: Counter[str] = Counter()
     retailer_pair_counter: Counter[str] = Counter()
     for row in scored_pairs.to_dict(orient="records"):
         for conflict in parse_json_like(row["hard_conflicts_json"], []):
             conflict_counter[conflict] += 1
+        for conflict in parse_json_like(row.get("substitute_hard_conflicts_json"), []):
+            substitute_hard_conflict_counter[conflict] += 1
+        for conflict in parse_json_like(row.get("substitute_soft_conflicts_json"), []):
+            substitute_soft_conflict_counter[conflict] += 1
         retailer_pair = " | ".join(sorted((str(row["retailer_a"]), str(row["retailer_b"]))))
         retailer_pair_counter[retailer_pair] += 1
 
@@ -700,6 +868,8 @@ def build_matching_report(scored_pairs: pd.DataFrame) -> dict[str, Any]:
         "review_count": int(route_counts.get("review", 0)),
         "reject_count": int(route_counts.get("reject", 0)),
         "top_hard_conflict_types": dict(conflict_counter.most_common(20)),
+        "substitute_hard_schema_conflicts_by_type": dict(substitute_hard_conflict_counter.most_common(20)),
+        "substitute_soft_schema_conflicts_by_type": dict(substitute_soft_conflict_counter.most_common(20)),
         "pairs_by_retailer_pair": dict(sorted(retailer_pair_counter.items())),
         "high_confidence_examples": example_rows(
             scored_pairs[scored_pairs["route"] == "auto_accept_equivalent"].sort_values(
@@ -749,6 +919,10 @@ def validate_outputs(
             raise ValueError(f"Invalid route: {row['route']}")
         if parse_json_like(row["hard_conflicts_json"], None) is None:
             raise ValueError(f"Missing hard_conflicts_json for {row['candidate_pair_id']}")
+        if parse_json_like(row["substitute_hard_conflicts_json"], None) is None:
+            raise ValueError(f"Missing substitute_hard_conflicts_json for {row['candidate_pair_id']}")
+        if parse_json_like(row["substitute_soft_conflicts_json"], None) is None:
+            raise ValueError(f"Missing substitute_soft_conflicts_json for {row['candidate_pair_id']}")
         for score_field in [
             "title_similarity",
             "brand_score",
@@ -809,6 +983,12 @@ def print_summary(scored_pairs: pd.DataFrame, report: dict[str, Any]) -> None:
 
     print("\nTop hard conflicts")
     print(json.dumps(report["top_hard_conflict_types"], indent=2, sort_keys=True))
+
+    print("\nTop substitute hard schema conflicts")
+    print(json.dumps(report["substitute_hard_schema_conflicts_by_type"], indent=2, sort_keys=True))
+
+    print("\nTop substitute soft schema conflicts")
+    print(json.dumps(report["substitute_soft_schema_conflicts_by_type"], indent=2, sort_keys=True))
 
     print_sample(
         "Sample 10 auto accepted equivalents",

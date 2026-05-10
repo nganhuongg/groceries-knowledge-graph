@@ -20,6 +20,7 @@ from pathlib import Path
 from typing import Any
 
 import pandas as pd
+import numpy as np
 
 from taxonomy import (
     canonicalize_brand,
@@ -34,6 +35,7 @@ from taxonomy import (
     normalize_text,
     validate_required_fields,
 )
+from text_cleaning import clean_product_text
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
@@ -55,6 +57,7 @@ OUTPUT_COLUMNS = [
     "product_id",
     "retailer",
     "raw_name",
+    "cleaned_name",
     "brand_raw",
     "canonical_brand",
     "category_raw",
@@ -192,7 +195,7 @@ def _extract_quantity_from_text(raw_name: str) -> tuple[float | None, str | None
     return _parse_amount_token(match.group(1)), match.group(2), pack_count
 
 
-def _choose_quantity_inputs(row: pd.Series) -> tuple[float | None, str | None, int]:
+def _choose_quantity_inputs(row: pd.Series, cleaned_name: str) -> tuple[float | None, str | None, int]:
     """Prefer structured CSV quantity fields, then fall back to raw-name regex."""
     amount = _coerce_number(row.get("amount"))
     unit = None if _is_missing(row.get("unit")) else str(row.get("unit"))
@@ -201,7 +204,7 @@ def _choose_quantity_inputs(row: pd.Series) -> tuple[float | None, str | None, i
     if amount is not None and unit:
         return amount, unit, pack_count
 
-    fallback_amount, fallback_unit, fallback_pack_count = _extract_quantity_from_text(str(row.get("raw_name", "")))
+    fallback_amount, fallback_unit, fallback_pack_count = _extract_quantity_from_text(cleaned_name)
     return (
         amount if amount is not None else fallback_amount,
         unit if unit else fallback_unit,
@@ -222,22 +225,27 @@ def _choose_category_family(product_type: str, category_family_from_raw: str) ->
 def normalize_row(row: pd.Series) -> dict[str, Any]:
     """Normalize one retailer row into the canonical product observation shape."""
     raw_name = "" if _is_missing(row.get("raw_name")) else str(row.get("raw_name"))
+    cleaned_name = clean_product_text(raw_name)
     brand_raw = _clean_scalar(row.get("brand"))
     category_raw = _clean_scalar(row.get("category_raw"))
     retailer = _clean_scalar(row.get("retailer"))
 
     canonical_brand = canonicalize_brand(brand_raw)
     category_family_from_raw = normalize_raw_category(category_raw)
-    product_type = infer_product_type(raw_name)
+    # Preserve raw_name exactly as provided for audit/debug. Use cleaned_name
+    # for deterministic extraction so OCR/punctuation noise does not block
+    # taxonomy inference. Matching should still rely on structured fields
+    # rather than only the cleaned title text.
+    product_type = infer_product_type(cleaned_name)
     category_family = _choose_category_family(product_type, category_family_from_raw)
 
-    amount, unit, pack_count = _choose_quantity_inputs(row)
+    amount, unit, pack_count = _choose_quantity_inputs(row, cleaned_name)
     quantity = convert_to_canonical_quantity(amount, unit, pack_count)
 
     # Package type appears both as a top-level field and inside some category
     # attributes. Keeping it top-level makes blocking/matching easier later.
-    package_type = infer_package_type(raw_name)
-    attributes = extract_category_attributes(category_family, raw_name)
+    package_type = infer_package_type(cleaned_name)
+    attributes = extract_category_attributes(category_family, cleaned_name)
     if attributes.get("package_type") in (None, "", "unknown") and package_type != "unknown":
         attributes["package_type"] = package_type
 
@@ -259,6 +267,7 @@ def normalize_row(row: pd.Series) -> dict[str, Any]:
         "product_id": _clean_scalar(row.get("product_id")),
         "retailer": retailer,
         "raw_name": raw_name,
+        "cleaned_name": cleaned_name,
         "brand_raw": brand_raw,
         "canonical_brand": canonical_brand,
         "category_raw": category_raw,
@@ -313,12 +322,15 @@ def build_normalization_report(normalized_products: pd.DataFrame) -> dict[str, A
     """Build operational quality metrics for the normalization run."""
     warning_counter: Counter[str] = Counter()
     missing_field_counter: Counter[str] = Counter()
+    cleaned_name_changed_count = 0
 
     for _, row in normalized_products.iterrows():
         for warning in json.loads(row["warnings_json"]):
             warning_counter[warning] += 1
         for field in json.loads(row["missing_required_fields_json"]):
             missing_field_counter[field] += 1
+        if normalize_text(row.get("raw_name")) != str(row.get("cleaned_name") or ""):
+            cleaned_name_changed_count += 1
 
     total_rows = int(len(normalized_products))
     needs_review_count = int(normalized_products["needs_review"].sum())
@@ -332,6 +344,8 @@ def build_normalization_report(normalized_products: pd.DataFrame) -> dict[str, A
         "rows_by_category_family": normalized_products["category_family"].value_counts(dropna=False).to_dict(),
         "rows_by_product_type": normalized_products["product_type"].value_counts(dropna=False).to_dict(),
         "average_overall_confidence": round(average_confidence, 4),
+        "cleaned_name_changed_count": cleaned_name_changed_count,
+        "cleaned_name_changed_rate": round(cleaned_name_changed_count / total_rows, 4) if total_rows else 0.0,
         "needs_review_count": needs_review_count,
         "needs_review_rate": round(needs_review_count / total_rows, 4) if total_rows else 0.0,
         "top_warning_types": dict(warning_counter.most_common(20)),
@@ -353,6 +367,7 @@ def print_run_summary(normalized_products: pd.DataFrame, report: dict[str, Any])
         "product_id",
         "retailer",
         "raw_name",
+        "cleaned_name",
         "canonical_brand",
         "product_type",
         "category_family",
