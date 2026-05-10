@@ -11,7 +11,7 @@
     "false_positives": 0,
     "precision": 1.0,
     "recall": 0.8343,
-    "true_equivalent_routed_to_review": 39,
+    "true_equivalent_routed_to_review": 46,
     "true_positives": 277
   },
   "label_conflicts": [
@@ -58,32 +58,32 @@
   },
   "routing_metrics": {
     "auto_accept_equivalent_count": 879,
-    "auto_accept_substitute_count": 307,
-    "known_negative_routed_to_review": 67,
+    "auto_accept_substitute_count": 15,
+    "known_negative_routed_to_review": 69,
     "reject_count": 378,
-    "review_count": 3982,
-    "review_rate": 0.718,
-    "true_equivalent_routed_to_review": 39,
-    "true_substitute_routed_to_review": 9,
-    "unknown_pairs_routed_to_review": 3867
+    "review_count": 4274,
+    "review_rate": 0.7706,
+    "true_equivalent_routed_to_review": 46,
+    "true_substitute_routed_to_review": 32,
+    "unknown_pairs_routed_to_review": 4127
   },
   "safety_metrics": {
-    "known_negative_auto_accept_rate": 0.0411,
+    "known_negative_auto_accept_rate": 0.0137,
     "known_negative_auto_accepted_as_equivalent": 0,
-    "known_negative_auto_accepted_as_substitute": 3,
+    "known_negative_auto_accepted_as_substitute": 1,
     "known_negative_rejected": 3,
-    "known_negative_routed_to_review": 67
+    "known_negative_routed_to_review": 69
   },
   "substitute_metrics": {
-    "equivalent_predicted_as_substitute": 24,
-    "f1": 0.5517,
-    "false_negatives": 24,
-    "false_positives": 15,
-    "precision": 0.6154,
-    "recall": 0.5,
+    "equivalent_predicted_as_substitute": 10,
+    "f1": 0.0364,
+    "false_negatives": 47,
+    "false_positives": 6,
+    "precision": 0.1429,
+    "recall": 0.0208,
     "substitute_predicted_as_equivalent": 0,
-    "true_positives": 24,
-    "true_substitute_routed_to_review": 9
+    "true_positives": 1,
+    "true_substitute_routed_to_review": 32
   },
   "top_hard_conflict_types": {
     "brand_conflict_for_exact": 347,
@@ -96,8 +96,8 @@
   },
   "unknown_pair_metrics": {
     "unknown_auto_accept_equivalent_count": 602,
-    "unknown_auto_accept_substitute_count": 268,
+    "unknown_auto_accept_substitute_count": 8,
     "unknown_reject_count": 375,
-    "unknown_review_count": 3867
+    "unknown_review_count": 4127
   }
 }

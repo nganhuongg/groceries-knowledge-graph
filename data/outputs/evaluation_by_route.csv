@@ -1,5 +1,5 @@
 route,total_count,true_equivalent_count,true_substitute_count,true_non_match_count,unknown_count
 auto_accept_equivalent,879,277,0,0,602
-auto_accept_substitute,307,12,24,3,268
-review,3982,39,9,67,3867
+auto_accept_substitute,15,5,1,1,8
+review,4274,46,32,69,4127
 reject,378,0,0,3,375
