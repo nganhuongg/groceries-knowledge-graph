@@ -1,0 +1,216 @@
+product_id,retailer,raw_name,brand,category_raw,price,unit_price,promo_text,amount,unit,pack_count,is_organic,is_private_label,url,scraped_at,estimated_cost
+wm_0001,walmart,Great Value Organic Whole Milk 1 gal,Great Value,Dairy & Eggs,5.43,,Save $2,1.0,gal,1,True,True,https://example.com/walmart/products/wm_0001,2026-05-08T11:09:00,3.19
+wm_0002,walmart,Great Value Whole Milk 1 gal,Great Value,Dairy & Eggs,3.82,3.82,Save $1,1.0,gal,1,False,True,https://example.com/walmart/products/wm_0002,2026-05-08T10:01:00,2.92
+wm_0003,walmart,Great Value 2% Reduced Fat Milk 0.5 gal,Great Value,Dairy & Eggs,2.44,,,0.5,gal,1,False,True,https://example.com/walmart/products/wm_0003,2026-05-08T08:53:00,1.67
+wm_0004,walmart,"Great Value Unsweetened Almond Milk, 64 fl oz",Great Value,Dairy & Eggs,3.12,,Save $2,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0004,2026-05-08T08:02:00,1.91
+wm_0005,walmart,Great Value Cage Free Large Brown Eggs 12 Count,Great Value,Dairy & Eggs,3.99,0.3325,,12.0,ct,1,False,True,https://example.com/walmart/products/wm_0005,2026-05-08T06:03:00,2.22
+wm_0006,walmart,"Great Value Organic Large Brown Eggs, 12 Count",Great Value,Dairy & Eggs,5.83,0.4858,,12.0,ct,1,True,True,https://example.com/walmart/products/wm_0006,2026-05-08T04:55:00,3.8
+wm_0007,walmart,"Great Value White Sandwich Bread, 20 oz",Great Value,Bakery,2.26,,,20.0,oz,1,False,True,https://example.com/walmart/products/wm_0007,2026-05-08T03:47:00,1.55
+wm_0008,walmart,Great Value 100% Whole Wheat Bread 20 oz,Great Value,Bakery,2.2,,Buy 2 save $1,20.0,oz,1,False,True,https://example.com/walmart/products/wm_0008,2026-05-08T02:56:00,1.68
+wm_0009,walmart,"Great Value Creamy Peanut Butter, 16 oz",Great Value,Pantry,2.85,,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0009,2026-05-08T01:48:00,1.75
+wm_0010,walmart,Great Value Restaurant Style White Corn Tortilla Chips 13 oz,Great Value,Snacks,2.34,0.18,Save $2,13.0,oz,1,False,True,https://example.com/walmart/products/wm_0010,2026-05-08T00:40:00,1.81
+wm_0011,walmart,"Buy 2 save $1 Great Value Pepperoni Frozen Pizza, 12 in",Great Value,Frozen Foods,4.11,0.3425,Buy 2 save $1,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0011,2026-05-07T23:49:00,2.64
+wm_0012,walmart,"Great Value Organic Gala Apples, 3 lb Bag",Great Value,Produce,5.55,0.1156,Buy 2 save $1,48.0,oz,1,True,True,https://example.com/walmart/products/wm_0012,2026-05-07T22:41:00,3.76
+wm_0013,walmart,Great Value Lime Sparkling Water 8pk 12oz,Great Value,Beverages,3.08,0.0321,,12.0,fl oz,8,False,True,https://example.com/walmart/products/wm_0013,2026-05-07T21:33:00,2.18
+wm_0014,walmart,Great Value Plain Nonfat Greek Yogurt 32 oz,Great Value,Dairy & Eggs,4.0,,Buy 2 save $1,32.0,oz,1,False,True,https://example.com/walmart/products/wm_0014,2026-05-07T19:34:00,2.56
+wm_0015,walmart,"Great Value Unsalted Sweet Cream Butter, 16 oz",Great Value,Dairy & Eggs,4.11,0.0642,,16.0,oz,4,False,True,https://example.com/walmart/products/wm_0015,2026-05-07T18:26:00,2.98
+wm_0016,walmart,"Great Value Finely Shredded Mild Cheddar Cheese, 8 oz",Great Value,Dairy & Eggs,2.91,,Save $1,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0016,2026-05-07T17:35:00,1.71
+wm_0017,walmart,"Great Value Black Beans, 15 oz",Great Value,Pantry,1.02,,,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0017,2026-05-07T16:27:00,0.59
+wm_0018,walmart,"Great Value Condensed Tomato Soup, 10.75 oz",Great Value,Pantry,1.28,,Rollback,10.75,oz,1,False,True,https://example.com/walmart/products/wm_0018,2026-05-07T15:36:00,0.71
+wm_0019,walmart,"Great Value Long Grain Enriched White Rice, 5 lb",Great Value,Pantry,4.82,0.964,Save $1,5.0,lb,1,False,True,https://example.com/walmart/products/wm_0019,2026-05-07T14:45:00,3.39
+wm_0020,walmart,"Great Value Spaghetti Pasta, 16 oz",Great Value,Pantry,1.24,,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0020,2026-05-07T13:37:00,0.69
+wm_0021,walmart,"Great VaIue 100% Orange Juic No Pulp, 52 fl oz",Great Value,Beverages,3.55,,,52.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0021,2026-05-07T12:46:00,2.56
+wm_0022,walmart,"Buy 2 save $1 Great Value Baby-Cut Carrots, 1 lb",Great Value,Produce,1.86,,Buy 2 save $1,1.0,lb,1,False,True,https://example.com/walmart/products/wm_0022,2026-05-07T11:55:00,1.07
+wm_0023,walmart,"Save $1 Great Value Original Cream Cheese, 8 oz",Great Value,Dairy & Eggs,2.1,0.2625,Save $1,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0023,2026-05-07T11:04:00,1.62
+wm_0024,walmart,"Great Value Extra Virgin Olive Oil, 17 fl oz",Great Value,Pantry,7.2,0.4235,Save $1,17.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0024,2026-05-07T09:56:00,4.4
+wm_0025,walmart,Coca-Cola Zero Sugar Soda 12-Pack 12 fl oz,Coca-Cola,Beverages,7.84,0.0544,Rollback,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0025,2026-05-07T07:57:00,5.05
+wm_0026,walmart,Save $1 Coca-CoIa Zro Sugar Soda 6-Pack 12 fl oz,Coca-Cola,Beverages,5.01,0.0696,Save $1,12.0,fl oz,6,False,False,https://example.com/walmart/products/wm_0026,2026-05-07T07:06:00,3.58
+wm_0027,walmart,Coca-Cola Classic 12-Pack 12 fl oz Cans,Coca-Cola,Beverages,7.62,0.0529,Rollback,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0027,2026-05-07T05:58:00,5.31
+wm_0028,walmart,"Coca-Cola Classic, 2 L",Coca-Cola,Beverages,2.45,,Buy 2 save $1,2.0,liter,1,False,False,https://example.com/walmart/products/wm_0028,2026-05-07T05:07:00,1.78
+wm_0029,walmart,Diet Coke Soda 12-Pack 12 fl oz,Coca-Cola,Beverages,7.77,,Save $2,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0029,2026-05-07T04:16:00,5.71
+wm_0030,walmart,Sprite Lemon Lime Soda 12-Pack 12 fl oz,Sprite,Beverages,7.16,,Buy 2 save $1,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0030,2026-05-07T03:25:00,5.05
+wm_0031,walmart,Save $2 Pepsi Soda 12-Pack 12 fl oz,Pepsi,Beverages,8.15,,Save $2,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0031,2026-05-07T02:34:00,5.87
+wm_0032,walmart,LaCroix Sparkling Water Lime 8-Pack 12 fl oz Cans,LaCroix,Beverages,3.66,,,12.0,fl oz,8,False,False,https://example.com/walmart/products/wm_0032,2026-05-07T01:26:00,2.19
+wm_0033,walmart,LaCroix Sparkling Water Lime 12-Pack 12 fl oz,LaCroix,Beverages,4.97,0.0345,Rollback,12.0,fl oz,12,False,False,https://example.com/walmart/products/wm_0033,2026-05-07T00:35:00,3.58
+wm_0034,walmart,"Silk Unsweetened Almondmilk, 64 fl oz",Silk,Dairy & Eggs,4.26,0.0666,Rollback,64.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0034,2026-05-06T22:36:00,2.43
+wm_0035,walmart,Silk Original Soymilk 64 fl oz,Silk,Dairy & Eggs,3.58,,Save $2,64.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0035,2026-05-06T21:45:00,2.19
+wm_0036,walmart,"Horizon Organic Whole Milk, 64 fl oz",Horizon Organic,Dairy & Eggs,4.44,0.0694,Save $2,64.0,fl oz,1,True,False,https://example.com/walmart/products/wm_0036,2026-05-06T18:55:00,3.09
+wm_0037,walmart,Horizon Organic 2% Reduced Fat Milk 1 gal,Horizon Organic,Dairy & Eggs,6.51,6.51,Save $2,1.0,gal,1,True,False,https://example.com/walmart/products/wm_0037,2026-05-06T18:04:00,3.74
+wm_0038,walmart,"Fairlife Lactose Free 2% Ultra-Filtered Milk, 52 fl oz",Fairlife,Dairy & Eggs,3.98,0.0765,,52.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0038,2026-05-06T17:13:00,2.97
+wm_0039,walmart,"Chobani Non-Fat Greek Yogurt, Blueberry, 5.3 oz",Chobani,Dairy & Eggs,1.3,0.2453,,5.3,oz,1,False,False,https://example.com/walmart/products/wm_0039,2026-05-06T16:05:00,0.76
+wm_0040,walmart,Chobani Non-Fat Greek Yogurt Blueberry 4-Pack 5.3 oz Cups,Chobani,Dairy & Eggs,5.57,,Save $1,5.3,oz,4,False,False,https://example.com/walmart/products/wm_0040,2026-05-06T15:14:00,4.07
+wm_0041,walmart,"Chobani Non-Fat Greek Yogurt, Strawberry, 5.3 oz",Chobani,Dairy & Eggs,1.29,0.2434,Save $2,5.3,oz,1,False,False,https://example.com/walmart/products/wm_0041,2026-05-06T14:06:00,0.75
+wm_0042,walmart,"Cheerios Original Cereal, 12 oz Box",Cheerios,Breakfast & Cereal,3.71,0.3092,Save $2,12.0,oz,1,False,False,https://example.com/walmart/products/wm_0042,2026-05-06T12:07:00,2.35
+wm_0043,walmart,"Honey Nut Cheerios Cereal, 10.8 oz",Cheerios,Breakfast & Cereal,4.05,0.375,Rollback,10.8,oz,1,False,False,https://example.com/walmart/products/wm_0043,2026-05-06T11:16:00,3.12
+wm_0044,walmart,"Kellogg's Frosted Flakes Cereal, 13.5 oz",Kellogg's,Breakfast & Cereal,4.4,,Rollback,13.5,oz,1,False,False,https://example.com/walmart/products/wm_0044,2026-05-06T10:25:00,2.46
+wm_0045,walmart,"Quaker Oats Old Fashioned, 42 oz",Quaker,Breakfast & Cereal,5.48,,Save $1,42.0,oz,1,False,False,https://example.com/walmart/products/wm_0045,2026-05-06T09:17:00,3.79
+wm_0046,walmart,"Tostitos Scoops Tortilla Chips, 10 oz Bag",Tostitos,Snacks,4.13,0.413,Rollback,10.0,oz,1,False,False,https://example.com/walmart/products/wm_0046,2026-05-06T08:43:00,2.42
+wm_0047,walmart,"Doritos Nacho Cheese Flavored Tortilla Chips, 9.25 oz",Doritos,Snacks,4.89,,,9.25,oz,1,False,False,https://example.com/walmart/products/wm_0047,2026-05-06T07:52:00,3.55
+wm_0048,walmart,"Lay's Cla$sic Potato Chip$, 8 oz Bag",Lay's,Snacks,4.03,,,8.0,oz,1,False,False,https://example.com/walmart/products/wm_0048,2026-05-06T07:01:00,2.81
+wm_0049,walmart,"OREO Chocolate Sandwich Cookies, 14.3 oz",Oreo,Snacks,4.63,0.3238,Rollback,14.3,oz,1,False,False,https://example.com/walmart/products/wm_0049,2026-05-06T06:10:00,3.14
+wm_0050,walmart,"RITZ Original Crackers, 13.7 oz",Ritz,Snacks,3.3,,Save $1,13.7,oz,1,False,False,https://example.com/walmart/products/wm_0050,2026-05-06T05:19:00,2.55
+wm_0051,walmart,"Cheez-It Original Cheese Crackers, 12.4 oz",Cheez-It,Snacks,3.74,0.3016,,12.4,oz,1,False,False,https://example.com/walmart/products/wm_0051,2026-05-06T04:28:00,2.53
+wm_0052,walmart,"Skippy Creamy Peanut Butter, 16.3 oz",Skippy,Pantry,3.15,0.1933,,16.3,oz,1,False,False,https://example.com/walmart/products/wm_0052,2026-05-06T03:37:00,1.85
+wm_0053,walmart,"Jif Creamy Peanut Butter, 16 oz",Jif,Pantry,2.88,,,16.0,oz,1,False,False,https://example.com/walmart/products/wm_0053,2026-05-06T02:29:00,2.14
+wm_0054,walmart,"Heinz Tomato Ketchup, 20 oz",Heinz,Pantry,3.01,,Rollback,20.0,oz,1,False,False,https://example.com/walmart/products/wm_0054,2026-05-06T01:38:00,2.02
+wm_0055,walmart,"Hellmann's Real Mayonnaise, 30 oz",Hellmann's,Pantry,5.97,0.199,Save $1,30.0,oz,1,False,False,https://example.com/walmart/products/wm_0055,2026-05-06T00:47:00,4.21
+wm_0056,walmart,"Kraft Original Mac & Cheese Dinner, 7.25 oz",Kraft,Pantry,1.37,0.189,,7.25,oz,1,False,False,https://example.com/walmart/products/wm_0056,2026-05-05T23:56:00,0.92
+wm_0057,walmart,"Barilla Spaghetti, 16 oz",Barilla,Pantry,1.7,,,16.0,oz,1,False,False,https://example.com/walmart/products/wm_0057,2026-05-05T22:48:00,1.29
+wm_0058,walmart,DiGiorno Pepperoni Frozen Pizza Original Rising Crust 27.5 oz,DiGiorno,Frozen Foods,5.65,0.2055,Save $2,27.5,oz,1,False,False,https://example.com/walmart/products/wm_0058,2026-05-05T21:06:00,3.63
+wm_0059,walmart,"Tombstone Pepperoni Original Frozen Pizza, 18.5 oz",Tombstone,Frozen Foods,4.28,,,18.5,oz,1,False,False,https://example.com/walmart/products/wm_0059,2026-05-05T20:15:00,2.87
+wm_0060,walmart,"Ben & Jerry's Cherry Garcia Ice Cream, 16 fl oz Pint",Ben & Jerry's,Frozen Foods,4.63,0.2894,Save $2,16.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0060,2026-05-05T19:24:00,3.14
+wm_0061,walmart,"Haagen-Dazs Vanilla Ice Cream, 14 fl oz",Häagen-Dazs,Frozen Foods,5.35,,,14.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0061,2026-05-05T18:33:00,3.46
+wm_0062,walmart,"Tropicana Pure Premium 100% Orange Juice, 52 fl oz",Tropicana,Beverages,4.03,,Rollback,52.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0062,2026-05-05T17:25:00,3.08
+wm_0063,walmart,"Simply Orange Pulp Free 100% Orange Juice, 52 fl oz",Simply,Beverages,4.72,,Save $1,52.0,fl oz,1,False,False,https://example.com/walmart/products/wm_0063,2026-05-05T16:34:00,3.28
+wm_0064,walmart,"Folgers Classic Roast Ground Coffee, 30.5 oz",Folgers,Beverages,8.98,,,30.5,oz,1,False,False,https://example.com/walmart/products/wm_0064,2026-05-05T15:43:00,5.44
+wm_0065,walmart,"Starbucks Pike Place Roast Whole Bean Coffee, 12 oz Bag",Starbucks,Beverages,10.61,,,12.0,oz,1,False,False,https://example.com/walmart/products/wm_0065,2026-05-05T14:52:00,10.76
+wm_0066,walmart,"CLIF BAR Chocolate Chip Energy Bars, 6 Pack 2.4 oz",Clif,Snacks,8.19,,Rollback,2.4,oz,6,False,False,https://example.com/walmart/products/wm_0066,2026-05-05T13:10:00,4.82
+wm_0067,walmart,"Buy 2 save $1 Driscoll's Strawberries, 1 lb",Driscoll's,Produce,3.94,,Buy 2 save $1,16.0,oz,1,False,False,https://example.com/walmart/products/wm_0067,2026-05-05T12:19:00,2.99
+wm_0068,walmart,"Save $2 Driscoll's Blueberries, 6 oz",Driscoll's,Produce,3.84,0.64,Save $2,6.0,oz,1,False,False,https://example.com/walmart/products/wm_0068,2026-05-05T11:28:00,2.44
+wm_0069,walmart,"Organic Fuji Apples Loose, per lb",,Produce,2.42,,Buy 2 save $1,1.0,lb,1,True,False,https://example.com/walmart/products/wm_0069,2026-05-05T10:20:00,1.73
+wm_0070,walmart,"Save $1 Bananas, per lb",,Produce,0.53,,Save $1,1.0,lb,1,False,False,https://example.com/walmart/products/wm_0070,2026-05-05T09:29:00,0.35
+wm_0071,walmart,"Bonele$s Sk1nless Chicken Breast, per Ib",,Meat,6.2,,Save $1,1.0,lb,1,False,False,https://example.com/walmart/products/wm_0071,2026-05-05T08:21:00,3.95
+wm_0072,walmart,"80% Lean / 20% Ft Ground Beef, 1 lb",,Meat,5.24,,Save $1,1.0,lb,1,False,False,https://example.com/walmart/products/wm_0072,2026-05-05T07:30:00,3.24
+wm_0073,walmart,"Atlantic Salmon Fillet, per lb",,Seafood,12.8,12.8,,1.0,lb,1,False,False,https://example.com/walmart/products/wm_0073,2026-05-05T06:22:00,8.9
+wm_0074,walmart,LaCroix Sparkling Water Lime 8-Pack 12 fl oz,LaCroix,Beverages,5.67,,Buy 2 save $1,12.0,fl oz,8,False,False,https://example.com/walmart/products/wm_0074,2026-05-05T05:48:00,3.89
+wm_0075,walmart,"Great Value Original Almond Milk, 64 fl oz",Great Value,Dairy & Eggs,3.19,0.0498,Buy 2 save $1,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0075,2026-05-05T04:57:00,2.32
+wm_0076,walmart,"Chobani Non-Fat Greek Yogurt, Strawberry, 5.3 oz",Chobani,Dairy & Eggs,1.14,0.2151,Rollback,5.3,oz,1,False,False,https://example.com/walmart/products/wm_0076,2026-05-05T04:23:00,0.74
+wm_0077,walmart,Great Value Frozen Broccoli Florets 12 oz,Great Value,Frozen Foods,1.19,0.0992,Save $1,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0077,2026-05-04T10:49:00,0.83
+wm_0078,walmart,Great Value 2% Reduced Fat Milk 1 gal,Great Value,Dairy & Eggs,3.14,3.14,Save $2,1.0,gal,1,False,True,https://example.com/walmart/products/wm_0078,2026-05-04T10:32:00,2.07
+wm_0079,walmart,Marketside Caesar Salad Kit 9.8 oz,Marketside,Produce,3.42,0.349,Save $1,9.8,oz,1,False,True,https://example.com/walmart/products/wm_0079,2026-05-04T10:15:00,3.35
+wm_0080,walmart,Great Value Cinnamon Toast Crunch Style Cereal 12 oz,Great Value,Breakfast & Cereal,2.46,0.205,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0080,2026-05-04T09:58:00,1.65
+wm_0081,walmart,Great Value Apple Juice 64 fl oz,Great Value,Beverages,2.09,,Save $2,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0081,2026-05-04T09:41:00,1.54
+wm_0082,walmart,Great Value Saltine Crackers 16 oz,Great Value,Snacks,1.4,,Buy 2 save $1,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0082,2026-05-04T09:24:00,1.04
+wm_0083,walmart,Great Value Whole Milk Mozzarella Shredded 16 oz,Great Value,Dairy & Eggs,3.96,,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0083,2026-05-04T09:07:00,3.01
+wm_0084,walmart,Great Value Salted Butter 1 lb (4 Sticks),Great Value,Dairy & Eggs,3.93,,,1.0,lb,4,False,True,https://example.com/walmart/products/wm_0084,2026-05-04T08:50:00,3.02
+wm_0085,walmart,Marketside Rotisserie Chicken each,Marketside,Meat,3.81,3.81,Save $1,1.0,each,1,False,True,https://example.com/walmart/products/wm_0085,2026-05-04T08:33:00,2.11
+wm_0086,walmart,Great Value Chicken Broth 32 fl oz,Great Value,Pantry,1.17,,Save $1,32.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0086,2026-05-04T08:16:00,0.87
+wm_0087,walmart,Rollback Great Value Frozen Chicken Nuggets 32 oz,Great Value,Meat,6.2,0.1938,Rollback,32.0,oz,1,False,True,https://example.com/walmart/products/wm_0087,2026-05-04T07:59:00,3.93
+wm_0088,walmart,Great Value Hamburger Buns 8 ct,Great Value,Bakery,1.45,0.1812,,8.0,ct,1,False,True,https://example.com/walmart/products/wm_0088,2026-05-04T07:42:00,0.9
+wm_0089,walmart,Marketside Italian Style Pizza 14 inch,Marketside,Frozen Foods,6.4,0.4571,,14.0,oz,1,False,True,https://example.com/walmart/products/wm_0089,2026-05-04T07:25:00,4.24
+wm_0090,walmart,Great Value Frozen French Fries 32 oz,Great Value,Frozen Foods,3.0,,Rollback,32.0,oz,1,False,True,https://example.com/walmart/products/wm_0090,2026-05-04T07:08:00,2.06
+wm_0091,walmart,Great Value Whole Almonds 16 oz,Great Value,Snacks,6.5,0.4062,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0091,2026-05-04T06:51:00,3.58
+wm_0092,walmart,Great Value Sliced White Bread 20 oz,Great Value,Bakery,1.27,,Buy 2 save $1,20.0,oz,1,False,True,https://example.com/walmart/products/wm_0092,2026-05-04T06:34:00,1.24
+wm_0093,walmart,Great Value Vanilla Ice Cream 48 fl oz,Great Value,Frozen Foods,2.95,,Save $2,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0093,2026-05-04T06:17:00,2.29
+wm_0094,walmart,Great Value Granulated Sugar 4 lb,Great Value,Pantry,3.51,,,4.0,lb,1,False,True,https://example.com/walmart/products/wm_0094,2026-05-04T06:00:00,2.52
+wm_0095,walmart,Great Value Long Grain Brown Rice 5 lb,Great Value,Pantry,4.48,0.896,Rollback,5.0,lb,1,False,True,https://example.com/walmart/products/wm_0095,2026-05-04T05:43:00,2.58
+wm_0096,walmart,Great Value Pasta Sauce Marinara 24 oz,Great Value,Pantry,1.67,0.0696,,24.0,oz,1,False,True,https://example.com/walmart/products/wm_0096,2026-05-04T05:26:00,1.08
+wm_0097,walmart,Great Value Chunk Light Tuna in Water 5 oz,Great Value,Pantry,0.85,,Save $1,5.0,oz,1,False,True,https://example.com/walmart/products/wm_0097,2026-05-04T05:09:00,0.62
+wm_0098,walmart,Great Value Garlic Powder 3.4 oz,Great Value,Pantry,1.53,,,3.4,oz,1,False,True,https://example.com/walmart/products/wm_0098,2026-05-04T04:52:00,0.95
+wm_0099,walmart,Great Value Frozen Sweet Corn 12 oz,Great Value,Frozen Foods,1.17,0.0975,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0099,2026-05-04T04:35:00,0.79
+wm_0100,walmart,Great Value Chocolate Chip Cookies 14.4 oz,Great Value,Snacks,2.44,,,14.4,oz,1,False,True,https://example.com/walmart/products/wm_0100,2026-05-04T04:18:00,1.58
+wm_0101,walmart,Mountain Dew Soda 2 L,Mountain Dew,Beverages,1.93,0.965,Buy 2 save $1,2.0,liter,1,False,False,https://example.com/walmart/products/wm_0101,2026-05-04T04:01:00,1.37
+wm_0102,walmart,Marketside Fresh Strawberries 1 lb,Marketside,Produce,3.71,3.71,Buy 2 save $1,1.0,lb,1,False,True,https://example.com/walmart/products/wm_0102,2026-05-04T03:44:00,2.38
+wm_0103,walmart,Great Value Vegetable Oil 48 fl oz,Great Value,Pantry,3.72,0.0775,Save $2,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0103,2026-05-04T03:27:00,2.61
+wm_0104,walmart,Great Value Lemonade Frozen Concentrate 12 fl oz,Great Value,Beverages,1.02,,Save $2,12.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0104,2026-05-04T03:10:00,0.67
+wm_0105,walmart,Equate Vitamin D3 100 ct,Equate,Pantry,4.25,0.0425,,100.0,ct,1,False,True,https://example.com/walmart/products/wm_0105,2026-05-04T02:53:00,2.43
+wm_0106,walmart,Great Value Sliced American Cheese 24 ct,Great Value,Dairy & Eggs,3.83,0.1596,Save $2,24.0,ct,1,False,True,https://example.com/walmart/products/wm_0106,2026-05-04T02:36:00,3.69
+wm_0107,walmart,"Great Value All-Purpose Flour, 5 lb",Great Value,Pantry,5.17,,,5.0,lb,1,False,True,https://example.com/walmart/products/wm_0107,2026-04-30T21:32:00,2.88
+wm_0108,walmart,"Great Value Granulated Sugar, 4 lb",Great Value,Pantry,6.83,1.7075,Buy 2 save $1,4.0,lb,1,False,True,https://example.com/walmart/products/wm_0108,2026-04-30T21:15:00,4.58
+wm_0109,walmart,"Great Value Brown Sugar, 16 oz",Great Value,Pantry,2.89,0.1806,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0109,2026-04-30T20:58:00,2.03
+wm_0110,walmart,"Great Value Baking Soda, 16 oz",Great Value,Pantry,1.3,0.0813,Save $2,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0110,2026-04-30T20:41:00,0.86
+wm_0111,walmart,"Great Value Baking Powder, 8 oz",Great Value,Pantry,3.14,0.3925,Rollback,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0111,2026-04-30T20:24:00,3.18
+wm_0112,walmart,"Great Value Active Dry Yeast, 0.75 oz 3 ct",Great Value,Pantry,4.17,,Save $2,0.25,oz,3,False,True,https://example.com/walmart/products/wm_0112,2026-04-30T20:07:00,2.57
+wm_0113,walmart,"Great Value Vanilla Extract, 2 fl oz",Great Value,Pantry,4.38,,,2.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0113,2026-04-30T19:50:00,3.03
+wm_0114,walmart,"Great Value Ground Cinnamon, 2 oz",Great Value,Pantry,4.33,,,2.0,oz,1,False,True,https://example.com/walmart/products/wm_0114,2026-04-30T19:33:00,3.04
+wm_0115,walmart,"Great Value Paprika, 2 oz",Great Value,Pantry,2.88,1.44,Rollback,2.0,oz,1,False,True,https://example.com/walmart/products/wm_0115,2026-04-30T19:16:00,2.93
+wm_0116,walmart,"Great Value Ground Cumin, 2 oz",Great Value,Pantry,3.89,1.945,,2.0,oz,1,False,True,https://example.com/walmart/products/wm_0116,2026-04-30T18:59:00,2.73
+wm_0117,walmart,"Great Value Italian Seasoning, 0.75 oz",Great Value,Pantry,1.62,,Buy 2 save $1,0.75,oz,1,False,True,https://example.com/walmart/products/wm_0117,2026-04-30T18:42:00,1.06
+wm_0118,walmart,"Great Value Garlic Powder, 3 oz",Great Value,Pantry,2.38,,Buy 2 save $1,3.0,oz,1,False,True,https://example.com/walmart/products/wm_0118,2026-04-30T18:25:00,1.45
+wm_0119,walmart,"Great Value Black Pepper Ground, 3 oz",Great Value,Pantry,2.66,,Save $1,3.0,oz,1,False,True,https://example.com/walmart/products/wm_0119,2026-04-30T18:08:00,1.79
+wm_0120,walmart,"Great Value Iodized Salt, 26 oz",Great Value,Pantry,1.65,0.0635,Save $1,26.0,oz,1,False,True,https://example.com/walmart/products/wm_0120,2026-04-30T17:51:00,1.0
+wm_0121,walmart,"Great Value Sea Salt, 17.6 oz",Great Value,Pantry,2.93,0.1665,Buy 2 save $1,17.6,oz,1,False,True,https://example.com/walmart/products/wm_0121,2026-04-30T17:34:00,2.08
+wm_0122,walmart,"Great Value Soy Sauce, 10 fl oz",Great Value,Pantry,2.87,0.287,,10.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0122,2026-04-30T17:17:00,1.65
+wm_0123,walmart,"Great Value Apple Cider Vinegar, 16 fl oz",Great Value,Pantry,2.83,0.1769,Buy 2 save $1,16.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0123,2026-04-30T17:00:00,1.98
+wm_0124,walmart,"Great Value White Vinegar, 32 fl oz",Great Value,Pantry,4.26,0.1331,Buy 2 save $1,32.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0124,2026-04-30T16:43:00,2.98
+wm_0125,walmart,"Buy 2 save $1 Great Value Yellow Mustard, 8 oz",Great Value,Pantry,1.89,0.2362,Buy 2 save $1,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0125,2026-04-30T16:26:00,1.37
+wm_0126,walmart,"Great Value Dijon Mustard, 8 oz",Great Value,Pantry,2.04,0.255,,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0126,2026-04-30T16:09:00,1.24
+wm_0127,walmart,"Great Value BBQ Sauce Original, 18 oz",Great Value,Pantry,2.39,,,18.0,oz,1,False,True,https://example.com/walmart/products/wm_0127,2026-04-30T15:52:00,1.58
+wm_0128,walmart,"Great Value Hot Sauce, 5 fl oz",Great Value,Pantry,4.05,0.81,Save $1,5.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0128,2026-04-30T15:35:00,2.76
+wm_0129,walmart,"Great Value Sriracha, 17 fl oz",Great Value,Pantry,6.09,,,17.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0129,2026-04-30T15:18:00,4.28
+wm_0130,walmart,"Great Value Strawberry Jam, 12 oz",Great Value,Pantry,2.58,,Rollback,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0130,2026-04-30T15:01:00,1.68
+wm_0131,walmart,"Great Value Grape Jelly, 18 oz",Great Value,Pantry,3.54,,,18.0,oz,1,False,True,https://example.com/walmart/products/wm_0131,2026-04-30T14:44:00,2.38
+wm_0132,walmart,"Great Value Maple Syrup Pure, 8 fl oz",Great Value,Pantry,8.36,1.045,Rollback,8.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0132,2026-04-30T14:27:00,6.45
+wm_0133,walmart,"Great Value Pancake Syrup, 24 fl oz",Great Value,Pantry,3.89,0.1621,Rollback,24.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0133,2026-04-30T14:10:00,2.76
+wm_0134,walmart,"Great Value Olive Oil, 17 fl oz",Great Value,Pantry,9.47,0.5571,Rollback,17.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0134,2026-04-30T13:53:00,8.74
+wm_0135,walmart,"Great Value Canola Oil, 48 fl oz",Great Value,Pantry,4.47,0.0931,,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0135,2026-04-30T13:36:00,3.29
+wm_0136,walmart,"Great Value Vegetable Oil, 48 fl oz",Great Value,Pantry,3.31,0.069,,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0136,2026-04-30T13:19:00,2.32
+wm_0137,walmart,"Great Value Chunk Light Tuna in Water, 5 oz can",Great Value,Pantry,2.35,0.47,Save $2,5.0,oz,1,False,True,https://example.com/walmart/products/wm_0137,2026-04-30T13:02:00,1.55
+wm_0138,walmart,"Buy 2 save $1 Great Value Albacore Tuna in Water, 5 oz can",Great Value,Pantry,2.0,,Buy 2 save $1,5.0,oz,1,False,True,https://example.com/walmart/products/wm_0138,2026-04-30T12:45:00,1.18
+wm_0139,walmart,"Great Value Diced Tomatoes, 14.5 oz can",Great Value,Pantry,2.3,,,14.5,oz,1,False,True,https://example.com/walmart/products/wm_0139,2026-04-30T12:28:00,1.37
+wm_0140,walmart,"Great Value Tomato Sauce, 8 oz can",Great Value,Pantry,1.29,,Buy 2 save $1,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0140,2026-04-30T12:11:00,0.96
+wm_0141,walmart,"Save $2 Great Value Tomato Paste, 6 oz can",Great Value,Pantry,1.62,0.27,Save $2,6.0,oz,1,False,True,https://example.com/walmart/products/wm_0141,2026-04-30T11:54:00,0.95
+wm_0142,walmart,"Great Value Sweet Corn Canned, 15 oz can",Great Value,Pantry,1.58,,,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0142,2026-04-30T11:37:00,0.93
+wm_0143,walmart,"Great Value Green Beans Canned, 14.5 oz can",Great Value,Pantry,0.67,,,14.5,oz,1,False,True,https://example.com/walmart/products/wm_0143,2026-04-30T11:20:00,0.43
+wm_0144,walmart,"Great Value Pinto Beans Canned, 15 oz can",Great Value,Pantry,1.2,0.08,,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0144,2026-04-30T11:03:00,0.71
+wm_0145,walmart,"Great Value Kidney Beans Canned, 15 oz can",Great Value,Pantry,1.44,,Buy 2 save $1,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0145,2026-04-30T10:46:00,0.79
+wm_0146,walmart,"Great Value Garbanzo Beans Canned, 15 oz can",Great Value,Pantry,1.25,,Save $2,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0146,2026-04-30T10:29:00,0.82
+wm_0147,walmart,"Great Value Chicken Noodle Soup, 10.5 oz can",Great Value,Pantry,1.49,,,10.5,oz,1,False,True,https://example.com/walmart/products/wm_0147,2026-04-30T10:12:00,0.99
+wm_0148,walmart,"Great Value Cream of Mushroom Soup, 10.5 oz can",Great Value,Pantry,1.78,0.1695,,10.5,oz,1,False,True,https://example.com/walmart/products/wm_0148,2026-04-30T09:55:00,1.23
+wm_0149,walmart,"Great Value Vegetable Broth, 32 fl oz carton",Great Value,Pantry,1.96,0.0612,Buy 2 save $1,32.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0149,2026-04-30T09:38:00,1.18
+wm_0150,walmart,"Great Value Chicken Broth, 32 fl oz carton",Great Value,Pantry,3.68,0.115,Rollback,32.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0150,2026-04-30T09:21:00,2.22
+wm_0151,walmart,"Great Value Penne Pasta, 16 oz",Great Value,Pantry,1.82,0.1138,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0151,2026-04-30T09:04:00,1.37
+wm_0152,walmart,"Great Value Rotini Pasta, 16 oz",Great Value,Pantry,1.37,,Save $2,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0152,2026-04-30T08:47:00,1.06
+wm_0153,walmart,"Great Value Elbow Macaroni, 16 oz",Great Value,Pantry,1.48,0.0925,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0153,2026-04-30T08:30:00,0.97
+wm_0154,walmart,"Great Value Lasagna Noodles, 16 oz",Great Value,Pantry,2.97,,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0154,2026-04-30T08:13:00,2.05
+wm_0155,walmart,"Great Value Marinara Sauce, 24 oz",Great Value,Pantry,3.19,0.1329,Save $2,24.0,oz,1,False,True,https://example.com/walmart/products/wm_0155,2026-04-30T07:56:00,2.19
+wm_0156,walmart,"Great Value Alfredo Sauce, 15 oz",Great Value,Pantry,2.64,0.176,Buy 2 save $1,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0156,2026-04-30T07:39:00,2.02
+wm_0157,walmart,"Great Value Jasmine Rice, 2 lb",Great Value,Pantry,6.67,,,2.0,lb,1,False,True,https://example.com/walmart/products/wm_0157,2026-04-30T07:22:00,4.44
+wm_0158,walmart,"Great Value Basmati Rice, 2 lb",Great Value,Pantry,5.87,2.935,Save $1,2.0,lb,1,False,True,https://example.com/walmart/products/wm_0158,2026-04-30T07:05:00,4.25
+wm_0159,walmart,"Great Value Brown Rice, 2 lb",Great Value,Pantry,5.55,,,2.0,lb,1,False,True,https://example.com/walmart/products/wm_0159,2026-04-30T06:48:00,5.48
+wm_0160,walmart,"Great Value Quinoa, 12 oz",Great Value,Pantry,5.7,,Save $2,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0160,2026-04-30T06:31:00,3.67
+wm_0161,walmart,"Great Value Steel Cut Oats, 24 oz",Great Value,Breakfast & Cereal,4.84,,Buy 2 save $1,24.0,oz,1,False,True,https://example.com/walmart/products/wm_0161,2026-04-30T06:14:00,2.7
+wm_0162,walmart,"Great Value Instant Oatmeal Variety Pack, 12 ct",Great Value,Breakfast & Cereal,5.15,,Buy 2 save $1,12.0,ct,1,False,True,https://example.com/walmart/products/wm_0162,2026-04-30T05:57:00,3.88
+wm_0163,walmart,"Great Value Pancake Mix Original, 32 oz",Great Value,Breakfast & Cereal,3.12,0.0975,Buy 2 save $1,32.0,oz,1,False,True,https://example.com/walmart/products/wm_0163,2026-04-30T05:40:00,2.98
+wm_0164,walmart,"Great Value Plain Bagels, 6 ct",Great Value,Bakery,3.2,0.5333,,6.0,ct,1,False,True,https://example.com/walmart/products/wm_0164,2026-04-30T05:23:00,2.3
+wm_0165,walmart,"Great Value Hamburger Buns, 8 ct",Great Value,Bakery,2.88,0.36,,8.0,ct,1,False,True,https://example.com/walmart/products/wm_0165,2026-04-30T05:06:00,1.62
+wm_0166,walmart,"Great Value Hot Dog Buns, 8 ct",Great Value,Bakery,1.99,0.2487,Save $1,8.0,ct,1,False,True,https://example.com/walmart/products/wm_0166,2026-04-30T04:49:00,1.51
+wm_0167,walmart,"Great Value Flour Tortillas, 10 ct",Great Value,Bakery,3.29,0.329,Buy 2 save $1,10.0,ct,1,False,True,https://example.com/walmart/products/wm_0167,2026-04-30T04:32:00,2.16
+wm_0168,walmart,"Great Value Corn Tortillas, 30 ct",Great Value,Bakery,3.17,0.1057,,30.0,ct,1,False,True,https://example.com/walmart/products/wm_0168,2026-04-30T04:15:00,2.25
+wm_0169,walmart,"Great Value Pita Bread, 6 ct",Great Value,Bakery,2.57,0.4283,,6.0,ct,1,False,True,https://example.com/walmart/products/wm_0169,2026-04-30T03:58:00,1.73
+wm_0170,walmart,"Great Value English Muffins, 6 ct",Great Value,Bakery,2.52,0.42,Save $1,6.0,ct,1,False,True,https://example.com/walmart/products/wm_0170,2026-04-30T03:41:00,1.52
+wm_0171,walmart,"Great Value Half and Half, 1 pt",Great Value,Dairy & Eggs,3.21,,Rollback,16.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0171,2026-04-30T03:24:00,2.17
+wm_0172,walmart,"Great Value Heavy Whipping Cream, 1 pt",Great Value,Dairy & Eggs,4.32,,,16.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0172,2026-04-30T03:07:00,2.75
+wm_0173,walmart,"Great Value Sour Cream, 8 oz",Great Value,Dairy & Eggs,2.46,,,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0173,2026-04-30T02:50:00,1.44
+wm_0174,walmart,"Great Value Cottage Cheese, 16 oz",Great Value,Dairy & Eggs,2.84,,,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0174,2026-04-30T02:33:00,1.72
+wm_0175,walmart,"Save $2 Great Value Ricotta Cheese, 15 oz",Great Value,Dairy & Eggs,4.36,0.2907,Save $2,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0175,2026-04-30T02:16:00,2.74
+wm_0176,walmart,"Great Value String Cheese Mozzarella, 12 ct",Great Value,Dairy & Eggs,4.68,0.39,,12.0,ct,1,False,True,https://example.com/walmart/products/wm_0176,2026-04-30T01:59:00,3.4
+wm_0177,walmart,"Great Value Sliced Swiss Cheese, 8 oz",Great Value,Dairy & Eggs,5.2,,,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0177,2026-04-30T01:42:00,3.7
+wm_0178,walmart,"Great Value Pepper Jack Shredded, 8 oz",Great Value,Dairy & Eggs,5.12,,Save $2,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0178,2026-04-30T01:25:00,2.95
+wm_0179,walmart,"Great Value Plain Whole Milk Yogurt, 32 oz",Great Value,Dairy & Eggs,4.71,0.1472,,32.0,oz,1,False,True,https://example.com/walmart/products/wm_0179,2026-04-30T01:08:00,2.83
+wm_0180,walmart,"Great Value Strawberry Yogurt, 6 oz",Great Value,Dairy & Eggs,0.71,0.1183,,6.0,oz,1,False,True,https://example.com/walmart/products/wm_0180,2026-04-30T00:51:00,0.52
+wm_0181,walmart,"Great Value Vanilla Almond Granola, 12 oz",Great Value,Breakfast & Cereal,4.09,,Save $2,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0181,2026-04-30T00:34:00,2.71
+wm_0182,walmart,"Great Value Honey Nut Granola, 12 oz",Great Value,Breakfast & Cereal,6.0,0.5,Rollback,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0182,2026-04-30T00:17:00,5.73
+wm_0183,walmart,"Great Value Granola Bars Chewy, 8 ct",Great Value,Snacks,5.88,,Save $2,0.84,oz,8,False,True,https://example.com/walmart/products/wm_0183,2026-04-30T00:00:00,4.32
+wm_0184,walmart,"Great Value Pretzels Mini Twists, 16 oz",Great Value,Snacks,2.73,0.1706,Save $1,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0184,2026-04-29T23:43:00,2.12
+wm_0185,walmart,"Great Value Pretzel Sticks, 15 oz",Great Value,Snacks,3.22,,Save $2,15.0,oz,1,False,True,https://example.com/walmart/products/wm_0185,2026-04-29T23:26:00,2.18
+wm_0186,walmart,"Great Value Microwave Popcorn Butter, 3 ct",Great Value,Snacks,2.87,0.299,Save $1,3.2,oz,3,False,True,https://example.com/walmart/products/wm_0186,2026-04-29T23:09:00,1.9
+wm_0187,walmart,"Great Value Mixed Nuts Salted, 8 oz",Great Value,Snacks,4.99,,,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0187,2026-04-29T22:52:00,2.89
+wm_0188,walmart,"Great Value Roasted Cashews, 8 oz",Great Value,Snacks,6.77,,Save $1,8.0,oz,1,False,True,https://example.com/walmart/products/wm_0188,2026-04-29T22:35:00,5.23
+wm_0189,walmart,"Great Value Dried Cranberries, 6 oz",Great Value,Snacks,3.58,,Save $2,6.0,oz,1,False,True,https://example.com/walmart/products/wm_0189,2026-04-29T22:18:00,2.28
+wm_0190,walmart,"Great Value Raisins Seedless, 12 oz",Great Value,Snacks,4.46,0.3717,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0190,2026-04-29T22:01:00,2.82
+wm_0191,walmart,"Great Value Fruit Snacks Variety, 10 ct",Great Value,Snacks,3.04,0.38,Save $1,0.8,oz,10,False,True,https://example.com/walmart/products/wm_0191,2026-04-29T21:44:00,1.73
+wm_0192,walmart,"Great Value Apple Sauce Cups, 6 ct",Great Value,Snacks,4.12,0.1717,,4.0,oz,6,False,True,https://example.com/walmart/products/wm_0192,2026-04-29T21:27:00,2.57
+wm_0193,walmart,"Great Value Frozen Mixed Berries, 12 oz",Great Value,Frozen Foods,4.58,,Buy 2 save $1,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0193,2026-04-29T21:10:00,4.45
+wm_0194,walmart,"Great Value Frozen Strawberries, 16 oz",Great Value,Frozen Foods,4.54,0.2838,Save $1,16.0,oz,1,False,True,https://example.com/walmart/products/wm_0194,2026-04-29T20:53:00,2.69
+wm_0195,walmart,"Great Value Frozen Broccoli, 12 oz",Great Value,Frozen Foods,1.65,0.1375,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0195,2026-04-29T20:36:00,1.17
+wm_0196,walmart,"Great Value Frozen Peas, 12 oz",Great Value,Frozen Foods,2.33,0.1942,Save $2,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0196,2026-04-29T20:19:00,1.35
+wm_0197,walmart,"Great Value Frozen Spinach, 12 oz",Great Value,Frozen Foods,2.4,0.2,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0197,2026-04-29T20:02:00,1.55
+wm_0198,walmart,"Great Value Frozen Waffles, 10 ct",Great Value,Frozen Foods,2.06,,Save $1,1.25,oz,10,False,True,https://example.com/walmart/products/wm_0198,2026-04-29T19:45:00,1.16
+wm_0199,walmart,"Great Value Frozen Cheese Pizza, 12 inch",Great Value,Frozen Foods,5.11,,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0199,2026-04-29T19:28:00,3.89
+wm_0200,walmart,"Great Value Frozen Burritos Bean Cheese, 8 ct",Great Value,Frozen Foods,4.78,0.1494,,4.0,oz,8,False,True,https://example.com/walmart/products/wm_0200,2026-04-29T19:11:00,3.66
+wm_0201,walmart,"Great Value Vanilla Ice Cream, 48 fl oz",Great Value,Frozen Foods,3.49,0.0727,Save $2,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0201,2026-04-29T18:54:00,2.53
+wm_0202,walmart,"Great Value Chocolate Ice Cream, 48 fl oz",Great Value,Frozen Foods,4.27,,Rollback,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0202,2026-04-29T18:37:00,3.18
+wm_0203,walmart,"Great Value Cookies & Cream Ice Cream, 48 fl oz",Great Value,Frozen Foods,4.08,,Save $2,48.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0203,2026-04-29T18:20:00,2.73
+wm_0204,walmart,"Rollback Great Value Apple Juice, 64 fl oz",Great Value,Beverages,2.48,,Rollback,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0204,2026-04-29T18:03:00,1.39
+wm_0205,walmart,"Great Value Cranberry Juice Cocktail, 64 fl oz",Great Value,Beverages,3.4,,Save $1,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0205,2026-04-29T17:46:00,2.3
+wm_0206,walmart,"Save $1 Great Value Lemonade, 64 fl oz",Great Value,Beverages,4.07,,Save $1,64.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0206,2026-04-29T17:29:00,3.17
+wm_0207,walmart,"Great Value Iced Tea Black, 128 fl oz",Great Value,Beverages,3.38,0.0264,Save $1,128.0,fl oz,1,False,True,https://example.com/walmart/products/wm_0207,2026-04-29T17:12:00,2.32
+wm_0208,walmart,"Great Value Black Tea Bags, 100 ct",Great Value,Beverages,5.79,0.0579,,100.0,ct,1,False,True,https://example.com/walmart/products/wm_0208,2026-04-29T16:55:00,4.5
+wm_0209,walmart,"Great Value Green Tea Bags, 40 ct",Great Value,Beverages,3.38,,Save $1,40.0,ct,1,False,True,https://example.com/walmart/products/wm_0209,2026-04-29T16:38:00,2.47
+wm_0210,walmart,"Great Value Coffee Filters, 100 ct",Great Value,Beverages,2.53,0.0253,Buy 2 save $1,100.0,ct,1,False,True,https://example.com/walmart/products/wm_0210,2026-04-29T16:21:00,1.45
+wm_0211,walmart,"Great Value Ground Coffee Medium Roast, 12 oz",Great Value,Beverages,7.72,0.6433,,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0211,2026-04-29T16:04:00,4.37
+wm_0212,walmart,"Great Value Decaf Ground Coffee, 12 oz",Great Value,Beverages,9.86,,Save $1,12.0,oz,1,False,True,https://example.com/walmart/products/wm_0212,2026-04-29T15:47:00,6.92
+wm_0213,walmart,"Great Value K-Cup Coffee Pods, 18 ct",Great Value,Beverages,13.36,1.8556,,0.4,oz,18,False,True,https://example.com/walmart/products/wm_0213,2026-04-29T15:30:00,9.84
+wm_0214,walmart,"Great Value All-Purpose Flour, 10 lb",Great Value,Pantry,6.48,0.648,,10.0,lb,1,False,True,https://example.com/walmart/products/wm_0214,2026-04-29T15:13:00,4.84
+wm_0215,walmart,"Great Value Granulated Sugar, 10 lb",Great Value,Pantry,5.63,,,10.0,lb,1,False,True,https://example.com/walmart/products/wm_0215,2026-04-29T14:56:00,3.31

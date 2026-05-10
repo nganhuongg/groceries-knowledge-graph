@@ -1,0 +1,216 @@
+product_id,retailer,raw_name,brand,category_raw,price,unit_price,promo_text,amount,unit,pack_count,is_organic,is_private_label,url,scraped_at,estimated_cost
+kr_0001,kroger,Simple Truth Organic Whole Milk 1 Gallon,Simple Truth,Dairy,5.53,5.53,2 for $5,1.0,gal,1,True,True,https://example.com/kroger/products/kr_0001,2026-05-08T11:26:00,5.2
+kr_0002,kroger,2 for $5 Kroger Whole Milk 1 Gallon,Kroger,Dairy,4.58,,2 for $5,1.0,gal,1,False,True,https://example.com/kroger/products/kr_0002,2026-05-08T10:18:00,3.43
+kr_0003,kroger,Kroger 2% Reduced Fat Milk 1/2 Gallon,Kroger,Dairy,2.99,5.98,Digital coupon,0.5,gal,1,False,True,https://example.com/kroger/products/kr_0003,2026-05-08T09:10:00,2.25
+kr_0004,kroger,Simple Truth Unsweetened Almondmilk Half Gallon,Simple Truth,Dairy,3.36,6.72,,0.5,gal,1,False,True,https://example.com/kroger/products/kr_0004,2026-05-08T08:19:00,2.62
+kr_0005,kroger,Simple Truth Oatmilk Original 64 fl oz,Simple Truth,Dairy,4.03,0.063,Digital coupon,64.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0005,2026-05-08T07:11:00,3.84
+kr_0006,kroger,"Kroger Grade A Large Brown Eggs, 12 ct",Kroger,Dairy,3.93,0.3275,Digital coupon,12.0,ct,1,False,True,https://example.com/kroger/products/kr_0006,2026-05-08T06:20:00,2.69
+kr_0007,kroger,Simple Truth Organic Cage Free Large Brown Eggs 12 ct,Simple Truth,Dairy,6.65,,,12.0,ct,1,True,True,https://example.com/kroger/products/kr_0007,2026-05-08T05:12:00,3.95
+kr_0008,kroger,Kroger White Sandwich Bread 20 oz Loaf,Kroger,Bakery,2.56,,Club price,20.0,oz,1,False,True,https://example.com/kroger/products/kr_0008,2026-05-08T04:04:00,1.52
+kr_0009,kroger,Kroger 100% Whole Wheat Bread 20 oz,Kroger,Bakery,2.64,,2 for $5,20.0,oz,1,False,True,https://example.com/kroger/products/kr_0009,2026-05-08T03:13:00,2.02
+kr_0010,kroger,Kroger Creamy Peanut Butter 16 oz Jar,Kroger,Pantry,2.95,,2 for $5,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0010,2026-05-08T02:05:00,2.25
+kr_0011,kroger,"Kroger Restaurant Style Tortilla Chips, 13 oz",Kroger,Snacks,2.46,,Save $1.50,13.0,oz,1,False,True,https://example.com/kroger/products/kr_0011,2026-05-08T00:57:00,1.66
+kr_0012,kroger,Save $1 Kroger Pepperoni Frozen Pizza 12 inch,Kroger,Frozen,4.0,0.3333,Save $1,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0012,2026-05-08T00:06:00,3.0
+kr_0013,kroger,Simple Truth Organic Gala Apples 3 lb Bag,Simple Truth,Fresh Produce,5.11,,,3.0,lb,1,True,True,https://example.com/kroger/products/kr_0013,2026-05-07T22:58:00,3.18
+kr_0014,kroger,"Kroger Lime Sparkling Water 8 ct, 12 fl oz cans",Kroger,Soft Drinks,3.6,,2 for $5,12.0,fl oz,8,False,True,https://example.com/kroger/products/kr_0014,2026-05-07T21:50:00,2.14
+kr_0015,kroger,Simple Truth Organic Baby Spinach 5 oz,Simple Truth,Fresh Produce,3.88,,Club price,5.0,oz,1,True,True,https://example.com/kroger/products/kr_0015,2026-05-07T20:42:00,2.93
+kr_0016,kroger,Save $1.50 Kroger Plain Greek Yogurt 32 oz,Kroger,Dairy,4.16,0.13,Save $1.50,32.0,oz,1,False,True,https://example.com/kroger/products/kr_0016,2026-05-07T19:51:00,2.66
+kr_0017,kroger,Kroger Unsalted Sweet Cream Butter 1 lb (4 Sticks),Kroger,Dairy,5.03,,,1.0,lb,4,False,True,https://example.com/kroger/products/kr_0017,2026-05-07T18:43:00,3.26
+kr_0018,kroger,Kroger Mild Shredded Cheddar Cheese 8 oz,Kroger,Dairy,2.85,0.3563,Save $1,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0018,2026-05-07T17:52:00,1.97
+kr_0019,kroger,Kroger Black Beans 15 oz Can,Kroger,Canned & Packaged,1.24,,Save $1,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0019,2026-05-07T16:44:00,1.21
+kr_0020,kroger,Kroger Condensed Tomato Soup 10.75 oz,Kroger,Canned & Packaged,1.51,,2 for $5,10.75,oz,1,False,True,https://example.com/kroger/products/kr_0020,2026-05-07T15:53:00,0.92
+kr_0021,kroger,Kroger Long Grain White Rice 5 lb Bag,Kroger,Pantry,5.71,1.142,2 for $5,5.0,lb,1,False,True,https://example.com/kroger/products/kr_0021,2026-05-07T15:02:00,4.05
+kr_0022,kroger,Kroger Spaghetti Pasta 1 lb Box,Kroger,Pantry,1.59,1.59,Save $1.50,1.0,lb,1,False,True,https://example.com/kroger/products/kr_0022,2026-05-07T13:54:00,0.91
+kr_0023,kroger,Save $1 Kroger 100% Orange Juice No Pulp 52 fl oz,Kroger,Beverages,3.97,0.0763,Save $1,52.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0023,2026-05-07T13:03:00,3.05
+kr_0024,kroger,Kroger Baby Cut Carrots 1 lb Bag,Kroger,Fresh Produce,1.82,1.82,Club price,1.0,lb,1,False,True,https://example.com/kroger/products/kr_0024,2026-05-07T12:12:00,1.3
+kr_0025,kroger,Kroger Original Cream Cheese 8 oz,Kroger,Dairy,2.34,0.2925,2 for $5,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0025,2026-05-07T11:21:00,1.43
+kr_0026,kroger,Krger Extra V1rg1n Olive OiI 17 0z,Kroger,Pantry,7.79,0.4582,Digital coupon,17.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0026,2026-05-07T10:13:00,5.46
+kr_0027,kroger,Kroger Pure Honey 12 oz,Kroger,Pantry,4.75,0.3958,Save $1.50,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0027,2026-05-07T09:05:00,3.11
+kr_0028,kroger,Coke Zero 12pk 12 oz cans,Coke,Soft Drinks,8.31,0.0577,Save $1.50,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0028,2026-05-07T08:14:00,5.61
+kr_0029,kroger,Coke Zero 6pk 12 oz cans,Coke,Soft Drinks,5.01,0.0696,,12.0,fl oz,6,False,False,https://example.com/kroger/products/kr_0029,2026-05-07T07:23:00,3.73
+kr_0030,kroger,"Coca-Cola Classic 12pk, 12 oz cans",Coca-Cola,Soft Drinks,8.55,0.0594,,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0030,2026-05-07T06:15:00,6.47
+kr_0031,kroger,Coca-Cola Classic 2 L Bottle,Coca-Cola,Soft Drinks,2.55,,Digital coupon,2.0,liter,1,False,False,https://example.com/kroger/products/kr_0031,2026-05-07T05:24:00,1.73
+kr_0032,kroger,Diet Cok 12pk 12 oz cans,Coke,Soft Drinks,8.24,0.0572,Save $1.50,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0032,2026-05-07T04:33:00,6.19
+kr_0033,kroger,Sprite Lemon-Lime 12pk 12 oz cans,Sprite,Soft Drinks,8.08,,Club price,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0033,2026-05-07T03:42:00,7.87
+kr_0034,kroger,Pepsi Cola 12pk 12 oz cans,Pepsi,Soft Drinks,7.01,0.0487,Digital coupon,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0034,2026-05-07T02:51:00,4.04
+kr_0035,kroger,LaCroix Lime Sparkling Water 8pk 12 oz,LaCroix,Soft Drinks,4.89,,Club price,12.0,fl oz,8,False,False,https://example.com/kroger/products/kr_0035,2026-05-07T01:43:00,2.93
+kr_0036,kroger,LaCroix Lime Sparkling Water 12pk 12 oz,LaCroix,Soft Drinks,6.02,,,12.0,fl oz,12,False,False,https://example.com/kroger/products/kr_0036,2026-05-07T00:52:00,4.51
+kr_0037,kroger,LaCroix Pamplemousse Grapefruit Sparkling Water 8pk 12 oz,LaCroix,Soft Drinks,3.72,,Save $1.50,12.0,fl oz,8,False,False,https://example.com/kroger/products/kr_0037,2026-05-06T23:44:00,2.28
+kr_0038,kroger,Silk Unsweet Almond Milk Half Gallon,Silk,Dairy,4.52,9.04,,0.5,gal,1,False,False,https://example.com/kroger/products/kr_0038,2026-05-06T22:53:00,2.81
+kr_0039,kroger,Club price Silk Original Soymilk Half Gallon,Silk,Dairy,4.29,,Club price,0.5,gal,1,False,False,https://example.com/kroger/products/kr_0039,2026-05-06T22:02:00,3.16
+kr_0040,kroger,Oatly Original Oat Milk 64 fl oz,Oatly,Dairy,4.91,0.0767,,64.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0040,2026-05-06T20:54:00,3.47
+kr_0041,kroger,Oatly Barista Edition Oat Milk 32 fl oz,Oatly,Dairy,5.58,,,32.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0041,2026-05-06T20:03:00,4.17
+kr_0042,kroger,Horizon Organic Whole Milk Half Gallon,Horizon Organic,Dairy,4.79,,Save $1,0.5,gal,1,True,False,https://example.com/kroger/products/kr_0042,2026-05-06T19:12:00,3.61
+kr_0043,kroger,Horizon Organic 2% Reduced Fat Milk 1 Gallon,Horizon Organic,Dairy,7.15,,Save $1,1.0,gal,1,True,False,https://example.com/kroger/products/kr_0043,2026-05-06T18:21:00,4.0
+kr_0044,kroger,2 for $5 Fairlife Lactose Free 2% Ultra-Filtered Milk 52 fl oz,Fairlife,Dairy,4.09,0.0787,2 for $5,52.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0044,2026-05-06T17:30:00,2.99
+kr_0045,kroger,Chobani Blueberry Greek Yogurt 5.3 oz,Chobani,Dairy,1.26,,Save $1.50,5.3,oz,1,False,False,https://example.com/kroger/products/kr_0045,2026-05-06T16:22:00,0.7
+kr_0046,kroger,"2 for $5 Chobani Blueberry Greek Yogurt, 4 ct, 5.3 oz Cups",Chobani,Dairy,5.39,,2 for $5,5.3,oz,4,False,False,https://example.com/kroger/products/kr_0046,2026-05-06T15:31:00,3.17
+kr_0047,kroger,Chobani Strawberry Greek Yogurt 5.3 oz,Chobani,Dairy,1.24,0.234,,5.3,oz,1,False,False,https://example.com/kroger/products/kr_0047,2026-05-06T14:23:00,0.95
+kr_0048,kroger,FAGE Total 5% Plain Greek Yogurt 35.3 oz,FAGE,Dairy,6.89,0.1952,,35.3,oz,1,False,False,https://example.com/kroger/products/kr_0048,2026-05-06T13:15:00,4.99
+kr_0049,kroger,Cheeri0s Or1ginal Cereal 12 oz,Cheerios,Breakfast,4.5,0.375,Save $1,12.0,oz,1,False,False,https://example.com/kroger/products/kr_0049,2026-05-06T12:24:00,3.0
+kr_0050,kroger,H0ney Nut Cheeri0s Cereal 10.8 oz,Cheerios,Breakfast,4.38,0.4056,,10.8,oz,1,False,False,https://example.com/kroger/products/kr_0050,2026-05-06T11:33:00,3.2
+kr_0051,kroger,Kellogg's Frosted Flakes Cereal 13.5 oz,Kellogg's,Breakfast,5.2,0.3852,,13.5,oz,1,False,False,https://example.com/kroger/products/kr_0051,2026-05-06T10:42:00,2.98
+kr_0052,kroger,Quaker Old Fashi0ned 0ts 42 oz Cani$ter,Quaker,Breakfast,5.81,0.1383,,42.0,oz,1,False,False,https://example.com/kroger/products/kr_0052,2026-05-06T09:34:00,4.18
+kr_0053,kroger,Club price Tostitos Scoops Tortilla Chips 10 oz,Tostitos,Snacks,3.8,,Club price,10.0,oz,1,False,False,https://example.com/kroger/products/kr_0053,2026-05-06T09:00:00,2.8
+kr_0054,kroger,Doritos Nacho Cheese Tortilla Chips 9.25 oz,Doritos,Snacks,4.75,0.5135,,9.25,oz,1,False,False,https://example.com/kroger/products/kr_0054,2026-05-06T08:09:00,2.75
+kr_0055,kroger,Lay's Classic Potato Chips 8 oz,Lay's,Snacks,4.04,,Save $1,8.0,oz,1,False,False,https://example.com/kroger/products/kr_0055,2026-05-06T07:18:00,3.07
+kr_0056,kroger,OREO Orginal C0okies 14.3 oz Family Size,Oreo,Snacks,4.05,0.2832,,14.3,oz,1,False,False,https://example.com/kroger/products/kr_0056,2026-05-06T06:27:00,2.36
+kr_0057,kroger,RITZ Original Crackers 13.7 oz,Ritz,Snacks,4.59,,,13.7,oz,1,False,False,https://example.com/kroger/products/kr_0057,2026-05-06T05:36:00,2.69
+kr_0058,kroger,Cheez-It Original Baked Snack Crackers 12.4 oz,Cheez-It,Snacks,4.64,,,12.4,oz,1,False,False,https://example.com/kroger/products/kr_0058,2026-05-06T04:45:00,2.98
+kr_0059,kroger,Skippy Creamy Peanut Butter 16.3 oz,Skippy,Pantry,2.97,0.1822,Save $1,16.3,oz,1,False,False,https://example.com/kroger/products/kr_0059,2026-05-06T03:54:00,2.18
+kr_0060,kroger,Jif Creamy Peanut Butter 16 oz Jar,Jif,Pantry,3.18,,Save $1.50,16.0,oz,1,False,False,https://example.com/kroger/products/kr_0060,2026-05-06T02:46:00,2.17
+kr_0061,kroger,Heinz Tomato Ketchup 20 oz,Heinz,Pantry,3.73,,2 for $5,20.0,oz,1,False,False,https://example.com/kroger/products/kr_0061,2026-05-06T01:55:00,2.17
+kr_0062,kroger,Hellmann's Real Mayonnaise 30 oz,Hellmann's,Pantry,6.54,,2 for $5,30.0,oz,1,False,False,https://example.com/kroger/products/kr_0062,2026-05-06T01:04:00,4.64
+kr_0063,kroger,Kraft Original Macaroni & Cheese Dinner 7.25 oz,Kraft,Pantry,1.36,,Club price,7.25,oz,1,False,False,https://example.com/kroger/products/kr_0063,2026-05-06T00:13:00,0.92
+kr_0064,kroger,Barilla Spaghetti 1 lb Box,Barilla,Pantry,1.91,,Digital coupon,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0064,2026-05-05T23:05:00,1.38
+kr_0065,kroger,Rao's Homemade Marinara Sauce 24 oz Jar,Rao's,Pantry,8.49,,Club price,24.0,oz,1,False,False,https://example.com/kroger/products/kr_0065,2026-05-05T21:57:00,6.07
+kr_0066,kroger,DiGiorno Original Rising Crust Pepperoni Pizza 27.5 oz,DiGiorno,Frozen,6.16,0.224,,27.5,oz,1,False,False,https://example.com/kroger/products/kr_0066,2026-05-05T21:23:00,3.86
+kr_0067,kroger,Tombstone Original Pepperoni Frozen Pizza 18.5 oz,Tombstone,Frozen,4.23,0.2286,Club price,18.5,oz,1,False,False,https://example.com/kroger/products/kr_0067,2026-05-05T20:32:00,2.85
+kr_0068,kroger,Ben & Jerry's Cherry Garcia Ice Cream 16 fl oz,Ben & Jerry's,Frozen,5.91,0.3694,,16.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0068,2026-05-05T19:41:00,4.23
+kr_0069,kroger,Häagen-Dazs Vanilla Ice Cream 14 fl oz,Häagen-Dazs,Frozen,4.75,,,14.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0069,2026-05-05T18:50:00,3.13
+kr_0070,kroger,Save $1 Tropicana Pure Premium Orange Juice 52 fl oz,Tropicana,Beverages,4.87,0.0937,Save $1,52.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0070,2026-05-05T17:42:00,2.96
+kr_0071,kroger,Save $1.50 Simply Orange PuIp Free Orange Juice 52 fl oz,Simply,Beverages,5.2,0.1,Save $1.50,52.0,fl oz,1,False,False,https://example.com/kroger/products/kr_0071,2026-05-05T16:51:00,4.04
+kr_0072,kroger,Folgers Classic Roast Ground Coffee 30.5 oz,Folgers,Coffee & Tea,8.71,,,30.5,oz,1,False,False,https://example.com/kroger/products/kr_0072,2026-05-05T16:00:00,6.21
+kr_0073,kroger,Starbucks Pike Place Roast Whole Bean Coffee 12 oz,Starbucks,Coffee & Tea,9.89,,Save $1.50,12.0,oz,1,False,False,https://example.com/kroger/products/kr_0073,2026-05-05T15:09:00,6.97
+kr_0074,kroger,"KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct, 1.4 oz",KIND,Snacks,6.54,,2 for $5,1.4,oz,6,False,False,https://example.com/kroger/products/kr_0074,2026-05-05T14:01:00,4.08
+kr_0075,kroger,CLIF BAR Chocolate Chip Energy Bars 6 ct,Clif,Snacks,6.94,,Club price,2.4,oz,6,False,False,https://example.com/kroger/products/kr_0075,2026-05-05T13:27:00,4.7
+kr_0076,kroger,Driscoll's Strawberries 1 lb Clamshell,Driscoll's,Fresh Produce,5.13,,2 for $5,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0076,2026-05-05T12:36:00,3.82
+kr_0077,kroger,Driscoll's Blueberries 6 oz,Driscoll's,Fresh Produce,3.95,0.6583,,6.0,oz,1,False,False,https://example.com/kroger/products/kr_0077,2026-05-05T11:45:00,2.34
+kr_0078,kroger,Bulk Organic Fuji Apples per lb,,Fresh Produce,2.27,,Save $1,1.0,lb,1,True,False,https://example.com/kroger/products/kr_0078,2026-05-05T10:37:00,1.39
+kr_0079,kroger,Bananas (per lb),,Fresh Produce,0.6,,Club price,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0079,2026-05-05T09:46:00,0.46
+kr_0080,kroger,Boneless Skinless Chicken Breast (per lb),,Meat & Seafood,5.97,5.97,,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0080,2026-05-05T08:38:00,3.42
+kr_0081,kroger,Ground Beef 80/20 1 lb,,Meat & Seafood,5.33,,,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0081,2026-05-05T07:47:00,3.1
+kr_0082,kroger,Atlantic Salmon Fillet (per lb),,Meat & Seafood,12.32,,2 for $5,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0082,2026-05-05T06:39:00,9.04
+kr_0083,kroger,Save $1.50 Coke Zero 8pk 12 oz cans,Coke,Soft Drinks,8.34,,Save $1.50,12.0,fl oz,8,False,False,https://example.com/kroger/products/kr_0083,2026-05-05T06:05:00,5.61
+kr_0084,kroger,Simple Truth Organic Whole Milk 1 Gallon (alt size 0.5 gal),Simple Truth,Dairy,6.54,13.08,,0.5,gal,1,True,True,https://example.com/kroger/products/kr_0084,2026-05-05T05:31:00,3.66
+kr_0085,kroger,Digital coupon Driscoll's Blueberries 18 oz Family Pack,Driscoll's,Fresh Produce,3.48,0.1933,Digital coupon,18.0,oz,1,False,False,https://example.com/kroger/products/kr_0085,2026-05-05T04:06:00,2.55
+kr_0086,kroger,Private Selection Sharp Cheddar Cheese 8 oz,Private Selection,Dairy,4.6,0.575,2 for $5,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0086,2026-05-04T19:19:00,3.21
+kr_0087,kroger,Kroger Whole Wheat Pasta Penne 16 oz,Kroger,Pantry,1.33,0.0831,,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0087,2026-05-04T19:02:00,0.98
+kr_0088,kroger,Simple Truth Organic Honey 12 oz,Simple Truth,Pantry,5.52,,Club price,12.0,oz,1,True,True,https://example.com/kroger/products/kr_0088,2026-05-04T18:45:00,3.59
+kr_0089,kroger,Kroger Pancake Mix Original 32 oz,Kroger,Breakfast,2.06,0.0644,,32.0,oz,1,False,True,https://example.com/kroger/products/kr_0089,2026-05-04T18:28:00,1.42
+kr_0090,kroger,Kroger Frozen Mixed Vegetables 12 oz,Kroger,Frozen,1.48,0.1233,Save $1.50,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0090,2026-05-04T18:11:00,1.44
+kr_0091,kroger,Kroger Vanilla Ice Cream 48 fl oz,Kroger,Frozen,3.6,0.075,2 for $5,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0091,2026-05-04T17:54:00,2.2
+kr_0092,kroger,Kroger Hot Dog Buns 8 ct,Kroger,Bakery,1.37,0.1713,Save $1,8.0,ct,1,False,True,https://example.com/kroger/products/kr_0092,2026-05-04T17:37:00,1.06
+kr_0093,kroger,Kroger American Cheese Singles 16 ct,Kroger,Dairy,3.27,,Club price,16.0,ct,1,False,True,https://example.com/kroger/products/kr_0093,2026-05-04T17:20:00,1.99
+kr_0094,kroger,Tillamook Cheddar Cheese Block 8 oz,Tillamook,Dairy,4.79,0.5988,2 for $5,8.0,oz,1,False,False,https://example.com/kroger/products/kr_0094,2026-05-04T17:03:00,2.65
+kr_0095,kroger,Kr0ger Diced Tomates Can 14.5 oz,Kroger,Pantry,1.0,0.069,Digital coupon,14.5,oz,1,False,True,https://example.com/kroger/products/kr_0095,2026-05-04T16:46:00,0.68
+kr_0096,kroger,Kroger Beef Hot Dogs 16 oz,Kroger,Meat & Seafood,4.88,,Save $1.50,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0096,2026-05-04T16:29:00,2.76
+kr_0097,kroger,Boneless Pork Chops per lb,,Meat & Seafood,3.82,3.82,Digital coupon,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0097,2026-05-04T16:12:00,2.36
+kr_0098,kroger,Tilapia Fillet (per lb),,Meat & Seafood,6.74,6.74,Save $1.50,1.0,lb,1,False,False,https://example.com/kroger/products/kr_0098,2026-05-04T15:55:00,4.01
+kr_0099,kroger,Kroger Sliced Provolone Cheese 8 oz,Kroger,Dairy,2.99,0.3738,Save $1,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0099,2026-05-04T15:38:00,2.08
+kr_0100,kroger,Bulk Russet Potatoes 5 lb Bag,,Fresh Produce,4.43,,,5.0,lb,1,False,False,https://example.com/kroger/products/kr_0100,2026-05-04T15:21:00,3.18
+kr_0101,kroger,Yellow Onions 3 lb Bag,,Fresh Produce,3.61,,2 for $5,3.0,lb,1,False,False,https://example.com/kroger/products/kr_0101,2026-05-04T15:04:00,2.22
+kr_0102,kroger,Bell Pppers each,,Fresh Produce,1.43,,,1.0,each,1,False,False,https://example.com/kroger/products/kr_0102,2026-05-04T14:47:00,0.98
+kr_0103,kroger,Kroger Apple Sauce Cups 6 ct,Kroger,Snacks,2.58,0.1075,,4.0,oz,6,False,True,https://example.com/kroger/products/kr_0103,2026-05-04T14:30:00,1.61
+kr_0104,kroger,Kroger Granola Cereal Honey Almond 12 oz,Kroger,Breakfast,3.3,0.275,Save $1,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0104,2026-05-04T14:13:00,2.53
+kr_0105,kroger,Annie's Organic Mac & Cheese Shells 6 oz,Annie's,Pantry,2.48,0.4133,,6.0,oz,1,True,False,https://example.com/kroger/products/kr_0105,2026-05-04T13:56:00,1.63
+kr_0106,kroger,Club price Yoplait Original Strawberry Yogurt 6 oz,Yoplait,Dairy,0.96,0.16,Club price,6.0,oz,1,False,False,https://example.com/kroger/products/kr_0106,2026-05-04T13:39:00,0.55
+kr_0107,kroger,Kroger Frozen Cheese Pizza 16 oz,Kroger,Frozen,3.05,0.1906,Save $1,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0107,2026-05-04T13:22:00,1.91
+kr_0108,kroger,Kroger Sliced Sandwich Pickles 16 fl oz,Kroger,Pantry,2.65,0.1656,,16.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0108,2026-05-04T13:05:00,2.52
+kr_0109,kroger,Kroger Yellow Mustard 14 oz,Kroger,Pantry,1.32,0.0943,Save $1,14.0,oz,1,False,True,https://example.com/kroger/products/kr_0109,2026-05-04T12:48:00,0.8
+kr_0110,kroger,Kroger Frozen Hash Browns 30 oz,Kroger,Frozen,2.9,,Club price,30.0,oz,1,False,True,https://example.com/kroger/products/kr_0110,2026-05-04T12:31:00,1.73
+kr_0111,kroger,Kroger Sour Cream 16 oz,Kroger,Dairy,2.47,,Club price,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0111,2026-05-04T12:14:00,1.82
+kr_0112,kroger,Kroger Sliced Turkey Lunch Meat 9 oz,Kroger,Meat & Seafood,4.19,,,9.0,oz,1,False,True,https://example.com/kroger/products/kr_0112,2026-05-04T11:57:00,2.39
+kr_0113,kroger,Kroger Tortillas Flour 10 ct,Kroger,Bakery,2.1,0.21,Save $1,10.0,ct,1,False,True,https://example.com/kroger/products/kr_0113,2026-05-04T11:40:00,1.43
+kr_0114,kroger,Kroger Salsa Medium 16 oz,Kroger,Pantry,2.31,0.1444,Save $1,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0114,2026-05-04T11:23:00,1.75
+kr_0115,kroger,Kroger Garlic Bread Loaf 16 oz,Kroger,Bakery,3.55,,Digital coupon,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0115,2026-05-04T11:06:00,2.19
+kr_0116,kroger,"Simple Truth All-Purpose Flour, 5 lb",Simple Truth,Pantry,3.61,,Save $1.50,5.0,lb,1,False,True,https://example.com/kroger/products/kr_0116,2026-05-02T01:52:00,2.18
+kr_0117,kroger,"Kroger Granulated Sugar, 4 lb",Kroger,Pantry,5.59,1.3975,,4.0,lb,1,False,True,https://example.com/kroger/products/kr_0117,2026-05-02T01:35:00,4.32
+kr_0118,kroger,"Kroger Brown Sugar, 16 oz",Kroger,Pantry,3.18,0.1988,,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0118,2026-05-02T01:18:00,2.2
+kr_0119,kroger,"Simple Truth Baking Soda, 16 oz",Simple Truth,Pantry,0.96,0.06,Save $1.50,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0119,2026-05-02T01:01:00,0.67
+kr_0120,kroger,"Kroger Baking Powder, 8 oz",Kroger,Pantry,3.17,,Club price,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0120,2026-05-02T00:44:00,1.77
+kr_0121,kroger,"Kroger Active Dry Yeast, 0.75 oz 3 ct",Kroger,Pantry,3.39,4.52,2 for $5,0.25,oz,3,False,True,https://example.com/kroger/products/kr_0121,2026-05-02T00:27:00,2.08
+kr_0122,kroger,"Simple Truth Vanilla Extract, 2 fl oz",Simple Truth,Pantry,4.44,2.22,,2.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0122,2026-05-02T00:10:00,3.23
+kr_0123,kroger,"Kroger Ground Cinnamon, 2 oz",Kroger,Pantry,4.04,,,2.0,oz,1,False,True,https://example.com/kroger/products/kr_0123,2026-05-01T23:53:00,2.28
+kr_0124,kroger,"Kroger Paprika, 2 oz",Kroger,Pantry,2.32,1.16,Save $1.50,2.0,oz,1,False,True,https://example.com/kroger/products/kr_0124,2026-05-01T23:36:00,1.33
+kr_0125,kroger,"Simple Truth Ground Cumin, 2 oz",Simple Truth,Pantry,2.15,1.075,,2.0,oz,1,False,True,https://example.com/kroger/products/kr_0125,2026-05-01T23:19:00,1.2
+kr_0126,kroger,"Kroger Italian Seasoning, 0.75 oz",Kroger,Pantry,2.72,3.6267,2 for $5,0.75,oz,1,False,True,https://example.com/kroger/products/kr_0126,2026-05-01T23:02:00,1.5
+kr_0127,kroger,"Simple Truth Garlic Powder, 3 oz",Simple Truth,Pantry,3.34,,Save $1,3.0,oz,1,False,True,https://example.com/kroger/products/kr_0127,2026-05-01T22:45:00,2.12
+kr_0128,kroger,"Simple Truth Black Pepper Ground, 3 oz",Simple Truth,Pantry,5.68,1.8933,Digital coupon,3.0,oz,1,False,True,https://example.com/kroger/products/kr_0128,2026-05-01T22:28:00,3.8
+kr_0129,kroger,"Simple Truth Iodized Salt, 26 oz",Simple Truth,Pantry,1.58,,2 for $5,26.0,oz,1,False,True,https://example.com/kroger/products/kr_0129,2026-05-01T22:11:00,1.07
+kr_0130,kroger,"Kroger Sea Salt, 17.6 oz",Kroger,Pantry,3.58,,Save $1,17.6,oz,1,False,True,https://example.com/kroger/products/kr_0130,2026-05-01T21:54:00,2.11
+kr_0131,kroger,"Simple Truth Soy Sauce, 10 fl oz",Simple Truth,Pantry,3.69,0.369,2 for $5,10.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0131,2026-05-01T21:37:00,2.3
+kr_0132,kroger,"Kroger Apple Cider Vinegar, 16 fl oz",Kroger,Pantry,5.38,,Club price,16.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0132,2026-05-01T21:20:00,3.22
+kr_0133,kroger,"Kroger White Vinegar, 32 fl oz",Kroger,Pantry,3.34,,Club price,32.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0133,2026-05-01T21:03:00,2.23
+kr_0134,kroger,"Kroger Yellow Mustard, 8 oz",Kroger,Pantry,0.89,,,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0134,2026-05-01T20:46:00,0.66
+kr_0135,kroger,"Simple Truth Dijon Mustard, 8 oz",Simple Truth,Pantry,1.98,,Club price,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0135,2026-05-01T20:29:00,1.46
+kr_0136,kroger,"Simple Truth BBQ Sauce Original, 18 oz",Simple Truth,Pantry,3.48,,2 for $5,18.0,oz,1,False,True,https://example.com/kroger/products/kr_0136,2026-05-01T20:12:00,2.57
+kr_0137,kroger,"Simple Truth Hot Sauce, 5 fl oz",Simple Truth,Pantry,4.35,,Digital coupon,5.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0137,2026-05-01T19:55:00,3.27
+kr_0138,kroger,"Kroger Sriracha, 17 fl oz",Kroger,Pantry,6.22,,Save $1,17.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0138,2026-05-01T19:38:00,4.33
+kr_0139,kroger,"Simple Truth Strawberry Jam, 12 oz",Simple Truth,Pantry,3.07,0.2558,,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0139,2026-05-01T19:21:00,1.8
+kr_0140,kroger,"Kroger Grape Jelly, 18 oz",Kroger,Pantry,4.4,0.2444,Save $1,18.0,oz,1,False,True,https://example.com/kroger/products/kr_0140,2026-05-01T19:04:00,2.55
+kr_0141,kroger,"Save $1.50 Simple Truth Maple Syrup Pure, 8 fl oz",Simple Truth,Pantry,8.49,,Save $1.50,8.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0141,2026-05-01T18:47:00,4.93
+kr_0142,kroger,"Simple Truth Pancake Syrup, 24 fl oz",Simple Truth,Pantry,4.44,0.185,Save $1.50,24.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0142,2026-05-01T18:30:00,2.71
+kr_0143,kroger,"Kroger Olive Oil, 17 fl oz",Kroger,Pantry,7.53,0.4429,2 for $5,17.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0143,2026-05-01T18:13:00,4.18
+kr_0144,kroger,"Kroger Canola Oil, 48 fl oz",Kroger,Pantry,3.85,0.0802,Digital coupon,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0144,2026-05-01T17:56:00,3.86
+kr_0145,kroger,"Simple Truth Vegetable Oil, 48 fl oz",Simple Truth,Pantry,5.45,0.1135,,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0145,2026-05-01T17:39:00,4.19
+kr_0146,kroger,"Simple Truth Chunk Light Tuna in Water, 5 oz can",Simple Truth,Pantry,2.69,0.538,Save $1,5.0,oz,1,False,True,https://example.com/kroger/products/kr_0146,2026-05-01T17:22:00,1.68
+kr_0147,kroger,"Simple Truth Albacore Tuna in Water, 5 oz can",Simple Truth,Pantry,2.35,,2 for $5,5.0,oz,1,False,True,https://example.com/kroger/products/kr_0147,2026-05-01T17:05:00,1.65
+kr_0148,kroger,"Kroger Diced Tomatoes, 14.5 oz can",Kroger,Pantry,1.81,0.1248,Save $1.50,14.5,oz,1,False,True,https://example.com/kroger/products/kr_0148,2026-05-01T16:48:00,1.11
+kr_0149,kroger,"Kroger Tomato Sauce, 8 oz can",Kroger,Pantry,1.11,,,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0149,2026-05-01T16:31:00,0.7
+kr_0150,kroger,"Simple Truth Tomato Paste, 6 oz can",Simple Truth,Pantry,1.04,0.1733,Save $1,6.0,oz,1,False,True,https://example.com/kroger/products/kr_0150,2026-05-01T16:14:00,0.79
+kr_0151,kroger,"2 for $5 Kroger Sweet Corn Canned, 15 oz can",Kroger,Pantry,1.67,,2 for $5,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0151,2026-05-01T15:57:00,1.69
+kr_0152,kroger,"Kroger Green Beans Canned, 14.5 oz can",Kroger,Pantry,1.06,0.0731,Club price,14.5,oz,1,False,True,https://example.com/kroger/products/kr_0152,2026-05-01T15:40:00,0.83
+kr_0153,kroger,"Kroger Pinto Beans Canned, 15 oz can",Kroger,Canned & Packaged,1.66,,Save $1.50,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0153,2026-05-01T15:23:00,1.28
+kr_0154,kroger,"Simple Truth Kidney Beans Canned, 15 oz can",Simple Truth,Canned & Packaged,0.86,,Club price,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0154,2026-05-01T15:06:00,0.6
+kr_0155,kroger,"Simple Truth Garbanzo Beans Canned, 15 oz can",Simple Truth,Canned & Packaged,1.54,0.1027,2 for $5,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0155,2026-05-01T14:49:00,0.9
+kr_0156,kroger,"Simple Truth Chicken Noodle Soup, 10.5 oz can",Simple Truth,Canned & Packaged,2.99,0.2848,Digital coupon,10.5,oz,1,False,True,https://example.com/kroger/products/kr_0156,2026-05-01T14:32:00,2.17
+kr_0157,kroger,"Simple Truth Cream of Mushroom Soup, 10.5 oz can",Simple Truth,Canned & Packaged,1.64,,2 for $5,10.5,oz,1,False,True,https://example.com/kroger/products/kr_0157,2026-05-01T14:15:00,0.91
+kr_0158,kroger,"Kroger Vegetable Broth, 32 fl oz carton",Kroger,Canned & Packaged,4.16,,Club price,32.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0158,2026-05-01T13:58:00,2.99
+kr_0159,kroger,"Simple Truth Chicken Broth, 32 fl oz carton",Simple Truth,Canned & Packaged,3.33,,,32.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0159,2026-05-01T13:41:00,2.3
+kr_0160,kroger,"Simple Truth Penne Pasta, 16 oz",Simple Truth,Pantry,1.96,,,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0160,2026-05-01T13:24:00,1.3
+kr_0161,kroger,"Digital coupon Kroger Rotini Pasta, 16 oz",Kroger,Pantry,1.94,0.1212,Digital coupon,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0161,2026-05-01T13:07:00,1.5
+kr_0162,kroger,"Kroger Elbow Macaroni, 16 oz",Kroger,Pantry,2.62,,,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0162,2026-05-01T12:50:00,2.0
+kr_0163,kroger,"Kroger Lasagna Noodles, 16 oz",Kroger,Pantry,3.51,0.2194,Club price,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0163,2026-05-01T12:33:00,2.42
+kr_0164,kroger,"Kroger Marinara Sauce, 24 oz",Kroger,Pantry,3.76,0.1567,Club price,24.0,oz,1,False,True,https://example.com/kroger/products/kr_0164,2026-05-01T12:16:00,2.75
+kr_0165,kroger,"Simple Truth Alfredo Sauce, 15 oz",Simple Truth,Pantry,3.17,0.2113,Save $1,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0165,2026-05-01T11:59:00,1.77
+kr_0166,kroger,"Kroger Jasmine Rice, 2 lb",Kroger,Pantry,5.75,,Save $1.50,2.0,lb,1,False,True,https://example.com/kroger/products/kr_0166,2026-05-01T11:42:00,3.54
+kr_0167,kroger,"Simple Truth Basmati Rice, 2 lb",Simple Truth,Pantry,6.85,3.425,2 for $5,2.0,lb,1,False,True,https://example.com/kroger/products/kr_0167,2026-05-01T11:25:00,3.91
+kr_0168,kroger,"Simple Truth Brown Rice, 2 lb",Simple Truth,Pantry,2.95,1.475,2 for $5,2.0,lb,1,False,True,https://example.com/kroger/products/kr_0168,2026-05-01T11:08:00,1.74
+kr_0169,kroger,"Simple Truth Quinoa, 12 oz",Simple Truth,Pantry,7.25,,,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0169,2026-05-01T10:51:00,5.19
+kr_0170,kroger,"Simple Truth Steel Cut Oats, 24 oz",Simple Truth,Breakfast,4.01,0.1671,Save $1.50,24.0,oz,1,False,True,https://example.com/kroger/products/kr_0170,2026-05-01T10:34:00,2.68
+kr_0171,kroger,"Club price Simple Truth Instant Oatmeal Variety Pack, 12 ct",Simple Truth,Breakfast,4.47,,Club price,12.0,ct,1,False,True,https://example.com/kroger/products/kr_0171,2026-05-01T10:17:00,2.61
+kr_0172,kroger,"Simple Truth Pancake Mix Original, 32 oz",Simple Truth,Breakfast,3.36,0.105,Digital coupon,32.0,oz,1,False,True,https://example.com/kroger/products/kr_0172,2026-05-01T10:00:00,2.59
+kr_0173,kroger,"Digital coupon Simple Truth Plain Bagels, 6 ct",Simple Truth,Bakery,4.09,,Digital coupon,6.0,ct,1,False,True,https://example.com/kroger/products/kr_0173,2026-05-01T09:43:00,2.45
+kr_0174,kroger,"Kroger Hamburger Buns, 8 ct",Kroger,Bakery,2.24,,Club price,8.0,ct,1,False,True,https://example.com/kroger/products/kr_0174,2026-05-01T09:26:00,1.66
+kr_0175,kroger,"Simple Truth Hot Dog Buns, 8 ct",Simple Truth,Bakery,1.62,,,8.0,ct,1,False,True,https://example.com/kroger/products/kr_0175,2026-05-01T09:09:00,1.2
+kr_0176,kroger,"Kroger Flour Tortillas, 10 ct",Kroger,Bakery,2.36,0.236,,10.0,ct,1,False,True,https://example.com/kroger/products/kr_0176,2026-05-01T08:52:00,1.63
+kr_0177,kroger,"Simple Truth Corn Tortillas, 30 ct",Simple Truth,Bakery,4.01,0.1337,Save $1.50,30.0,ct,1,False,True,https://example.com/kroger/products/kr_0177,2026-05-01T08:35:00,2.55
+kr_0178,kroger,"Simple Truth Pita Bread, 6 ct",Simple Truth,Bakery,3.44,,Save $1,6.0,ct,1,False,True,https://example.com/kroger/products/kr_0178,2026-05-01T08:18:00,2.31
+kr_0179,kroger,"Simple Truth English Muffins, 6 ct",Simple Truth,Bakery,3.39,0.565,2 for $5,6.0,ct,1,False,True,https://example.com/kroger/products/kr_0179,2026-05-01T08:01:00,2.34
+kr_0180,kroger,"Kroger Half and Half, 1 pt",Kroger,Dairy,3.74,0.2338,Save $1,16.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0180,2026-05-01T07:44:00,2.54
+kr_0181,kroger,"Kroger Heavy Whipping Cream, 1 pt",Kroger,Dairy,5.09,0.3181,,16.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0181,2026-05-01T07:27:00,2.94
+kr_0182,kroger,"Kroger Sour Cream, 8 oz",Kroger,Dairy,2.5,,,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0182,2026-05-01T07:10:00,1.4
+kr_0183,kroger,"Kroger Cottage Cheese, 16 oz",Kroger,Dairy,3.57,0.2231,Save $1.50,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0183,2026-05-01T06:53:00,2.42
+kr_0184,kroger,"Simple Truth Ricotta Cheese, 15 oz",Simple Truth,Dairy,3.2,0.2133,Digital coupon,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0184,2026-05-01T06:36:00,2.0
+kr_0185,kroger,"Kroger String Cheese Mozzarella, 12 ct",Kroger,Dairy,7.74,0.645,Club price,12.0,ct,1,False,True,https://example.com/kroger/products/kr_0185,2026-05-01T06:19:00,5.85
+kr_0186,kroger,"Kroger Sliced Swiss Cheese, 8 oz",Kroger,Dairy,4.84,0.605,Save $1,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0186,2026-05-01T06:02:00,3.01
+kr_0187,kroger,"Simple Truth Pepper Jack Shredded, 8 oz",Simple Truth,Dairy,4.11,0.5138,Save $1.50,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0187,2026-05-01T05:45:00,3.06
+kr_0188,kroger,"Kroger Plain Whole Milk Yogurt, 32 oz",Kroger,Dairy,5.58,0.1744,Save $1.50,32.0,oz,1,False,True,https://example.com/kroger/products/kr_0188,2026-05-01T05:28:00,4.07
+kr_0189,kroger,"Kroger Strawberry Yogurt, 6 oz",Kroger,Dairy,1.09,,Digital coupon,6.0,oz,1,False,True,https://example.com/kroger/products/kr_0189,2026-05-01T05:11:00,0.81
+kr_0190,kroger,"Digital coupon Kroger Vanilla Almond Granola, 12 oz",Kroger,Breakfast,3.94,0.3283,Digital coupon,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0190,2026-05-01T04:54:00,2.89
+kr_0191,kroger,"Simple Truth Honey Nut Granola, 12 oz",Simple Truth,Breakfast,4.59,0.3825,Club price,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0191,2026-05-01T04:37:00,3.39
+kr_0192,kroger,"Simple Truth Granola Bars Chewy, 8 ct",Simple Truth,Snacks,3.56,0.5298,,0.84,oz,8,False,True,https://example.com/kroger/products/kr_0192,2026-05-01T04:20:00,3.61
+kr_0193,kroger,"Simple Truth Pretzels Mini Twists, 16 oz",Simple Truth,Snacks,2.56,,,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0193,2026-05-01T04:03:00,2.55
+kr_0194,kroger,"Simple Truth Pretzel Sticks, 15 oz",Simple Truth,Snacks,2.46,,,15.0,oz,1,False,True,https://example.com/kroger/products/kr_0194,2026-05-01T03:46:00,1.51
+kr_0195,kroger,"Simple Truth Microwave Popcorn Butter, 3 ct",Simple Truth,Snacks,3.19,0.3323,,3.2,oz,3,False,True,https://example.com/kroger/products/kr_0195,2026-05-01T03:29:00,2.16
+kr_0196,kroger,"Kroger Mixed Nuts Salted, 8 oz",Kroger,Snacks,5.08,0.635,Save $1.50,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0196,2026-05-01T03:12:00,3.43
+kr_0197,kroger,"Simple Truth Roasted Cashews, 8 oz",Simple Truth,Snacks,5.99,0.7488,Club price,8.0,oz,1,False,True,https://example.com/kroger/products/kr_0197,2026-05-01T02:55:00,4.27
+kr_0198,kroger,"Kroger Dried Cranberries, 6 oz",Kroger,Snacks,3.92,,Digital coupon,6.0,oz,1,False,True,https://example.com/kroger/products/kr_0198,2026-05-01T02:38:00,2.99
+kr_0199,kroger,"Kroger Raisins Seedless, 12 oz",Kroger,Snacks,4.77,0.3975,,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0199,2026-05-01T02:21:00,3.37
+kr_0200,kroger,"Kroger Fruit Snacks Variety, 10 ct",Kroger,Snacks,4.14,0.5175,,0.8,oz,10,False,True,https://example.com/kroger/products/kr_0200,2026-05-01T02:04:00,2.45
+kr_0201,kroger,"Kroger Apple Sauce Cups, 6 ct",Kroger,Snacks,4.02,0.1675,Digital coupon,4.0,oz,6,False,True,https://example.com/kroger/products/kr_0201,2026-05-01T01:47:00,2.37
+kr_0202,kroger,"Kroger Frozen Mixed Berries, 12 oz",Kroger,Frozen,6.91,,,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0202,2026-05-01T01:30:00,4.68
+kr_0203,kroger,"Simple Truth Frozen Strawberries, 16 oz",Simple Truth,Frozen,4.96,0.31,2 for $5,16.0,oz,1,False,True,https://example.com/kroger/products/kr_0203,2026-05-01T01:13:00,3.28
+kr_0204,kroger,"Simple Truth Frozen Broccoli, 12 oz",Simple Truth,Frozen,2.08,,Save $1,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0204,2026-05-01T00:56:00,1.48
+kr_0205,kroger,"Simple Truth Frozen Peas, 12 oz",Simple Truth,Frozen,2.52,,,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0205,2026-05-01T00:39:00,1.73
+kr_0206,kroger,"Kroger Frozen Spinach, 12 oz",Kroger,Frozen,2.12,,Save $1,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0206,2026-05-01T00:22:00,1.46
+kr_0207,kroger,"Kroger Frozen Waffles, 10 ct",Kroger,Frozen,3.22,,Save $1.50,1.25,oz,10,False,True,https://example.com/kroger/products/kr_0207,2026-05-01T00:05:00,2.24
+kr_0208,kroger,"Simple Truth Frozen Cheese Pizza, 12 inch",Simple Truth,Frozen,5.14,0.4283,Save $1.50,12.0,oz,1,False,True,https://example.com/kroger/products/kr_0208,2026-04-30T23:48:00,3.2
+kr_0209,kroger,"Kroger Frozen Burritos Bean Cheese, 8 ct",Kroger,Frozen,7.36,,Club price,4.0,oz,8,False,True,https://example.com/kroger/products/kr_0209,2026-04-30T23:31:00,4.91
+kr_0210,kroger,"Simple Truth Vanilla Ice Cream, 48 fl oz",Simple Truth,Frozen,4.85,0.101,,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0210,2026-04-30T23:14:00,3.58
+kr_0211,kroger,"Kroger Chocolate Ice Cream, 48 fl oz",Kroger,Frozen,3.15,0.0656,Digital coupon,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0211,2026-04-30T22:57:00,2.01
+kr_0212,kroger,"Kroger Cookies & Cream Ice Cream, 48 fl oz",Kroger,Frozen,4.4,0.0917,,48.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0212,2026-04-30T22:40:00,3.36
+kr_0213,kroger,"Kroger Apple Juice, 64 fl oz",Kroger,Beverages,2.33,0.0364,Save $1,64.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0213,2026-04-30T22:23:00,1.54
+kr_0214,kroger,"Kroger Cranberry Juice Cocktail, 64 fl oz",Kroger,Beverages,5.08,0.0794,,64.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0214,2026-04-30T22:06:00,3.72
+kr_0215,kroger,"Kroger Lemonade, 64 fl oz",Kroger,Beverages,3.35,0.0523,Club price,64.0,fl oz,1,False,True,https://example.com/kroger/products/kr_0215,2026-04-30T21:49:00,2.31

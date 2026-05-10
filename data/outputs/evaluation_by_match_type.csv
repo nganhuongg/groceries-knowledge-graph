@@ -1,0 +1,5 @@
+match_type,true_count,auto_accepted_correct,auto_accepted_wrong,routed_to_review,rejected_or_missed,precision_if_applicable,recall_if_applicable
+exact_equivalent,206,158,0,6,42,1.0,0.767
+private_label_equivalent,126,111,0,0,15,1.0,0.881
+substitute,48,33,0,0,15,1.0,0.6875
+non_match,86,3,54,16,13,0.0526,0.0349

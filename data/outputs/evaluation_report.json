@@ -1,0 +1,103 @@
+{
+  "coverage_metrics": {
+    "true_equivalent_pairs_missed_by_blocking": 4,
+    "true_equivalent_pairs_seen_by_blocking": 328,
+    "true_substitute_pairs_missed_by_blocking": 15,
+    "true_substitute_pairs_seen_by_blocking": 33
+  },
+  "equivalent_metrics": {
+    "f1": 0.8952,
+    "false_negatives": 63,
+    "false_positives": 0,
+    "precision": 1.0,
+    "recall": 0.8102,
+    "true_equivalent_routed_to_review": 6,
+    "true_positives": 269
+  },
+  "label_conflicts": [
+    {
+      "existing_label": "non_match",
+      "new_label": "substitute",
+      "pair_key": [
+        "tg_0057",
+        "wf_0009"
+      ]
+    },
+    {
+      "existing_label": "non_match",
+      "new_label": "substitute",
+      "pair_key": [
+        "kr_0023",
+        "wf_0037"
+      ]
+    },
+    {
+      "existing_label": "non_match",
+      "new_label": "substitute",
+      "pair_key": [
+        "kr_0023",
+        "wm_0062"
+      ]
+    },
+    {
+      "existing_label": "non_match",
+      "new_label": "substitute",
+      "pair_key": [
+        "kr_0023",
+        "tg_0067"
+      ]
+    }
+  ],
+  "notes": [],
+  "overall": {
+    "total_known_negative_pairs": 86,
+    "total_predicted_matches": 5165,
+    "total_scored_pairs": 5544,
+    "total_true_equivalent_pairs": 332,
+    "total_true_substitute_pairs": 48
+  },
+  "routing_metrics": {
+    "auto_accept_equivalent_count": 871,
+    "auto_accept_substitute_count": 2279,
+    "known_negative_routed_to_review": 16,
+    "reject_count": 379,
+    "review_count": 2015,
+    "review_rate": 0.3635,
+    "true_equivalent_routed_to_review": 6,
+    "true_substitute_routed_to_review": 0,
+    "unknown_pairs_routed_to_review": 1993
+  },
+  "safety_metrics": {
+    "known_negative_auto_accept_rate": 0.7397,
+    "known_negative_auto_accepted_as_equivalent": 0,
+    "known_negative_auto_accepted_as_substitute": 54,
+    "known_negative_rejected": 3,
+    "known_negative_routed_to_review": 16
+  },
+  "substitute_metrics": {
+    "equivalent_predicted_as_substitute": 106,
+    "f1": 0.3511,
+    "false_negatives": 15,
+    "false_positives": 107,
+    "precision": 0.2357,
+    "recall": 0.6875,
+    "substitute_predicted_as_equivalent": 0,
+    "true_positives": 33,
+    "true_substitute_routed_to_review": 0
+  },
+  "top_hard_conflict_types": {
+    "brand_conflict_for_exact": 347,
+    "diet_type_conflict": 121,
+    "flavor_conflict": 445,
+    "organic_conflict": 453,
+    "pack_size_conflict": 2315,
+    "product_type_conflict": 212,
+    "quantity_type_conflict": 786
+  },
+  "unknown_pair_metrics": {
+    "unknown_auto_accept_equivalent_count": 602,
+    "unknown_auto_accept_substitute_count": 2139,
+    "unknown_reject_count": 376,
+    "unknown_review_count": 1993
+  }
+}

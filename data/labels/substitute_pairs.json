@@ -1,0 +1,290 @@
+[
+  {
+    "product_id_a": "tg_0003",
+    "product_id_b": "wf_0024",
+    "label": "substitute",
+    "reason": "private-label unsweetened almond milk vs Silk; same form factor, different brand"
+  },
+  {
+    "product_id_a": "tg_0003",
+    "product_id_b": "wm_0034",
+    "label": "substitute",
+    "reason": "private-label unsweetened almond milk vs Silk; same form factor, different brand"
+  },
+  {
+    "product_id_a": "tg_0003",
+    "product_id_b": "tg_0037",
+    "label": "substitute",
+    "reason": "private-label unsweetened almond milk vs Silk; same form factor, different brand"
+  },
+  {
+    "product_id_a": "tg_0003",
+    "product_id_b": "kr_0038",
+    "label": "substitute",
+    "reason": "private-label unsweetened almond milk vs Silk; same form factor, different brand"
+  },
+  {
+    "product_id_a": "tg_0004",
+    "product_id_b": "tg_0039",
+    "label": "substitute",
+    "reason": "private-label oat milk vs Oatly; comparable substitute, not an exact equivalent"
+  },
+  {
+    "product_id_a": "tg_0004",
+    "product_id_b": "wf_0025",
+    "label": "substitute",
+    "reason": "private-label oat milk vs Oatly; comparable substitute, not an exact equivalent"
+  },
+  {
+    "product_id_a": "tg_0004",
+    "product_id_b": "kr_0040",
+    "label": "substitute",
+    "reason": "private-label oat milk vs Oatly; comparable substitute, not an exact equivalent"
+  },
+  {
+    "product_id_a": "wf_0005",
+    "product_id_b": "tg_0039",
+    "label": "substitute",
+    "reason": "private-label oat milk vs Oatly; comparable substitute, not an exact equivalent"
+  },
+  {
+    "product_id_a": "wf_0010",
+    "product_id_b": "tg_0051",
+    "label": "substitute",
+    "reason": "private-label tortilla chips vs Tostitos; different brand and size, similar use"
+  },
+  {
+    "product_id_a": "wf_0010",
+    "product_id_b": "kr_0053",
+    "label": "substitute",
+    "reason": "private-label tortilla chips vs Tostitos; different brand and size, similar use"
+  },
+  {
+    "product_id_a": "wf_0010",
+    "product_id_b": "wm_0046",
+    "label": "substitute",
+    "reason": "private-label tortilla chips vs Tostitos; different brand and size, similar use"
+  },
+  {
+    "product_id_a": "tg_0010",
+    "product_id_b": "tg_0051",
+    "label": "substitute",
+    "reason": "private-label tortilla chips vs Tostitos; different brand and size, similar use"
+  },
+  {
+    "product_id_a": "wf_0012",
+    "product_id_b": "kr_0035",
+    "label": "substitute",
+    "reason": "private-label lime sparkling water vs LaCroix; same pack/size, different brand"
+  },
+  {
+    "product_id_a": "wf_0012",
+    "product_id_b": "wm_0032",
+    "label": "substitute",
+    "reason": "private-label lime sparkling water vs LaCroix; same pack/size, different brand"
+  },
+  {
+    "product_id_a": "wf_0012",
+    "product_id_b": "wf_0022",
+    "label": "substitute",
+    "reason": "private-label lime sparkling water vs LaCroix; same pack/size, different brand"
+  },
+  {
+    "product_id_a": "wf_0012",
+    "product_id_b": "tg_0034",
+    "label": "substitute",
+    "reason": "private-label lime sparkling water vs LaCroix; same pack/size, different brand"
+  },
+  {
+    "product_id_a": "wm_0009",
+    "product_id_b": "kr_0060",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Jif; same size, different brand"
+  },
+  {
+    "product_id_a": "wm_0009",
+    "product_id_b": "tg_0058",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Jif; same size, different brand"
+  },
+  {
+    "product_id_a": "wm_0009",
+    "product_id_b": "wm_0053",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Jif; same size, different brand"
+  },
+  {
+    "product_id_a": "wm_0009",
+    "product_id_b": "wf_0033",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Jif; same size, different brand"
+  },
+  {
+    "product_id_a": "tg_0009",
+    "product_id_b": "tg_0057",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Skippy; near-equivalent size, different brand"
+  },
+  {
+    "product_id_a": "tg_0009",
+    "product_id_b": "kr_0059",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Skippy; near-equivalent size, different brand"
+  },
+  {
+    "product_id_a": "tg_0009",
+    "product_id_b": "wm_0052",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Skippy; near-equivalent size, different brand"
+  },
+  {
+    "product_id_a": "wf_0009",
+    "product_id_b": "tg_0057",
+    "label": "substitute",
+    "reason": "private-label creamy peanut butter vs Skippy; near-equivalent size, different brand"
+  },
+  {
+    "product_id_a": "kr_0012",
+    "product_id_b": "kr_0067",
+    "label": "substitute",
+    "reason": "private-label pepperoni pizza vs Tombstone; comparable substitute"
+  },
+  {
+    "product_id_a": "kr_0012",
+    "product_id_b": "wm_0059",
+    "label": "substitute",
+    "reason": "private-label pepperoni pizza vs Tombstone; comparable substitute"
+  },
+  {
+    "product_id_a": "tg_0011",
+    "product_id_b": "kr_0067",
+    "label": "substitute",
+    "reason": "private-label pepperoni pizza vs Tombstone; comparable substitute"
+  },
+  {
+    "product_id_a": "tg_0011",
+    "product_id_b": "wm_0059",
+    "label": "substitute",
+    "reason": "private-label pepperoni pizza vs Tombstone; comparable substitute"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "kr_0070",
+    "label": "substitute",
+    "reason": "private-label OJ vs Tropicana Pure Premium; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "wf_0037",
+    "label": "substitute",
+    "reason": "private-label OJ vs Tropicana Pure Premium; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "wm_0062",
+    "label": "substitute",
+    "reason": "private-label OJ vs Tropicana Pure Premium; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "tg_0067",
+    "label": "substitute",
+    "reason": "private-label OJ vs Tropicana Pure Premium; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "tg_0068",
+    "label": "substitute",
+    "reason": "private-label OJ vs Simply Orange; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "kr_0071",
+    "label": "substitute",
+    "reason": "private-label OJ vs Simply Orange; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "wm_0063",
+    "label": "substitute",
+    "reason": "private-label OJ vs Simply Orange; same size, different brand"
+  },
+  {
+    "product_id_a": "tg_0022",
+    "product_id_b": "tg_0068",
+    "label": "substitute",
+    "reason": "private-label OJ vs Simply Orange; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0016",
+    "product_id_b": "kr_0048",
+    "label": "substitute",
+    "reason": "private-label plain Greek yogurt vs FAGE Total; near-equivalent size"
+  },
+  {
+    "product_id_a": "kr_0016",
+    "product_id_b": "wf_0030",
+    "label": "substitute",
+    "reason": "private-label plain Greek yogurt vs FAGE Total; near-equivalent size"
+  },
+  {
+    "product_id_a": "kr_0016",
+    "product_id_b": "tg_0047",
+    "label": "substitute",
+    "reason": "private-label plain Greek yogurt vs FAGE Total; near-equivalent size"
+  },
+  {
+    "product_id_a": "wf_0014",
+    "product_id_b": "kr_0048",
+    "label": "substitute",
+    "reason": "private-label plain Greek yogurt vs FAGE Total; near-equivalent size"
+  },
+  {
+    "product_id_a": "kr_0022",
+    "product_id_b": "kr_0064",
+    "label": "substitute",
+    "reason": "private-label spaghetti vs Barilla; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0022",
+    "product_id_b": "tg_0062",
+    "label": "substitute",
+    "reason": "private-label spaghetti vs Barilla; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0022",
+    "product_id_b": "wf_0034",
+    "label": "substitute",
+    "reason": "private-label spaghetti vs Barilla; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0022",
+    "product_id_b": "wm_0057",
+    "label": "substitute",
+    "reason": "private-label spaghetti vs Barilla; same size, different brand"
+  },
+  {
+    "product_id_a": "kr_0001",
+    "product_id_b": "kr_0043",
+    "label": "substitute",
+    "reason": "private-label organic whole milk vs Horizon Organic 2%; comparable but different fat content"
+  },
+  {
+    "product_id_a": "kr_0001",
+    "product_id_b": "wm_0037",
+    "label": "substitute",
+    "reason": "private-label organic whole milk vs Horizon Organic 2%; comparable but different fat content"
+  },
+  {
+    "product_id_a": "kr_0001",
+    "product_id_b": "tg_0042",
+    "label": "substitute",
+    "reason": "private-label organic whole milk vs Horizon Organic 2%; comparable but different fat content"
+  },
+  {
+    "product_id_a": "wf_0001",
+    "product_id_b": "kr_0043",
+    "label": "substitute",
+    "reason": "private-label organic whole milk vs Horizon Organic 2%; comparable but different fat content"
+  }
+]

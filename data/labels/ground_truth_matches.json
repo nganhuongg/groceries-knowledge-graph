@@ -1,0 +1,850 @@
+[
+  {
+    "match_group_id": "organic_whole_milk_1gal_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Organic 365 Organic Whole Milk 128 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0001",
+      "kroger": "kr_0001",
+      "walmart": "wm_0001",
+      "target": "tg_0001"
+    }
+  },
+  {
+    "match_group_id": "whole_milk_1gal_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Whole Milk 1 Gallon 1 gal",
+    "mappings": {
+      "whole_foods": "wf_0002",
+      "kroger": "kr_0002",
+      "walmart": "wm_0002",
+      "target": "tg_0002"
+    }
+  },
+  {
+    "match_group_id": "two_percent_milk_half_gal_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 2% Reduced Fat Milk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0003",
+      "kroger": "kr_0003",
+      "walmart": "wm_0003"
+    }
+  },
+  {
+    "match_group_id": "unsweet_almond_milk_64floz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Unsweetened Almond Milk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0004",
+      "kroger": "kr_0004",
+      "walmart": "wm_0004",
+      "target": "tg_0003"
+    }
+  },
+  {
+    "match_group_id": "oat_milk_64floz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Original Oat Milk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0005",
+      "kroger": "kr_0005",
+      "target": "tg_0004"
+    }
+  },
+  {
+    "match_group_id": "large_brown_eggs_dozen_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Large Brown Eggs 12 ct",
+    "mappings": {
+      "whole_foods": "wf_0006",
+      "kroger": "kr_0006",
+      "walmart": "wm_0005",
+      "target": "tg_0005"
+    }
+  },
+  {
+    "match_group_id": "organic_large_brown_eggs_dozen_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Organic 365 Organic Large Brown Eggs 12 ct",
+    "mappings": {
+      "whole_foods": "wf_0007",
+      "kroger": "kr_0007",
+      "walmart": "wm_0006",
+      "target": "tg_0006"
+    }
+  },
+  {
+    "match_group_id": "white_bread_loaf_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Classic White Sandwich Bread 20 oz 20 oz",
+    "mappings": {
+      "whole_foods": "wf_0008",
+      "kroger": "kr_0008",
+      "walmart": "wm_0007",
+      "target": "tg_0007"
+    }
+  },
+  {
+    "match_group_id": "whole_wheat_bread_loaf_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger 100% Whole Wheat Bread 20 oz 20 oz",
+    "mappings": {
+      "kroger": "kr_0009",
+      "walmart": "wm_0008",
+      "target": "tg_0008"
+    }
+  },
+  {
+    "match_group_id": "creamy_pb_16oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Creamy Peanut Butter 16 oz 16 oz",
+    "mappings": {
+      "whole_foods": "wf_0009",
+      "kroger": "kr_0010",
+      "walmart": "wm_0009",
+      "target": "tg_0009"
+    }
+  },
+  {
+    "match_group_id": "tortilla_chips_13oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Restaurant Style Tortilla Chips 13 oz 13 oz",
+    "mappings": {
+      "whole_foods": "wf_0010",
+      "kroger": "kr_0011",
+      "walmart": "wm_0010",
+      "target": "tg_0010"
+    }
+  },
+  {
+    "match_group_id": "frozen_pepperoni_pizza_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Pepperoni Frozen Pizza 12 inch 12 oz",
+    "mappings": {
+      "kroger": "kr_0012",
+      "walmart": "wm_0011",
+      "target": "tg_0011"
+    }
+  },
+  {
+    "match_group_id": "organic_gala_apples_3lb_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Organic 365 Organic Gala Apples 3 lb Bag 3 lb",
+    "mappings": {
+      "whole_foods": "wf_0011",
+      "kroger": "kr_0013",
+      "walmart": "wm_0012",
+      "target": "tg_0012"
+    }
+  },
+  {
+    "match_group_id": "sparkling_water_lime_8pk_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Sparkling Water Lime 8 pack 12 fl oz cans 12 fl oz 8-pack",
+    "mappings": {
+      "whole_foods": "wf_0012",
+      "kroger": "kr_0014",
+      "walmart": "wm_0013",
+      "target": "tg_0013"
+    }
+  },
+  {
+    "match_group_id": "organic_baby_spinach_5oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Organic 365 Organic Baby Spinach 5 oz Clamshell 5 oz",
+    "mappings": {
+      "whole_foods": "wf_0013",
+      "kroger": "kr_0015",
+      "target": "tg_0014"
+    }
+  },
+  {
+    "match_group_id": "plain_greek_yogurt_32oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Plain Whole Milk Greek Yogurt 32 oz Tub 32 oz",
+    "mappings": {
+      "whole_foods": "wf_0014",
+      "kroger": "kr_0016",
+      "walmart": "wm_0014",
+      "target": "tg_0015"
+    }
+  },
+  {
+    "match_group_id": "unsalted_butter_1lb_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Unsalted Butter 4 sticks 16 oz 16 oz 4-pack",
+    "mappings": {
+      "whole_foods": "wf_0015",
+      "kroger": "kr_0017",
+      "walmart": "wm_0015",
+      "target": "tg_0016"
+    }
+  },
+  {
+    "match_group_id": "shredded_cheddar_8oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Mild Shredded Cheddar Cheese 8 oz 8 oz",
+    "mappings": {
+      "kroger": "kr_0018",
+      "walmart": "wm_0016",
+      "target": "tg_0017"
+    }
+  },
+  {
+    "match_group_id": "black_beans_can_15oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Organic 365 Organic Black Beans 15 oz Can 15 oz",
+    "mappings": {
+      "whole_foods": "wf_0016",
+      "kroger": "kr_0019",
+      "walmart": "wm_0017",
+      "target": "tg_0018"
+    }
+  },
+  {
+    "match_group_id": "tomato_soup_can_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Condensed Tomato Soup 10.75 oz 10.75 oz",
+    "mappings": {
+      "kroger": "kr_0020",
+      "walmart": "wm_0018",
+      "target": "tg_0019"
+    }
+  },
+  {
+    "match_group_id": "long_grain_white_rice_5lb_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Long Grain White Rice 5 lb Bag 5 lb",
+    "mappings": {
+      "kroger": "kr_0021",
+      "walmart": "wm_0019",
+      "target": "tg_0020"
+    }
+  },
+  {
+    "match_group_id": "spaghetti_pasta_16oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Spaghetti Pasta 16 oz 16 oz",
+    "mappings": {
+      "whole_foods": "wf_0017",
+      "kroger": "kr_0022",
+      "walmart": "wm_0020",
+      "target": "tg_0021"
+    }
+  },
+  {
+    "match_group_id": "oj_no_pulp_52floz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger 100% Orange Juice No Pulp 52 fl oz 52 fl oz",
+    "mappings": {
+      "kroger": "kr_0023",
+      "walmart": "wm_0021",
+      "target": "tg_0022"
+    }
+  },
+  {
+    "match_group_id": "baby_carrots_1lb_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Baby Cut Carrots 1 lb Bag 1 lb",
+    "mappings": {
+      "kroger": "kr_0024",
+      "walmart": "wm_0022",
+      "target": "tg_0023"
+    }
+  },
+  {
+    "match_group_id": "cream_cheese_8oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "Kroger Original Cream Cheese 8 oz 8 oz",
+    "mappings": {
+      "kroger": "kr_0025",
+      "walmart": "wm_0023",
+      "target": "tg_0024"
+    }
+  },
+  {
+    "match_group_id": "evoo_17floz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Extra Virgin Olive Oil 17 fl oz 17 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0018",
+      "kroger": "kr_0026",
+      "walmart": "wm_0024",
+      "target": "tg_0025"
+    }
+  },
+  {
+    "match_group_id": "honey_12oz_pl",
+    "match_type": "private_label_equivalent",
+    "canonical_description": "365 Pure Honey 12 oz Squeeze Bottle 12 oz",
+    "mappings": {
+      "whole_foods": "wf_0019",
+      "kroger": "kr_0027",
+      "target": "tg_0026"
+    }
+  },
+  {
+    "match_group_id": "coke_zero_12pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Coca-Cola Zero Sugar 12 fl oz 12-pack",
+    "mappings": {
+      "whole_foods": "wf_0020",
+      "kroger": "kr_0028",
+      "walmart": "wm_0025",
+      "target": "tg_0027"
+    }
+  },
+  {
+    "match_group_id": "coke_zero_6pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Coke Zero 6pk 12 oz cans 12 fl oz 6-pack",
+    "mappings": {
+      "kroger": "kr_0029",
+      "walmart": "wm_0026",
+      "target": "tg_0028"
+    }
+  },
+  {
+    "match_group_id": "coke_classic_12pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Coca-Cola Classic 12 fl oz 12-pack",
+    "mappings": {
+      "whole_foods": "wf_0021",
+      "kroger": "kr_0030",
+      "walmart": "wm_0027",
+      "target": "tg_0029"
+    }
+  },
+  {
+    "match_group_id": "coke_2L",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Coca-Cola Classic 2 L Bottle 2 liter",
+    "mappings": {
+      "kroger": "kr_0031",
+      "walmart": "wm_0028",
+      "target": "tg_0030"
+    }
+  },
+  {
+    "match_group_id": "diet_coke_12pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Diet Coke 12pk 12 oz cans 12 fl oz 12-pack",
+    "mappings": {
+      "kroger": "kr_0032",
+      "walmart": "wm_0029",
+      "target": "tg_0031"
+    }
+  },
+  {
+    "match_group_id": "sprite_12pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Sprite Lemon-Lime 12pk 12 oz cans 12 fl oz 12-pack",
+    "mappings": {
+      "kroger": "kr_0033",
+      "walmart": "wm_0030",
+      "target": "tg_0032"
+    }
+  },
+  {
+    "match_group_id": "pepsi_12pk_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Pepsi Cola 12pk 12 oz cans 12 fl oz 12-pack",
+    "mappings": {
+      "kroger": "kr_0034",
+      "walmart": "wm_0031",
+      "target": "tg_0033"
+    }
+  },
+  {
+    "match_group_id": "lacroix_lime_8pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "LaCroix Sparkling Water 12 fl oz 8-pack",
+    "mappings": {
+      "whole_foods": "wf_0022",
+      "kroger": "kr_0035",
+      "walmart": "wm_0032",
+      "target": "tg_0034"
+    }
+  },
+  {
+    "match_group_id": "lacroix_lime_12pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "LaCroix Lime Sparkling Water 12pk 12 oz 12 fl oz 12-pack",
+    "mappings": {
+      "kroger": "kr_0036",
+      "walmart": "wm_0033",
+      "target": "tg_0035"
+    }
+  },
+  {
+    "match_group_id": "lacroix_grapefruit_8pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "LaCroix Sparkling Water 12 fl oz 8-pack",
+    "mappings": {
+      "whole_foods": "wf_0023",
+      "kroger": "kr_0037",
+      "target": "tg_0036"
+    }
+  },
+  {
+    "match_group_id": "silk_unsweet_almond_64floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Silk Unsweetened Almondmilk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0024",
+      "kroger": "kr_0038",
+      "walmart": "wm_0034",
+      "target": "tg_0037"
+    }
+  },
+  {
+    "match_group_id": "silk_orig_soy_64floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Silk Original Soymilk Half Gallon 0.5 gal",
+    "mappings": {
+      "kroger": "kr_0039",
+      "walmart": "wm_0035",
+      "target": "tg_0038"
+    }
+  },
+  {
+    "match_group_id": "oatly_orig_64floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Oatly Original Oatmilk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0025",
+      "kroger": "kr_0040",
+      "target": "tg_0039"
+    }
+  },
+  {
+    "match_group_id": "oatly_barista_32floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Oatly Barista Edition Oatmilk 32 fl oz 32 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0026",
+      "kroger": "kr_0041",
+      "target": "tg_0040"
+    }
+  },
+  {
+    "match_group_id": "horizon_organic_whole_64floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Organic Horizon Organic Whole Milk 64 fl oz 64 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0027",
+      "kroger": "kr_0042",
+      "walmart": "wm_0036",
+      "target": "tg_0041"
+    }
+  },
+  {
+    "match_group_id": "horizon_organic_2pct_1gal",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Organic Horizon Organic 2% Reduced Fat Milk 1 Gallon 1 gal",
+    "mappings": {
+      "kroger": "kr_0043",
+      "walmart": "wm_0037",
+      "target": "tg_0042"
+    }
+  },
+  {
+    "match_group_id": "fairlife_2pct_52floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Fairlife Lactose Free 2% Ultra-Filtered Milk 52 fl oz 52 fl oz",
+    "mappings": {
+      "kroger": "kr_0044",
+      "walmart": "wm_0038",
+      "target": "tg_0043"
+    }
+  },
+  {
+    "match_group_id": "chobani_blueberry_5p3oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Chobani Greek Yogurt 5.3 oz",
+    "mappings": {
+      "whole_foods": "wf_0028",
+      "kroger": "kr_0045",
+      "walmart": "wm_0039",
+      "target": "tg_0044"
+    }
+  },
+  {
+    "match_group_id": "chobani_blueberry_4pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Chobani Blueberry Greek Yogurt 5.3 oz 4-pack",
+    "mappings": {
+      "kroger": "kr_0046",
+      "walmart": "wm_0040",
+      "target": "tg_0045"
+    }
+  },
+  {
+    "match_group_id": "chobani_strawberry_5p3oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Chobani Greek Yogurt 5.3 oz",
+    "mappings": {
+      "whole_foods": "wf_0029",
+      "kroger": "kr_0047",
+      "walmart": "wm_0041",
+      "target": "tg_0046"
+    }
+  },
+  {
+    "match_group_id": "fage_total_plain_35p3oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "FAGE Total Plain Whole Milk Greek Yogurt 35.3 oz 35.3 oz",
+    "mappings": {
+      "whole_foods": "wf_0030",
+      "kroger": "kr_0048",
+      "target": "tg_0047"
+    }
+  },
+  {
+    "match_group_id": "cheerios_orig_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "General Mills Cheerios Original 12 oz 12 oz",
+    "mappings": {
+      "whole_foods": "wf_0031",
+      "kroger": "kr_0049",
+      "walmart": "wm_0042",
+      "target": "tg_0048"
+    }
+  },
+  {
+    "match_group_id": "cheerios_honey_nut_10p8oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Honey Nut Cheerios Cereal 10.8 oz 10.8 oz",
+    "mappings": {
+      "kroger": "kr_0050",
+      "walmart": "wm_0043",
+      "target": "tg_0049"
+    }
+  },
+  {
+    "match_group_id": "frosted_flakes_13p5oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Kellogg's Frosted Flakes Cereal 13.5 oz 13.5 oz",
+    "mappings": {
+      "kroger": "kr_0051",
+      "walmart": "wm_0044",
+      "target": "tg_0050"
+    }
+  },
+  {
+    "match_group_id": "quaker_oats_42oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Quaker Old Fashioned Oats 42 oz 42 oz",
+    "mappings": {
+      "whole_foods": "wf_0032",
+      "kroger": "kr_0052",
+      "walmart": "wm_0045"
+    }
+  },
+  {
+    "match_group_id": "tostitos_scoops_10oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Tostitos Scoops Tortilla Chips 10 oz 10 oz",
+    "mappings": {
+      "kroger": "kr_0053",
+      "walmart": "wm_0046",
+      "target": "tg_0051"
+    }
+  },
+  {
+    "match_group_id": "doritos_nacho_9p25oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Doritos Nacho Cheese Tortilla Chips 9.25 oz 9.25 oz",
+    "mappings": {
+      "kroger": "kr_0054",
+      "walmart": "wm_0047",
+      "target": "tg_0052"
+    }
+  },
+  {
+    "match_group_id": "lays_classic_8oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Lay's Classic Potato Chips 8 oz 8 oz",
+    "mappings": {
+      "kroger": "kr_0055",
+      "walmart": "wm_0048",
+      "target": "tg_0053"
+    }
+  },
+  {
+    "match_group_id": "oreo_orig_14p3oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "OREO Original Cookies 14.3 oz Family Size 14.3 oz",
+    "mappings": {
+      "kroger": "kr_0056",
+      "walmart": "wm_0049",
+      "target": "tg_0054"
+    }
+  },
+  {
+    "match_group_id": "ritz_orig_13p7oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "RITZ Original Crackers 13.7 oz 13.7 oz",
+    "mappings": {
+      "kroger": "kr_0057",
+      "walmart": "wm_0050",
+      "target": "tg_0055"
+    }
+  },
+  {
+    "match_group_id": "cheez_it_orig_12p4oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Cheez-It Original Baked Snack Crackers 12.4 oz 12.4 oz",
+    "mappings": {
+      "kroger": "kr_0058",
+      "walmart": "wm_0051",
+      "target": "tg_0056"
+    }
+  },
+  {
+    "match_group_id": "skippy_creamy_pb_16p3oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Skippy Creamy Peanut Butter 16.3 oz 16.3 oz",
+    "mappings": {
+      "kroger": "kr_0059",
+      "walmart": "wm_0052",
+      "target": "tg_0057"
+    }
+  },
+  {
+    "match_group_id": "jif_creamy_pb_16oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Jif Creamy Peanut Butter 16 oz 16 oz",
+    "mappings": {
+      "whole_foods": "wf_0033",
+      "kroger": "kr_0060",
+      "walmart": "wm_0053",
+      "target": "tg_0058"
+    }
+  },
+  {
+    "match_group_id": "heinz_ketchup_20oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Heinz Tomato Ketchup 20 oz 20 oz",
+    "mappings": {
+      "kroger": "kr_0061",
+      "walmart": "wm_0054",
+      "target": "tg_0059"
+    }
+  },
+  {
+    "match_group_id": "hellmanns_mayo_30oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Hellmann's Real Mayonnaise 30 oz 30 oz",
+    "mappings": {
+      "kroger": "kr_0062",
+      "walmart": "wm_0055",
+      "target": "tg_0060"
+    }
+  },
+  {
+    "match_group_id": "kraft_mac_cheese_7p25oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Kraft Original Macaroni & Cheese Dinner 7.25 oz 7.25 oz",
+    "mappings": {
+      "kroger": "kr_0063",
+      "walmart": "wm_0056",
+      "target": "tg_0061"
+    }
+  },
+  {
+    "match_group_id": "barilla_spaghetti_16oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Barilla Spaghetti Pasta 16 oz 16 oz",
+    "mappings": {
+      "whole_foods": "wf_0034",
+      "kroger": "kr_0064",
+      "walmart": "wm_0057",
+      "target": "tg_0062"
+    }
+  },
+  {
+    "match_group_id": "raos_marinara_24oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Rao's Homemade Marinara Sauce 24 oz 24 oz",
+    "mappings": {
+      "whole_foods": "wf_0035",
+      "kroger": "kr_0065",
+      "target": "tg_0063"
+    }
+  },
+  {
+    "match_group_id": "digiorno_pepperoni",
+    "match_type": "exact_equivalent",
+    "canonical_description": "DiGiorno Original Rising Crust Pepperoni Pizza 27.5 oz 27.5 oz",
+    "mappings": {
+      "kroger": "kr_0066",
+      "walmart": "wm_0058",
+      "target": "tg_0064"
+    }
+  },
+  {
+    "match_group_id": "tombstone_pepperoni",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Tombstone Original Pepperoni Frozen Pizza 18.5 oz 18.5 oz",
+    "mappings": {
+      "kroger": "kr_0067",
+      "walmart": "wm_0059"
+    }
+  },
+  {
+    "match_group_id": "bj_cherry_garcia_pint",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Ben & Jerry's Cherry Garcia Ice Cream 1 Pint 16 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0036",
+      "kroger": "kr_0068",
+      "walmart": "wm_0060",
+      "target": "tg_0065"
+    }
+  },
+  {
+    "match_group_id": "haagen_vanilla_14floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Häagen-Dazs Vanilla Ice Cream 14 fl oz 14 fl oz",
+    "mappings": {
+      "kroger": "kr_0069",
+      "walmart": "wm_0061",
+      "target": "tg_0066"
+    }
+  },
+  {
+    "match_group_id": "tropicana_pure_premium_52floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Tropicana Pure Premium Orange Juice No Pulp 52 fl oz 52 fl oz",
+    "mappings": {
+      "whole_foods": "wf_0037",
+      "kroger": "kr_0070",
+      "walmart": "wm_0062",
+      "target": "tg_0067"
+    }
+  },
+  {
+    "match_group_id": "simply_oj_52floz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Simply Orange Pulp Free Orange Juice 52 fl oz 52 fl oz",
+    "mappings": {
+      "kroger": "kr_0071",
+      "walmart": "wm_0063",
+      "target": "tg_0068"
+    }
+  },
+  {
+    "match_group_id": "folgers_classic_30p5oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Folgers Classic Roast Ground Coffee 30.5 oz 30.5 oz",
+    "mappings": {
+      "kroger": "kr_0072",
+      "walmart": "wm_0064"
+    }
+  },
+  {
+    "match_group_id": "starbucks_pikeplace_12oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Starbucks Pike Place Roast Whole Bean Coffee 12 oz 12 oz",
+    "mappings": {
+      "whole_foods": "wf_0038",
+      "kroger": "kr_0073",
+      "walmart": "wm_0065",
+      "target": "tg_0069"
+    }
+  },
+  {
+    "match_group_id": "kind_dark_choc_nut_6pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct 1.4 oz 6-pack",
+    "mappings": {
+      "whole_foods": "wf_0039",
+      "kroger": "kr_0074",
+      "target": "tg_0070"
+    }
+  },
+  {
+    "match_group_id": "clif_choc_chip_6pk",
+    "match_type": "exact_equivalent",
+    "canonical_description": "CLIF BAR Chocolate Chip Energy Bars 6 ct 2.4 oz 6-pack",
+    "mappings": {
+      "kroger": "kr_0075",
+      "walmart": "wm_0066",
+      "target": "tg_0071"
+    }
+  },
+  {
+    "match_group_id": "driscolls_strawberries_1lb",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Driscoll's Strawberries 1 lb Clamshell 1 lb",
+    "mappings": {
+      "kroger": "kr_0076",
+      "walmart": "wm_0067",
+      "target": "tg_0072"
+    }
+  },
+  {
+    "match_group_id": "driscolls_blueberries_6oz",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Driscoll's Blueberries 6 oz 6 oz",
+    "mappings": {
+      "kroger": "kr_0077",
+      "walmart": "wm_0068",
+      "target": "tg_0073"
+    }
+  },
+  {
+    "match_group_id": "bulk_organic_fuji_apples",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Organic Organic Fuji Apples (each) 1 each",
+    "mappings": {
+      "whole_foods": "wf_0040",
+      "kroger": "kr_0078",
+      "walmart": "wm_0069"
+    }
+  },
+  {
+    "match_group_id": "bulk_bananas",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Organic Organic Bananas (each) 1 each",
+    "mappings": {
+      "whole_foods": "wf_0041",
+      "kroger": "kr_0079",
+      "walmart": "wm_0070",
+      "target": "tg_0074"
+    }
+  },
+  {
+    "match_group_id": "boneless_chicken_breast_perlb",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Boneless Skinless Chicken Breasts per lb 1 lb",
+    "mappings": {
+      "whole_foods": "wf_0042",
+      "kroger": "kr_0080",
+      "walmart": "wm_0071",
+      "target": "tg_0075"
+    }
+  },
+  {
+    "match_group_id": "ground_beef_80_20_perlb",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Ground Beef 80/20 1 lb 1 lb",
+    "mappings": {
+      "kroger": "kr_0081",
+      "walmart": "wm_0072",
+      "target": "tg_0076"
+    }
+  },
+  {
+    "match_group_id": "atlantic_salmon_perlb",
+    "match_type": "exact_equivalent",
+    "canonical_description": "Atlantic Salmon Fillet per lb 1 lb",
+    "mappings": {
+      "whole_foods": "wf_0043",
+      "kroger": "kr_0082",
+      "walmart": "wm_0073"
+    }
+  }
+]

@@ -1,0 +1,216 @@
+product_id,retailer,raw_name,brand,category_raw,price,unit_price,promo_text,amount,unit,pack_count,is_organic,is_private_label,url,scraped_at,estimated_cost
+wf_0001,whole_foods,"365 Organic Whole Milk, 128 fl oz",365,Dairy & Eggs,7.54,0.0589,,128.0,fl oz,1,True,True,https://example.com/whole_foods/products/wf_0001,2026-05-08T11:43:00,5.43
+wf_0002,whole_foods,365 Whole Milk 1 Gallon,365,Dairy & Eggs,5.47,,Save $1,1.0,gal,1,False,True,https://example.com/whole_foods/products/wf_0002,2026-05-08T10:35:00,3.79
+wf_0003,whole_foods,365 2% Reduced Fat Milk 64 fl oz,365,Dairy & Eggs,3.85,,,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0003,2026-05-08T09:27:00,2.15
+wf_0004,whole_foods,365 Unsweetened Almond Milk 64 fl oz,365,Plant-Based,4.07,0.0636,Save $1,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0004,2026-05-08T08:36:00,3.04
+wf_0005,whole_foods,365 Original Oat Milk 64 fl oz,365,Plant-Based,4.41,,,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0005,2026-05-08T07:28:00,2.94
+wf_0006,whole_foods,"365 Large Brown Eggs, Dozen",365,Dairy & Eggs,5.84,,Save $1,12.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0006,2026-05-08T06:37:00,3.75
+wf_0007,whole_foods,"Save $1 365 Organic Large Brown Eggs, Dozen",365,Dairy & Eggs,8.14,0.6783,Save $1,12.0,ct,1,True,True,https://example.com/whole_foods/products/wf_0007,2026-05-08T05:29:00,5.74
+wf_0008,whole_foods,Save $1 365 Classic White Sandwich Bread 20 oz,365,Bakery,2.77,,Save $1,20.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0008,2026-05-08T04:21:00,2.02
+wf_0009,whole_foods,365 Creamy Peanut Butter 16 oz,365,Pantry,3.95,0.2469,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0009,2026-05-08T02:22:00,2.93
+wf_0010,whole_foods,365 Restaurant Style Tortilla Chips 13 oz,365,Snacks,3.29,0.2531,,13.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0010,2026-05-08T01:14:00,1.93
+wf_0011,whole_foods,365 Organic Gala Apples 3 lb Bg,365,Produce,7.11,,Prime member deal,3.0,lb,1,True,True,https://example.com/whole_foods/products/wf_0011,2026-05-07T23:15:00,5.45
+wf_0012,whole_foods,365 Sparkling Water Lime 8 pack 12 fl oz cans,365,Beverages,4.64,,,12.0,fl oz,8,False,True,https://example.com/whole_foods/products/wf_0012,2026-05-07T22:07:00,2.85
+wf_0013,whole_foods,365 Organic Baby Spinach 5 oz Clamshell,365,Produce,4.99,,,5.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0013,2026-05-07T20:59:00,3.43
+wf_0014,whole_foods,Save $1 365 Plain Whole Milk Greek Yogurt 32 oz Tub,365,Dairy & Eggs,5.05,0.1578,Save $1,32.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0014,2026-05-07T20:08:00,3.05
+wf_0015,whole_foods,365 Unsalted Butter 4 sticks 16 oz,365,Dairy & Eggs,5.94,0.0928,Save $1,16.0,oz,4,False,True,https://example.com/whole_foods/products/wf_0015,2026-05-07T19:00:00,3.44
+wf_0016,whole_foods,365 Organic Black Beans 15 oz Can,365,Pantry,1.33,,Save $1,15.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0016,2026-05-07T17:01:00,0.76
+wf_0017,whole_foods,365 Spaghetti Pasta 16 oz,365,Pantry,1.75,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0017,2026-05-07T14:11:00,1.24
+wf_0018,whole_foods,365 Extra Virgin Olive Oil 17 fl oz,365,Pantry,9.32,,Prime member deal,17.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0018,2026-05-07T10:30:00,6.18
+wf_0019,whole_foods,Prime member deal 365 Pure Honey 12 oz Squeeze Bottle,365,Pantry,6.14,0.5117,Prime member deal,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0019,2026-05-07T09:22:00,4.29
+wf_0020,whole_foods,"Coca-Cola Zero Sugar, 12 x 12 fl oz cans",Coca-Cola,Beverages,10.53,0.0731,Save $1,12.0,fl oz,12,False,False,https://example.com/whole_foods/products/wf_0020,2026-05-07T08:31:00,7.82
+wf_0021,whole_foods,"Coca-Cola CIassic, 12 x 12 fI oz cans",Coca-Cola,Beverages,9.54,,,12.0,fl oz,12,False,False,https://example.com/whole_foods/products/wf_0021,2026-05-07T06:32:00,5.78
+wf_0022,whole_foods,"LaCroix Sparkling Water, Lime, 8 x 12 fl oz cans",LaCroix,Beverages,5.12,,Save $1,12.0,fl oz,8,False,False,https://example.com/whole_foods/products/wf_0022,2026-05-07T02:00:00,3.97
+wf_0023,whole_foods,"LaCroix Sparkling Water, Pamplemousse (Grapefruit), 8 x 12 fl oz cans",LaCroix,Beverages,4.95,,Prime member deal,12.0,fl oz,8,False,False,https://example.com/whole_foods/products/wf_0023,2026-05-07T00:01:00,3.21
+wf_0024,whole_foods,Silk Unsweetened Almondmilk 64 fl oz,Silk,Plant-Based,5.69,,,64.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0024,2026-05-06T23:10:00,3.41
+wf_0025,whole_foods,0atly Orig1nal Oatmilk 64 fl 0z,Oatly,Plant-Based,5.76,0.09,,64.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0025,2026-05-06T21:11:00,3.97
+wf_0026,whole_foods,Oatly Barista Edition Oatmilk 32 fl oz,Oatly,Plant-Based,5.95,0.1859,,32.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0026,2026-05-06T20:20:00,3.45
+wf_0027,whole_foods,Horizn 0rganic Whole Milk 64 fl oz,Horizon Organic,Dairy & Eggs,5.41,,,64.0,fl oz,1,True,False,https://example.com/whole_foods/products/wf_0027,2026-05-06T19:29:00,3.79
+wf_0028,whole_foods,"Chobani Greek Yogurt, Blueberry on the Bottom, 5.3 oz",Chobani,Dairy & Eggs,1.6,,Save $1,5.3,oz,1,False,False,https://example.com/whole_foods/products/wf_0028,2026-05-06T16:39:00,0.93
+wf_0029,whole_foods,"Chobani Greek Yogurt, Strawberry on the Bottom, 5.3 oz",Chobani,Dairy & Eggs,1.58,0.2981,Save $1,5.3,oz,1,False,False,https://example.com/whole_foods/products/wf_0029,2026-05-06T14:40:00,1.17
+wf_0030,whole_foods,FAGE Total Plain Whole Milk Greek Yogurt 35.3 oz,FAGE,Dairy & Eggs,7.5,,Save $1,35.3,oz,1,False,False,https://example.com/whole_foods/products/wf_0030,2026-05-06T13:32:00,5.25
+wf_0031,whole_foods,General Mills Cheerios Original 12 oz,Cheerios,Breakfast,4.84,0.4033,,12.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0031,2026-05-06T12:41:00,3.36
+wf_0032,whole_foods,Quaker Old Fashioned Oats 42 oz,Quaker,Breakfast,7.86,0.1871,Prime member deal,42.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0032,2026-05-06T09:51:00,5.74
+wf_0033,whole_foods,Jif Creamy Peanut Butter 16 oz,Jif,Pantry,4.23,,,16.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0033,2026-05-06T03:03:00,3.1
+wf_0034,whole_foods,Barilla Spaghetti Pasta 16 oz,Barilla,Pantry,2.53,,,16.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0034,2026-05-05T23:22:00,1.51
+wf_0035,whole_foods,Rao's Homemade Marinara Sauce 24 oz,Rao's,Pantry,11.41,0.4754,Prime member deal,24.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0035,2026-05-05T22:14:00,8.74
+wf_0036,whole_foods,Ben & Jerry's Cherry Garcia Ice Cream 1 Pint,Ben & Jerry's,Frozen Foods,6.91,0.4319,,16.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0036,2026-05-05T19:58:00,4.6
+wf_0037,whole_foods,Tropicana Pure Premium Orange Juice No Pulp 52 fl oz,Tropicana,Beverages,6.23,0.1198,,52.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0037,2026-05-05T17:59:00,4.83
+wf_0038,whole_foods,Starbucks Pike Place Roast Whole Bean Coffee 12 oz,Starbucks,Beverages,15.82,1.3183,,12.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0038,2026-05-05T15:26:00,9.39
+wf_0039,whole_foods,KIND Dark Chocolate Nuts & Sea Salt Bars 6 ct,KIND,Snacks,8.16,0.9714,,1.4,oz,6,False,False,https://example.com/whole_foods/products/wf_0039,2026-05-05T14:18:00,5.16
+wf_0040,whole_foods,Organ1c Fuj1 AppIs (each),,Produce,3.18,3.18,Save $1,1.0,each,1,True,False,https://example.com/whole_foods/products/wf_0040,2026-05-05T10:54:00,1.78
+wf_0041,whole_foods,Organic Bananas (each),,Produce,0.7,,,1.0,each,1,True,False,https://example.com/whole_foods/products/wf_0041,2026-05-05T10:03:00,0.49
+wf_0042,whole_foods,Boneless Skinless Chicken Breasts per lb,,Meat & Seafood,6.39,,,1.0,lb,1,False,False,https://example.com/whole_foods/products/wf_0042,2026-05-05T08:55:00,4.6
+wf_0043,whole_foods,Atlantic Salmon Fillet per lb,,Meat & Seafood,14.57,,,1.0,lb,1,False,False,https://example.com/whole_foods/products/wf_0043,2026-05-05T06:56:00,11.14
+wf_0044,whole_foods,Bulk Organic Gala Apples (each),365,Produce,6.85,,Prime member deal,1.0,each,1,True,True,https://example.com/whole_foods/products/wf_0044,2026-05-05T04:40:00,5.08
+wf_0045,whole_foods,Allegro Coffee Organic French Roast 12 oz,Allegro,Beverages,14.17,1.1808,,12.0,oz,1,True,False,https://example.com/whole_foods/products/wf_0045,2026-05-05T03:49:00,10.79
+wf_0046,whole_foods,365 Organic Coconut Oil 14 oz,365,Pantry,7.75,0.5536,,14.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0046,2026-05-05T03:32:00,5.07
+wf_0047,whole_foods,365 Organic Maple Syrup Grade A 12 fl oz,365,Pantry,10.58,,,12.0,fl oz,1,True,True,https://example.com/whole_foods/products/wf_0047,2026-05-05T03:15:00,6.23
+wf_0048,whole_foods,Vital Farms Pasture-Raised Eggs Dozen,Vital Farms,Dairy & Eggs,8.92,0.7433,,12.0,ct,1,False,False,https://example.com/whole_foods/products/wf_0048,2026-05-05T02:58:00,5.84
+wf_0049,whole_foods,365 Organic Quinoa 16 oz,365,Pantry,5.3,,Save $1,16.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0049,2026-05-05T02:41:00,3.36
+wf_0050,whole_foods,Whole Foods Bakery Sourdough Boule 24 oz,Whole Foods Bakery,Bakery,8.44,0.3517,,24.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0050,2026-05-05T02:24:00,6.07
+wf_0051,whole_foods,Siggi's Plain Skyr Yogurt 24 oz,Siggi's,Dairy & Eggs,7.63,0.3179,,24.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0051,2026-05-05T02:07:00,5.63
+wf_0052,whole_foods,365 Organic Tomato Paste 6 oz Can,365,Pantry,1.73,,,6.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0052,2026-05-05T01:50:00,1.09
+wf_0053,whole_foods,Save $1 Mary's Free Range Whole Chicken per lb,Mary's,Meat & Seafood,5.45,5.45,Save $1,1.0,lb,1,False,False,https://example.com/whole_foods/products/wf_0053,2026-05-05T01:33:00,3.35
+wf_0054,whole_foods,Manchego Cheese 1/4 lb wedge,Whole Foods,Dairy & Eggs,9.58,,,0.25,lb,1,False,False,https://example.com/whole_foods/products/wf_0054,2026-05-05T01:16:00,6.4
+wf_0055,whole_foods,Burrata Cheese 8 oz tub,Belgioioso,Dairy & Eggs,8.39,1.0488,,8.0,oz,1,False,False,https://example.com/whole_foods/products/wf_0055,2026-05-05T00:59:00,5.15
+wf_0056,whole_foods,Whole Foods Prepared Caesar Salad 8 oz,Whole Foods,Produce,9.63,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0056,2026-05-05T00:42:00,6.79
+wf_0057,whole_foods,Bulk Pistachios per lb,,Snacks,17.65,17.65,Prime member deal,1.0,lb,1,False,False,https://example.com/whole_foods/products/wf_0057,2026-05-05T00:25:00,12.83
+wf_0058,whole_foods,365 Organic Hummus Classic 10 oz,365,Snacks,5.18,0.518,,10.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0058,2026-05-05T00:08:00,3.54
+wf_0059,whole_foods,Honeycrisp Apples per lb,,Produce,4.22,,,1.0,lb,1,False,False,https://example.com/whole_foods/products/wf_0059,2026-05-04T23:51:00,2.38
+wf_0060,whole_foods,Organic Heirloom Tomatoes per lb,,Produce,7.91,7.91,,1.0,lb,1,True,False,https://example.com/whole_foods/products/wf_0060,2026-05-04T23:34:00,4.87
+wf_0061,whole_foods,Whole Foods Sushi California Roll 8 pc,Whole Foods,Meat & Seafood,11.93,1.4912,,8.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0061,2026-05-04T23:17:00,6.69
+wf_0062,whole_foods,0rganic Avocados 4 ct bag,,Produce,8.32,,Save $1,4.0,ct,1,True,False,https://example.com/whole_foods/products/wf_0062,2026-05-04T23:00:00,4.75
+wf_0063,whole_foods,365 Organic Black Pepper Ground 2.5 oz,365,Pantry,5.67,2.268,,2.5,oz,1,True,True,https://example.com/whole_foods/products/wf_0063,2026-05-04T22:43:00,3.52
+wf_0064,whole_foods,365 Organic Vegetable Broth 32 fl oz,365,Pantry,3.81,0.1191,,32.0,fl oz,1,True,True,https://example.com/whole_foods/products/wf_0064,2026-05-04T22:26:00,2.16
+wf_0065,whole_foods,Whole Foods Rotisserie Chicken each,Whole Foods,Meat & Seafood,11.71,,Prime member deal,1.0,each,1,False,True,https://example.com/whole_foods/products/wf_0065,2026-05-04T22:09:00,7.58
+wf_0066,whole_foods,Stonyfield Organic Whole Milk Yogurt 32 oz,Stonyfield,Dairy & Eggs,6.41,,,32.0,oz,1,True,False,https://example.com/whole_foods/products/wf_0066,2026-05-04T21:52:00,4.07
+wf_0067,whole_foods,365 Organic Frozen Wild Blueberries 10 oz,365,Frozen Foods,5.68,,Save $1,10.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0067,2026-05-04T21:35:00,3.82
+wf_0068,whole_foods,Organic Kal Bunch each,,Produce,3.56,3.56,,1.0,each,1,True,False,https://example.com/whole_foods/products/wf_0068,2026-05-04T21:18:00,2.07
+wf_0069,whole_foods,La Colombe Triple Draft Latte 9 fl oz can,La Colombe,Beverages,4.97,0.5522,Save $1,9.0,fl oz,1,False,False,https://example.com/whole_foods/products/wf_0069,2026-05-04T21:01:00,3.02
+wf_0070,whole_foods,365 Organic Almonds Raw 16 oz,365,Snacks,11.33,,Prime member deal,16.0,oz,1,True,True,https://example.com/whole_foods/products/wf_0070,2026-05-04T20:44:00,6.77
+wf_0071,whole_foods,Bulk Organic Quinoa per lb,,Pantry,7.03,7.03,,1.0,lb,1,True,False,https://example.com/whole_foods/products/wf_0071,2026-05-04T20:27:00,5.41
+wf_0072,whole_foods,Hu Dark Chocolate Bar 2.1 oz,Hu,Snacks,6.53,3.1095,,2.1,oz,1,False,False,https://example.com/whole_foods/products/wf_0072,2026-05-04T20:10:00,3.61
+wf_0073,whole_foods,365 Organic Coconut Milk Can 13.5 fl oz,365,Pantry,3.66,,,13.5,fl oz,1,True,True,https://example.com/whole_foods/products/wf_0073,2026-05-04T19:53:00,2.59
+wf_0074,whole_foods,Whole Foods Garlic Naan 4 ct,Whole Foods,Bakery,5.2,1.3,,4.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0074,2026-05-04T19:36:00,4.82
+wf_0075,whole_foods,365 All-Purpose Flour 5 lb,365,Pantry,6.16,,,5.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0075,2026-05-03T17:49:00,4.4
+wf_0076,whole_foods,365 Granulated Sugar 4 lb,365,Pantry,10.8,,,4.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0076,2026-05-03T17:32:00,6.39
+wf_0077,whole_foods,365 Brown Sugar 16 oz,365,Pantry,3.9,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0077,2026-05-03T17:15:00,2.95
+wf_0078,whole_foods,365 Baking Soda 16 oz,365,Pantry,1.43,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0078,2026-05-03T16:58:00,0.87
+wf_0079,whole_foods,365 Baking Powder 8 oz,365,Pantry,3.7,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0079,2026-05-03T16:41:00,2.1
+wf_0080,whole_foods,365 Active Dry Yeast 0.75 oz 3 ct,365,Pantry,4.72,6.2933,Save $1,0.25,oz,3,False,True,https://example.com/whole_foods/products/wf_0080,2026-05-03T16:24:00,2.97
+wf_0081,whole_foods,365 Vanilla Extract 2 fl oz,365,Pantry,5.92,,,2.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0081,2026-05-03T16:07:00,4.12
+wf_0082,whole_foods,365 Ground Cinnamon 2 oz,365,Pantry,4.15,,,2.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0082,2026-05-03T15:50:00,3.01
+wf_0083,whole_foods,365 Paprika 2 oz,365,Pantry,2.88,1.44,Save $1,2.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0083,2026-05-03T15:33:00,2.71
+wf_0084,whole_foods,365 Ground Cumin 2 oz,365,Pantry,5.97,2.985,,2.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0084,2026-05-03T15:16:00,5.93
+wf_0085,whole_foods,365 Italian Seasoning 0.75 oz,365,Pantry,3.49,4.6533,,0.75,oz,1,False,True,https://example.com/whole_foods/products/wf_0085,2026-05-03T14:59:00,1.97
+wf_0086,whole_foods,365 Garlic Powder 3 oz,365,Pantry,3.25,1.0833,,3.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0086,2026-05-03T14:42:00,2.3
+wf_0087,whole_foods,365 Black Pepper Ground 3 oz,365,Pantry,5.02,,Save $1,3.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0087,2026-05-03T14:25:00,3.02
+wf_0088,whole_foods,365 Iodized Salt 26 oz,365,Pantry,1.18,0.0454,,26.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0088,2026-05-03T14:08:00,0.66
+wf_0089,whole_foods,365 Sea Salt 17.6 oz,365,Pantry,4.87,0.2767,Prime member deal,17.6,oz,1,False,True,https://example.com/whole_foods/products/wf_0089,2026-05-03T13:51:00,3.15
+wf_0090,whole_foods,365 Soy Sauce 10 fl oz,365,Pantry,2.62,,,10.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0090,2026-05-03T13:34:00,1.62
+wf_0091,whole_foods,365 Apple Cider Vinegar 16 fl oz,365,Pantry,6.01,0.3756,,16.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0091,2026-05-03T13:17:00,4.01
+wf_0092,whole_foods,365 White Vinegar 32 fl oz,365,Pantry,3.88,,,32.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0092,2026-05-03T13:00:00,3.0
+wf_0093,whole_foods,365 Yellow Mustard 8 oz,365,Pantry,2.37,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0093,2026-05-03T12:43:00,1.57
+wf_0094,whole_foods,365 Dijon Mustard 8 oz,365,Pantry,2.63,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0094,2026-05-03T12:26:00,1.5
+wf_0095,whole_foods,365 BBQ Sauce Original 18 oz,365,Pantry,4.83,0.2683,,18.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0095,2026-05-03T12:09:00,2.95
+wf_0096,whole_foods,365 Hot Sauce 5 fl oz,365,Pantry,3.14,0.628,,5.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0096,2026-05-03T11:52:00,2.03
+wf_0097,whole_foods,365 Sriracha 17 fl oz,365,Pantry,5.09,,,17.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0097,2026-05-03T11:35:00,3.85
+wf_0098,whole_foods,365 Strawberry Jam 12 oz,365,Pantry,5.35,0.4458,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0098,2026-05-03T11:18:00,3.5
+wf_0099,whole_foods,365 Grape Jelly 18 oz,365,Pantry,5.37,0.2983,Save $1,18.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0099,2026-05-03T11:01:00,3.03
+wf_0100,whole_foods,365 Maple Syrup Pure 8 fl oz,365,Pantry,7.96,,Prime member deal,8.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0100,2026-05-03T10:44:00,5.5
+wf_0101,whole_foods,Save $1 365 Pancake Syrup 24 fl oz,365,Pantry,4.56,0.19,Save $1,24.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0101,2026-05-03T10:27:00,3.22
+wf_0102,whole_foods,365 Olive Oil 17 fl oz,365,Pantry,15.84,,,17.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0102,2026-05-03T10:10:00,11.36
+wf_0103,whole_foods,365 Canola Oil 48 fl oz,365,Pantry,5.5,0.1146,Save $1,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0103,2026-05-03T09:53:00,3.66
+wf_0104,whole_foods,365 Vegetable Oil 48 fl oz,365,Pantry,6.39,0.1331,,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0104,2026-05-03T09:36:00,3.59
+wf_0105,whole_foods,365 Chunk Light Tuna in Water 5 oz can,365,Pantry,2.3,,Save $1,5.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0105,2026-05-03T09:19:00,1.72
+wf_0106,whole_foods,365 Albacore Tuna in Water 5 oz can,365,Pantry,2.92,0.584,Save $1,5.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0106,2026-05-03T09:02:00,2.16
+wf_0107,whole_foods,365 Diced Tomatoes 14.5 oz can,365,Pantry,3.36,0.2317,Prime member deal,14.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0107,2026-05-03T08:45:00,2.2
+wf_0108,whole_foods,365 Tomato Sauce 8 oz can,365,Pantry,1.39,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0108,2026-05-03T08:28:00,0.87
+wf_0109,whole_foods,365 Tomato Paste 6 oz can,365,Pantry,1.71,0.285,,6.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0109,2026-05-03T08:11:00,1.22
+wf_0110,whole_foods,Prime member deal 365 Sweet Corn Canned 15 oz can,365,Pantry,1.05,,Prime member deal,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0110,2026-05-03T07:54:00,0.66
+wf_0111,whole_foods,365 Green Beans Canned 14.5 oz can,365,Pantry,1.01,0.0697,Prime member deal,14.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0111,2026-05-03T07:37:00,0.56
+wf_0112,whole_foods,365 Pinto Beans Canned 15 oz can,365,Pantry,1.6,,Save $1,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0112,2026-05-03T07:20:00,1.09
+wf_0113,whole_foods,365 Kidney Beans Canned 15 oz can,365,Pantry,1.14,0.076,Prime member deal,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0113,2026-05-03T07:03:00,0.81
+wf_0114,whole_foods,365 Garbanzo Beans Canned 15 oz can,365,Pantry,1.73,0.1153,,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0114,2026-05-03T06:46:00,1.23
+wf_0115,whole_foods,365 Chicken Noodle Soup 10.5 oz can,365,Pantry,3.62,,Prime member deal,10.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0115,2026-05-03T06:29:00,2.51
+wf_0116,whole_foods,365 Cream of Mushroom Soup 10.5 oz can,365,Pantry,2.79,,,10.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0116,2026-05-03T06:12:00,1.98
+wf_0117,whole_foods,365 Vegetable Broth 32 fl oz carton,365,Pantry,4.75,,,32.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0117,2026-05-03T05:55:00,3.35
+wf_0118,whole_foods,365 Chicken Broth 32 fl oz carton,365,Pantry,4.62,0.1444,Save $1,32.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0118,2026-05-03T05:38:00,2.75
+wf_0119,whole_foods,365 Penne Pasta 16 oz,365,Pantry,2.61,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0119,2026-05-03T05:21:00,1.76
+wf_0120,whole_foods,365 Rotini Pasta 16 oz,365,Pantry,2.86,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0120,2026-05-03T05:04:00,2.0
+wf_0121,whole_foods,365 Elbow Macaroni 16 oz,365,Pantry,1.92,0.12,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0121,2026-05-03T04:47:00,1.4
+wf_0122,whole_foods,365 Lasagna Noodles 16 oz,365,Pantry,3.71,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0122,2026-05-03T04:30:00,2.78
+wf_0123,whole_foods,365 Marinara Sauce 24 oz,365,Pantry,5.25,,,24.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0123,2026-05-03T04:13:00,4.05
+wf_0124,whole_foods,365 Alfredo Sauce 15 oz,365,Pantry,3.67,0.2447,,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0124,2026-05-03T03:56:00,2.38
+wf_0125,whole_foods,365 Jasmine Rice 2 lb,365,Pantry,4.73,,Prime member deal,2.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0125,2026-05-03T03:39:00,4.79
+wf_0126,whole_foods,365 Basmati Rice 2 lb,365,Pantry,10.61,,Prime member deal,2.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0126,2026-05-03T03:22:00,7.56
+wf_0127,whole_foods,365 Brown Rice 2 lb,365,Pantry,8.07,4.035,Prime member deal,2.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0127,2026-05-03T03:05:00,4.83
+wf_0128,whole_foods,365 Quinoa 12 oz,365,Pantry,6.43,0.5358,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0128,2026-05-03T02:48:00,4.75
+wf_0129,whole_foods,365 Steel Cut Oats 24 oz,365,Breakfast,5.51,,,24.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0129,2026-05-03T02:31:00,4.25
+wf_0130,whole_foods,365 Instant Oatmeal Variety Pack 12 ct,365,Breakfast,5.27,0.4392,,12.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0130,2026-05-03T02:14:00,3.89
+wf_0131,whole_foods,365 Pancake Mix Original 32 oz,365,Breakfast,4.6,0.1437,Prime member deal,32.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0131,2026-05-03T01:57:00,3.53
+wf_0132,whole_foods,365 Plain Bagels 6 ct,365,Bakery,5.61,,Prime member deal,6.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0132,2026-05-03T01:40:00,3.97
+wf_0133,whole_foods,365 Hamburger Buns 8 ct,365,Bakery,2.47,0.3088,Save $1,8.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0133,2026-05-03T01:23:00,1.55
+wf_0134,whole_foods,365 Hot Dog Buns 8 ct,365,Bakery,2.03,,,8.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0134,2026-05-03T01:06:00,1.24
+wf_0135,whole_foods,365 Flour Tortillas 10 ct,365,Bakery,3.38,0.338,Save $1,10.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0135,2026-05-03T00:49:00,2.34
+wf_0136,whole_foods,365 Corn Tortillas 30 ct,365,Bakery,4.57,0.1523,,30.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0136,2026-05-03T00:32:00,3.15
+wf_0137,whole_foods,365 Pita Bread 6 ct,365,Bakery,4.51,0.7517,Save $1,6.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0137,2026-05-03T00:15:00,3.26
+wf_0138,whole_foods,365 English Muffins 6 ct,365,Bakery,4.89,,,6.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0138,2026-05-02T23:58:00,3.42
+wf_0139,whole_foods,Prime member deal 365 Half and Half 1 pt,365,Dairy & Eggs,4.55,0.2844,Prime member deal,16.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0139,2026-05-02T23:41:00,2.72
+wf_0140,whole_foods,Prime member deal 365 Heavy Whipping Cream 1 pt,365,Dairy & Eggs,5.31,0.3319,Prime member deal,16.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0140,2026-05-02T23:24:00,3.61
+wf_0141,whole_foods,365 Sour Cream 8 oz,365,Dairy & Eggs,3.67,0.4587,Prime member deal,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0141,2026-05-02T23:07:00,2.63
+wf_0142,whole_foods,365 Cottage Cheese 16 oz,365,Dairy & Eggs,5.74,0.3588,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0142,2026-05-02T22:50:00,4.35
+wf_0143,whole_foods,365 Ricotta Cheese 15 oz,365,Dairy & Eggs,4.6,,,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0143,2026-05-02T22:33:00,2.92
+wf_0144,whole_foods,365 String Cheese Mozzarella 12 ct,365,Dairy & Eggs,8.43,0.7025,,12.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0144,2026-05-02T22:16:00,5.48
+wf_0145,whole_foods,365 Sliced Swiss Cheese 8 oz,365,Dairy & Eggs,4.69,0.5863,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0145,2026-05-02T21:59:00,3.17
+wf_0146,whole_foods,365 Pepper Jack Shredded 8 oz,365,Dairy & Eggs,6.27,0.7837,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0146,2026-05-02T21:42:00,3.83
+wf_0147,whole_foods,365 Plain Whole Milk Yogurt 32 oz,365,Dairy & Eggs,6.7,,,32.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0147,2026-05-02T21:25:00,4.87
+wf_0148,whole_foods,365 Strawberry Yogurt 6 oz,365,Dairy & Eggs,1.77,,Prime member deal,6.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0148,2026-05-02T21:08:00,1.13
+wf_0149,whole_foods,365 Vanilla Almond Granola 12 oz,365,Breakfast,5.17,,Prime member deal,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0149,2026-05-02T20:51:00,3.8
+wf_0150,whole_foods,365 Honey Nut Granola 12 oz,365,Breakfast,6.97,,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0150,2026-05-02T20:34:00,5.38
+wf_0151,whole_foods,365 Granola Bars Chewy 8 ct,365,Snacks,6.7,0.997,,0.84,oz,8,False,True,https://example.com/whole_foods/products/wf_0151,2026-05-02T20:17:00,3.75
+wf_0152,whole_foods,365 Pretzels Mini Twists 16 oz,365,Snacks,3.84,,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0152,2026-05-02T20:00:00,3.78
+wf_0153,whole_foods,365 Pretzel Sticks 15 oz,365,Snacks,4.13,,Prime member deal,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0153,2026-05-02T19:43:00,2.63
+wf_0154,whole_foods,365 Microwave Popcorn Butter 3 ct,365,Snacks,3.96,,,3.2,oz,3,False,True,https://example.com/whole_foods/products/wf_0154,2026-05-02T19:26:00,2.5
+wf_0155,whole_foods,365 Mixed Nuts Salted 8 oz,365,Snacks,8.99,1.1238,Save $1,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0155,2026-05-02T19:09:00,6.01
+wf_0156,whole_foods,365 Roasted Cashews 8 oz,365,Snacks,8.5,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0156,2026-05-02T18:52:00,5.49
+wf_0157,whole_foods,365 Dried Cranberries 6 oz,365,Snacks,5.18,,Save $1,6.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0157,2026-05-02T18:35:00,3.14
+wf_0158,whole_foods,365 Raisins Seedless 12 oz,365,Snacks,5.17,,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0158,2026-05-02T18:18:00,3.04
+wf_0159,whole_foods,365 Fruit Snacks Variety 10 ct,365,Snacks,4.67,,Save $1,0.8,oz,10,False,True,https://example.com/whole_foods/products/wf_0159,2026-05-02T18:01:00,2.87
+wf_0160,whole_foods,365 Apple Sauce Cups 6 ct,365,Snacks,3.51,,Prime member deal,4.0,oz,6,False,True,https://example.com/whole_foods/products/wf_0160,2026-05-02T17:44:00,2.57
+wf_0161,whole_foods,365 Frozen Mixed Berries 12 oz,365,Frozen Foods,8.91,0.7425,Prime member deal,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0161,2026-05-02T17:27:00,5.37
+wf_0162,whole_foods,365 Frozen Strawberries 16 oz,365,Frozen Foods,4.7,0.2938,,16.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0162,2026-05-02T17:10:00,2.75
+wf_0163,whole_foods,365 Frozen Broccoli 12 oz,365,Frozen Foods,2.18,,Prime member deal,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0163,2026-05-02T16:53:00,1.53
+wf_0164,whole_foods,365 Frozen Peas 12 oz,365,Frozen Foods,3.05,0.2542,Save $1,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0164,2026-05-02T16:36:00,2.24
+wf_0165,whole_foods,Prime member deal 365 Frozen Spinach 12 oz,365,Frozen Foods,2.27,,Prime member deal,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0165,2026-05-02T16:19:00,1.71
+wf_0166,whole_foods,365 Frozen Waffles 10 ct,365,Frozen Foods,4.01,,,1.25,oz,10,False,True,https://example.com/whole_foods/products/wf_0166,2026-05-02T16:02:00,2.21
+wf_0167,whole_foods,365 Frozen Cheese Pizza 12 inch,365,Frozen Foods,5.7,0.475,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0167,2026-05-02T15:45:00,3.48
+wf_0168,whole_foods,365 Frozen Burritos Bean Cheese 8 ct,365,Frozen Foods,7.21,0.2253,Prime member deal,4.0,oz,8,False,True,https://example.com/whole_foods/products/wf_0168,2026-05-02T15:28:00,4.77
+wf_0169,whole_foods,365 Vanilla Ice Cream 48 fl oz,365,Frozen Foods,4.97,,Save $1,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0169,2026-05-02T15:11:00,3.71
+wf_0170,whole_foods,365 Chocolate Ice Cream 48 fl oz,365,Frozen Foods,5.6,0.1167,Save $1,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0170,2026-05-02T14:54:00,4.11
+wf_0171,whole_foods,365 Cookies & Cream Ice Cream 48 fl oz,365,Frozen Foods,5.06,0.1054,,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0171,2026-05-02T14:37:00,2.89
+wf_0172,whole_foods,365 Apple Juice 64 fl oz,365,Beverages,3.68,,,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0172,2026-05-02T14:20:00,2.58
+wf_0173,whole_foods,365 Cranberry Juice Cocktail 64 fl oz,365,Beverages,5.32,0.0831,Prime member deal,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0173,2026-05-02T14:03:00,4.06
+wf_0174,whole_foods,365 Lemonade 64 fl oz,365,Beverages,3.07,,Prime member deal,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0174,2026-05-02T13:46:00,2.15
+wf_0175,whole_foods,365 Iced Tea Black 128 fl oz,365,Beverages,3.22,0.0252,,128.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0175,2026-05-02T13:29:00,2.15
+wf_0176,whole_foods,365 Black Tea Bags 100 ct,365,Beverages,8.88,0.0888,Prime member deal,100.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0176,2026-05-02T13:12:00,5.45
+wf_0177,whole_foods,365 Green Tea Bags 40 ct,365,Beverages,4.97,0.1242,Save $1,40.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0177,2026-05-02T12:55:00,3.07
+wf_0178,whole_foods,365 Coffee Filters 100 ct,365,Beverages,5.22,,,100.0,ct,1,False,True,https://example.com/whole_foods/products/wf_0178,2026-05-02T12:38:00,4.03
+wf_0179,whole_foods,365 Ground Coffee Medium Roast 12 oz,365,Beverages,14.06,1.1717,,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0179,2026-05-02T12:21:00,7.82
+wf_0180,whole_foods,365 Decaf Ground Coffee 12 oz,365,Beverages,10.68,0.89,Save $1,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0180,2026-05-02T12:04:00,8.22
+wf_0181,whole_foods,365 K-Cup Coffee Pods 18 ct,365,Beverages,15.66,,,0.4,oz,18,False,True,https://example.com/whole_foods/products/wf_0181,2026-05-02T11:47:00,8.89
+wf_0182,whole_foods,365 All-Purpose Flour 10 lb,365,Pantry,5.77,0.577,,10.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0182,2026-05-02T11:30:00,4.41
+wf_0183,whole_foods,365 Granulated Sugar 10 lb,365,Pantry,7.15,0.715,,10.0,lb,1,False,True,https://example.com/whole_foods/products/wf_0183,2026-05-02T11:13:00,5.31
+wf_0184,whole_foods,365 Brown Sugar 32 oz,365,Pantry,2.51,,,32.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0184,2026-05-02T10:56:00,1.38
+wf_0185,whole_foods,365 Baking Soda 8 oz,365,Pantry,2.21,,,8.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0185,2026-05-02T10:39:00,1.66
+wf_0186,whole_foods,365 Baking Powder 10 oz,365,Pantry,2.76,0.276,Prime member deal,10.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0186,2026-05-02T10:22:00,1.82
+wf_0187,whole_foods,365 Active Dry Yeast 4 oz,365,Pantry,4.55,1.1375,Save $1,4.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0187,2026-05-02T10:05:00,2.83
+wf_0188,whole_foods,365 Vanilla Extract 4 fl oz,365,Pantry,4.42,1.105,,4.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0188,2026-05-02T09:48:00,2.62
+wf_0189,whole_foods,365 Ground Cinnamon 3 oz,365,Pantry,3.4,1.1333,Save $1,3.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0189,2026-05-02T09:31:00,2.46
+wf_0190,whole_foods,365 Paprika 3.5 oz,365,Pantry,4.44,,,3.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0190,2026-05-02T09:14:00,3.27
+wf_0191,whole_foods,365 Ground Cumin 3 oz,365,Pantry,4.95,,Prime member deal,3.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0191,2026-05-02T08:57:00,3.64
+wf_0192,whole_foods,365 Italian Seasoning 1.5 oz,365,Pantry,3.38,2.2533,,1.5,oz,1,False,True,https://example.com/whole_foods/products/wf_0192,2026-05-02T08:40:00,2.47
+wf_0193,whole_foods,Prime member deal 365 Garlic Powder 5 oz,365,Pantry,2.85,0.57,Prime member deal,5.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0193,2026-05-02T08:23:00,1.63
+wf_0194,whole_foods,365 Black Pepper Ground 4 oz,365,Pantry,4.87,1.2175,,4.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0194,2026-05-02T08:06:00,4.54
+wf_0195,whole_foods,365 Iodized Salt 26 oz,365,Pantry,1.79,0.0688,Prime member deal,26.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0195,2026-05-02T07:49:00,1.35
+wf_0196,whole_foods,365 Sea Salt 17.6 oz,365,Pantry,3.8,,Save $1,17.6,oz,1,False,True,https://example.com/whole_foods/products/wf_0196,2026-05-02T07:32:00,2.64
+wf_0197,whole_foods,365 Soy Sauce 15 fl oz,365,Pantry,5.02,0.3347,,15.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0197,2026-05-02T07:15:00,3.58
+wf_0198,whole_foods,365 Apple Cider Vinegar 32 fl oz,365,Pantry,4.47,0.1397,Save $1,32.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0198,2026-05-02T06:58:00,2.63
+wf_0199,whole_foods,365 White Vinegar 64 fl oz,365,Pantry,3.67,,,64.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0199,2026-05-02T06:41:00,2.16
+wf_0200,whole_foods,365 Yellow Mustard 14 oz,365,Pantry,1.26,,Save $1,14.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0200,2026-05-02T06:24:00,0.77
+wf_0201,whole_foods,365 Dijon Mustard 12 oz,365,Pantry,2.45,,Save $1,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0201,2026-05-02T06:07:00,1.82
+wf_0202,whole_foods,365 BBQ Sauce Original 28 oz,365,Pantry,2.48,0.0886,,28.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0202,2026-05-02T05:50:00,1.67
+wf_0203,whole_foods,365 Hot Sauce 12 fl oz,365,Pantry,5.4,0.45,,12.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0203,2026-05-02T05:33:00,3.75
+wf_0204,whole_foods,365 Sriracha 28 fl oz,365,Pantry,7.46,,Prime member deal,28.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0204,2026-05-02T05:16:00,4.73
+wf_0205,whole_foods,365 Strawberry Jam 18 oz,365,Pantry,3.44,,,18.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0205,2026-05-02T04:59:00,2.26
+wf_0206,whole_foods,365 Grape Jelly 32 oz,365,Pantry,4.54,0.1419,Save $1,32.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0206,2026-05-02T04:42:00,2.74
+wf_0207,whole_foods,365 Maple Syrup Pure 12 fl oz,365,Pantry,11.72,0.9767,,12.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0207,2026-05-02T04:25:00,8.43
+wf_0208,whole_foods,365 Pancake Syrup 24 fl oz,365,Pantry,5.8,0.2417,,24.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0208,2026-05-02T04:08:00,4.4
+wf_0209,whole_foods,365 Olive Oil 33.8 fl oz,365,Pantry,10.03,0.2967,Prime member deal,33.8,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0209,2026-05-02T03:51:00,6.99
+wf_0210,whole_foods,365 Canola Oil 48 fl oz,365,Pantry,4.56,,Prime member deal,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0210,2026-05-02T03:34:00,4.64
+wf_0211,whole_foods,365 Vegetable Oil 48 fl oz,365,Pantry,4.51,0.094,Save $1,48.0,fl oz,1,False,True,https://example.com/whole_foods/products/wf_0211,2026-05-02T03:17:00,2.8
+wf_0212,whole_foods,365 Chunk Light Tuna in Water 12 oz can,365,Pantry,3.12,,Save $1,12.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0212,2026-05-02T03:00:00,1.91
+wf_0213,whole_foods,365 Albacore Tuna in Water 5 oz can,365,Pantry,2.42,0.484,Save $1,5.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0213,2026-05-02T02:43:00,1.73
+wf_0214,whole_foods,365 Diced Tomatoes 28 oz can,365,Pantry,3.05,0.1089,Save $1,28.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0214,2026-05-02T02:26:00,1.82
+wf_0215,whole_foods,365 Tomato Sauce 15 oz can,365,Pantry,1.4,,,15.0,oz,1,False,True,https://example.com/whole_foods/products/wf_0215,2026-05-02T02:09:00,0.95

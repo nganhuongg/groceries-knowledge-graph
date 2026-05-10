@@ -1,0 +1,542 @@
+[
+  {
+    "product_id_a": "kr_0083",
+    "product_id_b": "wf_0020",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same Coke Zero"
+  },
+  {
+    "product_id_a": "kr_0083",
+    "product_id_b": "kr_0028",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same Coke Zero"
+  },
+  {
+    "product_id_a": "kr_0083",
+    "product_id_b": "wm_0025",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same Coke Zero"
+  },
+  {
+    "product_id_a": "kr_0083",
+    "product_id_b": "tg_0027",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same Coke Zero"
+  },
+  {
+    "product_id_a": "wm_0074",
+    "product_id_b": "kr_0036",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same LaCroix Lime"
+  },
+  {
+    "product_id_a": "wm_0074",
+    "product_id_b": "wm_0033",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same LaCroix Lime"
+  },
+  {
+    "product_id_a": "wm_0074",
+    "product_id_b": "tg_0035",
+    "label": "non_match",
+    "reason": "different pack count (8pk vs 12pk) of same LaCroix Lime"
+  },
+  {
+    "product_id_a": "kr_0084",
+    "product_id_b": "wf_0001",
+    "label": "non_match",
+    "reason": "half-gallon vs full-gallon size of same organic whole milk"
+  },
+  {
+    "product_id_a": "kr_0084",
+    "product_id_b": "kr_0001",
+    "label": "non_match",
+    "reason": "half-gallon vs full-gallon size of same organic whole milk"
+  },
+  {
+    "product_id_a": "kr_0084",
+    "product_id_b": "wm_0001",
+    "label": "non_match",
+    "reason": "half-gallon vs full-gallon size of same organic whole milk"
+  },
+  {
+    "product_id_a": "kr_0084",
+    "product_id_b": "tg_0001",
+    "label": "non_match",
+    "reason": "half-gallon vs full-gallon size of same organic whole milk"
+  },
+  {
+    "product_id_a": "tg_0077",
+    "product_id_b": "wf_0031",
+    "label": "non_match",
+    "reason": "organic vs non-organic same brand same size"
+  },
+  {
+    "product_id_a": "tg_0077",
+    "product_id_b": "kr_0049",
+    "label": "non_match",
+    "reason": "organic vs non-organic same brand same size"
+  },
+  {
+    "product_id_a": "tg_0077",
+    "product_id_b": "wm_0042",
+    "label": "non_match",
+    "reason": "organic vs non-organic same brand same size"
+  },
+  {
+    "product_id_a": "tg_0077",
+    "product_id_b": "tg_0048",
+    "label": "non_match",
+    "reason": "organic vs non-organic same brand same size"
+  },
+  {
+    "product_id_a": "wm_0075",
+    "product_id_b": "wf_0004",
+    "label": "non_match",
+    "reason": "sweetened vs unsweetened same brand same size"
+  },
+  {
+    "product_id_a": "wm_0075",
+    "product_id_b": "kr_0004",
+    "label": "non_match",
+    "reason": "sweetened vs unsweetened same brand same size"
+  },
+  {
+    "product_id_a": "wm_0075",
+    "product_id_b": "wm_0004",
+    "label": "non_match",
+    "reason": "sweetened vs unsweetened same brand same size"
+  },
+  {
+    "product_id_a": "wm_0075",
+    "product_id_b": "tg_0003",
+    "label": "non_match",
+    "reason": "sweetened vs unsweetened same brand same size"
+  },
+  {
+    "product_id_a": "wf_0044",
+    "product_id_b": "wf_0011",
+    "label": "non_match",
+    "reason": "bulk loose apples vs 3 lb bagged apples"
+  },
+  {
+    "product_id_a": "wf_0044",
+    "product_id_b": "kr_0013",
+    "label": "non_match",
+    "reason": "bulk loose apples vs 3 lb bagged apples"
+  },
+  {
+    "product_id_a": "wf_0044",
+    "product_id_b": "wm_0012",
+    "label": "non_match",
+    "reason": "bulk loose apples vs 3 lb bagged apples"
+  },
+  {
+    "product_id_a": "wf_0044",
+    "product_id_b": "tg_0012",
+    "label": "non_match",
+    "reason": "bulk loose apples vs 3 lb bagged apples"
+  },
+  {
+    "product_id_a": "wm_0076",
+    "product_id_b": "wf_0028",
+    "label": "non_match",
+    "reason": "same brand same size but different flavor (blueberry vs strawberry)"
+  },
+  {
+    "product_id_a": "wm_0076",
+    "product_id_b": "kr_0045",
+    "label": "non_match",
+    "reason": "same brand same size but different flavor (blueberry vs strawberry)"
+  },
+  {
+    "product_id_a": "wm_0076",
+    "product_id_b": "wm_0039",
+    "label": "non_match",
+    "reason": "same brand same size but different flavor (blueberry vs strawberry)"
+  },
+  {
+    "product_id_a": "wm_0076",
+    "product_id_b": "tg_0044",
+    "label": "non_match",
+    "reason": "same brand same size but different flavor (blueberry vs strawberry)"
+  },
+  {
+    "product_id_a": "kr_0085",
+    "product_id_b": "kr_0077",
+    "label": "non_match",
+    "reason": "6 oz clamshell vs 18 oz family pack same brand"
+  },
+  {
+    "product_id_a": "kr_0085",
+    "product_id_b": "wm_0068",
+    "label": "non_match",
+    "reason": "6 oz clamshell vs 18 oz family pack same brand"
+  },
+  {
+    "product_id_a": "kr_0085",
+    "product_id_b": "tg_0073",
+    "label": "non_match",
+    "reason": "6 oz clamshell vs 18 oz family pack same brand"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "kr_0032",
+    "label": "non_match",
+    "reason": "same brand family, different variant (Coke Zero vs Diet Coke)"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "wm_0029",
+    "label": "non_match",
+    "reason": "same brand family, different variant (Coke Zero vs Diet Coke)"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "tg_0031",
+    "label": "non_match",
+    "reason": "same brand family, different variant (Coke Zero vs Diet Coke)"
+  },
+  {
+    "product_id_a": "kr_0028",
+    "product_id_b": "wm_0029",
+    "label": "non_match",
+    "reason": "same brand family, different variant (Coke Zero vs Diet Coke)"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "kr_0034",
+    "label": "non_match",
+    "reason": "same category and pack size, different brand (Coke vs Pepsi)"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "wm_0031",
+    "label": "non_match",
+    "reason": "same category and pack size, different brand (Coke vs Pepsi)"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "tg_0033",
+    "label": "non_match",
+    "reason": "same category and pack size, different brand (Coke vs Pepsi)"
+  },
+  {
+    "product_id_a": "kr_0028",
+    "product_id_b": "wm_0031",
+    "label": "non_match",
+    "reason": "same category and pack size, different brand (Coke vs Pepsi)"
+  },
+  {
+    "product_id_a": "wf_0022",
+    "product_id_b": "kr_0037",
+    "label": "non_match",
+    "reason": "same brand and pack, different flavor"
+  },
+  {
+    "product_id_a": "wf_0022",
+    "product_id_b": "tg_0036",
+    "label": "non_match",
+    "reason": "same brand and pack, different flavor"
+  },
+  {
+    "product_id_a": "kr_0035",
+    "product_id_b": "wf_0023",
+    "label": "non_match",
+    "reason": "same brand and pack, different flavor"
+  },
+  {
+    "product_id_a": "kr_0035",
+    "product_id_b": "tg_0036",
+    "label": "non_match",
+    "reason": "same brand and pack, different flavor"
+  },
+  {
+    "product_id_a": "wf_0028",
+    "product_id_b": "kr_0047",
+    "label": "non_match",
+    "reason": "same brand and size, different flavor"
+  },
+  {
+    "product_id_a": "wf_0028",
+    "product_id_b": "wm_0041",
+    "label": "non_match",
+    "reason": "same brand and size, different flavor"
+  },
+  {
+    "product_id_a": "wf_0028",
+    "product_id_b": "tg_0046",
+    "label": "non_match",
+    "reason": "same brand and size, different flavor"
+  },
+  {
+    "product_id_a": "kr_0045",
+    "product_id_b": "wf_0029",
+    "label": "non_match",
+    "reason": "same brand and size, different flavor"
+  },
+  {
+    "product_id_a": "wf_0001",
+    "product_id_b": "kr_0002",
+    "label": "non_match",
+    "reason": "same size and form factor, organic vs non-organic"
+  },
+  {
+    "product_id_a": "wf_0001",
+    "product_id_b": "wm_0002",
+    "label": "non_match",
+    "reason": "same size and form factor, organic vs non-organic"
+  },
+  {
+    "product_id_a": "wf_0001",
+    "product_id_b": "tg_0002",
+    "label": "non_match",
+    "reason": "same size and form factor, organic vs non-organic"
+  },
+  {
+    "product_id_a": "kr_0001",
+    "product_id_b": "wf_0002",
+    "label": "non_match",
+    "reason": "same size and form factor, organic vs non-organic"
+  },
+  {
+    "product_id_a": "wf_0004",
+    "product_id_b": "kr_0005",
+    "label": "non_match",
+    "reason": "same form factor, different plant base (almond vs oat)"
+  },
+  {
+    "product_id_a": "wf_0004",
+    "product_id_b": "tg_0004",
+    "label": "non_match",
+    "reason": "same form factor, different plant base (almond vs oat)"
+  },
+  {
+    "product_id_a": "kr_0004",
+    "product_id_b": "wf_0005",
+    "label": "non_match",
+    "reason": "same form factor, different plant base (almond vs oat)"
+  },
+  {
+    "product_id_a": "kr_0004",
+    "product_id_b": "tg_0004",
+    "label": "non_match",
+    "reason": "same form factor, different plant base (almond vs oat)"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "wf_0037",
+    "label": "non_match",
+    "reason": "same product type and size; one is private-label, one national"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "wm_0062",
+    "label": "non_match",
+    "reason": "same product type and size; one is private-label, one national"
+  },
+  {
+    "product_id_a": "kr_0023",
+    "product_id_b": "tg_0067",
+    "label": "non_match",
+    "reason": "same product type and size; one is private-label, one national"
+  },
+  {
+    "product_id_a": "wm_0021",
+    "product_id_b": "wf_0037",
+    "label": "non_match",
+    "reason": "same product type and size; one is private-label, one national"
+  },
+  {
+    "product_id_a": "kr_0012",
+    "product_id_b": "wm_0058",
+    "label": "non_match",
+    "reason": "same product type, different brand and size"
+  },
+  {
+    "product_id_a": "kr_0012",
+    "product_id_b": "tg_0064",
+    "label": "non_match",
+    "reason": "same product type, different brand and size"
+  },
+  {
+    "product_id_a": "wm_0011",
+    "product_id_b": "kr_0066",
+    "label": "non_match",
+    "reason": "same product type, different brand and size"
+  },
+  {
+    "product_id_a": "wm_0011",
+    "product_id_b": "tg_0064",
+    "label": "non_match",
+    "reason": "same product type, different brand and size"
+  },
+  {
+    "product_id_a": "wf_0031",
+    "product_id_b": "kr_0050",
+    "label": "non_match",
+    "reason": "same brand, different variant and size"
+  },
+  {
+    "product_id_a": "wf_0031",
+    "product_id_b": "wm_0043",
+    "label": "non_match",
+    "reason": "same brand, different variant and size"
+  },
+  {
+    "product_id_a": "wf_0031",
+    "product_id_b": "tg_0049",
+    "label": "non_match",
+    "reason": "same brand, different variant and size"
+  },
+  {
+    "product_id_a": "kr_0049",
+    "product_id_b": "wm_0043",
+    "label": "non_match",
+    "reason": "same brand, different variant and size"
+  },
+  {
+    "product_id_a": "kr_0077",
+    "product_id_b": "wm_0067",
+    "label": "non_match",
+    "reason": "same brand, different berry"
+  },
+  {
+    "product_id_a": "kr_0077",
+    "product_id_b": "tg_0072",
+    "label": "non_match",
+    "reason": "same brand, different berry"
+  },
+  {
+    "product_id_a": "wm_0068",
+    "product_id_b": "kr_0076",
+    "label": "non_match",
+    "reason": "same brand, different berry"
+  },
+  {
+    "product_id_a": "wm_0068",
+    "product_id_b": "tg_0072",
+    "label": "non_match",
+    "reason": "same brand, different berry"
+  },
+  {
+    "product_id_a": "wf_0022",
+    "product_id_b": "kr_0036",
+    "label": "non_match",
+    "reason": "same brand same flavor, different pack size"
+  },
+  {
+    "product_id_a": "wf_0022",
+    "product_id_b": "wm_0033",
+    "label": "non_match",
+    "reason": "same brand same flavor, different pack size"
+  },
+  {
+    "product_id_a": "wf_0022",
+    "product_id_b": "tg_0035",
+    "label": "non_match",
+    "reason": "same brand same flavor, different pack size"
+  },
+  {
+    "product_id_a": "kr_0035",
+    "product_id_b": "wm_0033",
+    "label": "non_match",
+    "reason": "same brand same flavor, different pack size"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "kr_0029",
+    "label": "non_match",
+    "reason": "same brand same variant, different pack size"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "wm_0026",
+    "label": "non_match",
+    "reason": "same brand same variant, different pack size"
+  },
+  {
+    "product_id_a": "wf_0020",
+    "product_id_b": "tg_0028",
+    "label": "non_match",
+    "reason": "same brand same variant, different pack size"
+  },
+  {
+    "product_id_a": "kr_0028",
+    "product_id_b": "wm_0026",
+    "label": "non_match",
+    "reason": "same brand same variant, different pack size"
+  },
+  {
+    "product_id_a": "wf_0011",
+    "product_id_b": "kr_0078",
+    "label": "non_match",
+    "reason": "both organic apples but different variety and packaging"
+  },
+  {
+    "product_id_a": "wf_0011",
+    "product_id_b": "wm_0069",
+    "label": "non_match",
+    "reason": "both organic apples but different variety and packaging"
+  },
+  {
+    "product_id_a": "kr_0013",
+    "product_id_b": "wf_0040",
+    "label": "non_match",
+    "reason": "both organic apples but different variety and packaging"
+  },
+  {
+    "product_id_a": "kr_0013",
+    "product_id_b": "wm_0069",
+    "label": "non_match",
+    "reason": "both organic apples but different variety and packaging"
+  },
+  {
+    "product_id_a": "wf_0014",
+    "product_id_b": "kr_0045",
+    "label": "non_match",
+    "reason": "same category (yogurt) but different brand, flavor, and size"
+  },
+  {
+    "product_id_a": "wf_0014",
+    "product_id_b": "wm_0039",
+    "label": "non_match",
+    "reason": "same category (yogurt) but different brand, flavor, and size"
+  },
+  {
+    "product_id_a": "wf_0014",
+    "product_id_b": "tg_0044",
+    "label": "non_match",
+    "reason": "same category (yogurt) but different brand, flavor, and size"
+  },
+  {
+    "product_id_a": "kr_0016",
+    "product_id_b": "wf_0028",
+    "label": "non_match",
+    "reason": "same category (yogurt) but different brand, flavor, and size"
+  },
+  {
+    "product_id_a": "wf_0009",
+    "product_id_b": "kr_0059",
+    "label": "non_match",
+    "reason": "same product type and size, different brand"
+  },
+  {
+    "product_id_a": "wf_0009",
+    "product_id_b": "wm_0052",
+    "label": "non_match",
+    "reason": "same product type and size, different brand"
+  },
+  {
+    "product_id_a": "wf_0009",
+    "product_id_b": "tg_0057",
+    "label": "non_match",
+    "reason": "same product type and size, different brand"
+  },
+  {
+    "product_id_a": "kr_0010",
+    "product_id_b": "wm_0052",
+    "label": "non_match",
+    "reason": "same product type and size, different brand"
+  }
+]
